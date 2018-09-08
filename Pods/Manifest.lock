@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CollectionViewSlantedLayout (3.0.1)
+  - SwiftLint (0.27.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CollectionViewSlantedLayout (~> 3.0)
+  - SwiftLint (~> 0.27)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CollectionViewSlantedLayout
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CollectionViewSlantedLayout: 8c8ebc112e3ac1c3318a916aa9c8d9f1901f0dd9
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+
+PODFILE CHECKSUM: c4716d9782a3d8e3fcd8a2840f480ea81e4f2a2a
+
+COCOAPODS: 1.5.3

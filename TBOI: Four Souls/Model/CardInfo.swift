@@ -7,3 +7,35 @@
 //
 
 import Foundation
+
+class CardInfo {
+    private var _name: String!
+    private var _picture: String!
+    
+    private var nameID = "name"
+    private var pictureID = "picture"
+    
+    var name: String {
+        return _name
+    }
+    
+    var picture: String {
+        return _picture
+    }
+    
+    init(with dict: Dictionary<String, String>) {
+        parseInfo(from: dict)
+    }
+    
+    func parseInfo(from dict: Dictionary<String, String>) {
+        self._name = dict[nameID] ?? ""
+        self._picture = dict[pictureID] ?? ""
+    }
+}
+
+extension CardInfo: CustomStringConvertible {
+    
+    var description: String {
+        return "(\(nameID): \(name), \(pictureID): \(picture))"
+    }
+}

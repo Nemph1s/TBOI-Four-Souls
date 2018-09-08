@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Treasure Cards</string>
+		<key>cards</key>
+		<array>
+			<dict>
+				<key>picture</key>
+				<string>001TheRelic</string>
+				<key>name</key>
+				<string>The Relic</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002DadsLostCoin</string>
+				<key>name</key>
+				<string>Dad&apos;s Lost Coin</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003Finger</string>
+				<key>name</key>
+				<string>Finger!</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004ChargedBaby</string>
+				<key>name</key>
+				<string>Chager Baby</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>005D10(1)</string>
+				<key>name</key>
+				<string>The D10</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>006TarotCloth</string>
+				<key>name</key>
+				<string>Tarot Cloth</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>007MomsBox</string>
+				<key>name</key>
+				<string>Mom&apos;s Box</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Loot Cards</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Monster Cards</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Character Cards</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Starting Items</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Expansion Pack</string>
+	</dict>
+</array>
+</plist>
