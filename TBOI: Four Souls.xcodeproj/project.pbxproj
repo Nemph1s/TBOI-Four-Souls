@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B1EE0492144215900E6AEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE0482144215900E6AEAB /* AppDelegate.swift */; };
+		4B1EE04B2144215900E6AEAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE04A2144215900E6AEAB /* ViewController.swift */; };
+		4B1EE04E2144215900E6AEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EE04C2144215900E6AEAB /* Main.storyboard */; };
+		4B1EE0502144215A00E6AEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EE04F2144215A00E6AEAB /* Assets.xcassets */; };
+		4B1EE0532144215A00E6AEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EE0512144215A00E6AEAB /* LaunchScreen.storyboard */; };
+		4B1EE05E2144215B00E6AEAB /* TBOI__Four_SoulsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE05D2144215B00E6AEAB /* TBOI__Four_SoulsTests.swift */; };
+		4B1EE0692144215B00E6AEAB /* TBOI__Four_SoulsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE0682144215B00E6AEAB /* TBOI__Four_SoulsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B1EE05A2144215B00E6AEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B1EE03D2144215900E6AEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1EE0442144215900E6AEAB;
+			remoteInfo = "TBOI: Four Souls";
+		};
+		4B1EE0652144215B00E6AEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B1EE03D2144215900E6AEAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1EE0442144215900E6AEAB;
+			remoteInfo = "TBOI: Four Souls";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B1EE0452144215900E6AEAB /* TBOI: Four Souls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TBOI: Four Souls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1EE0482144215900E6AEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B1EE04A2144215900E6AEAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B1EE04D2144215900E6AEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B1EE04F2144215A00E6AEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B1EE0522144215A00E6AEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B1EE0542144215A00E6AEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1EE0592144215B00E6AEAB /* TBOI: Four SoulsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBOI: Four SoulsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1EE05D2144215B00E6AEAB /* TBOI__Four_SoulsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBOI__Four_SoulsTests.swift; sourceTree = "<group>"; };
+		4B1EE05F2144215B00E6AEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1EE0642144215B00E6AEAB /* TBOI: Four SoulsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBOI: Four SoulsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1EE0682144215B00E6AEAB /* TBOI__Four_SoulsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBOI__Four_SoulsUITests.swift; sourceTree = "<group>"; };
+		4B1EE06A2144215B00E6AEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B1EE0422144215900E6AEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1EE0562144215B00E6AEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1EE0612144215B00E6AEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1EE03C2144215900E6AEAB = {
+			isa = PBXGroup;
+			children = (
+				4B1EE0472144215900E6AEAB /* TBOI: Four Souls */,
+				4B1EE05C2144215B00E6AEAB /* TBOI: Four SoulsTests */,
+				4B1EE0672144215B00E6AEAB /* TBOI: Four SoulsUITests */,
+				4B1EE0462144215900E6AEAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B1EE0462144215900E6AEAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B1EE0452144215900E6AEAB /* TBOI: Four Souls.app */,
+				4B1EE0592144215B00E6AEAB /* TBOI: Four SoulsTests.xctest */,
+				4B1EE0642144215B00E6AEAB /* TBOI: Four SoulsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B1EE0472144215900E6AEAB /* TBOI: Four Souls */ = {
+			isa = PBXGroup;
+			children = (
+				4B1EE0482144215900E6AEAB /* AppDelegate.swift */,
+				4B1EE04A2144215900E6AEAB /* ViewController.swift */,
+				4B1EE04C2144215900E6AEAB /* Main.storyboard */,
+				4B1EE04F2144215A00E6AEAB /* Assets.xcassets */,
+				4B1EE0512144215A00E6AEAB /* LaunchScreen.storyboard */,
+				4B1EE0542144215A00E6AEAB /* Info.plist */,
+			);
+			path = "TBOI: Four Souls";
+			sourceTree = "<group>";
+		};
+		4B1EE05C2144215B00E6AEAB /* TBOI: Four SoulsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B1EE05D2144215B00E6AEAB /* TBOI__Four_SoulsTests.swift */,
+				4B1EE05F2144215B00E6AEAB /* Info.plist */,
+			);
+			path = "TBOI: Four SoulsTests";
+			sourceTree = "<group>";
+		};
+		4B1EE0672144215B00E6AEAB /* TBOI: Four SoulsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B1EE0682144215B00E6AEAB /* TBOI__Four_SoulsUITests.swift */,
+				4B1EE06A2144215B00E6AEAB /* Info.plist */,
+			);
+			path = "TBOI: Four SoulsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B1EE0442144215900E6AEAB /* TBOI: Four Souls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1EE06D2144215B00E6AEAB /* Build configuration list for PBXNativeTarget "TBOI: Four Souls" */;
+			buildPhases = (
+				4B1EE0412144215900E6AEAB /* Sources */,
+				4B1EE0422144215900E6AEAB /* Frameworks */,
+				4B1EE0432144215900E6AEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TBOI: Four Souls";
+			productName = "TBOI: Four Souls";
+			productReference = 4B1EE0452144215900E6AEAB /* TBOI: Four Souls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B1EE0582144215B00E6AEAB /* TBOI: Four SoulsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1EE0702144215B00E6AEAB /* Build configuration list for PBXNativeTarget "TBOI: Four SoulsTests" */;
+			buildPhases = (
+				4B1EE0552144215B00E6AEAB /* Sources */,
+				4B1EE0562144215B00E6AEAB /* Frameworks */,
+				4B1EE0572144215B00E6AEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B1EE05B2144215B00E6AEAB /* PBXTargetDependency */,
+			);
+			name = "TBOI: Four SoulsTests";
+			productName = "TBOI: Four SoulsTests";
+			productReference = 4B1EE0592144215B00E6AEAB /* TBOI: Four SoulsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B1EE0632144215B00E6AEAB /* TBOI: Four SoulsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1EE0732144215B00E6AEAB /* Build configuration list for PBXNativeTarget "TBOI: Four SoulsUITests" */;
+			buildPhases = (
+				4B1EE0602144215B00E6AEAB /* Sources */,
+				4B1EE0612144215B00E6AEAB /* Frameworks */,
+				4B1EE0622144215B00E6AEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B1EE0662144215B00E6AEAB /* PBXTargetDependency */,
+			);
+			name = "TBOI: Four SoulsUITests";
+			productName = "TBOI: Four SoulsUITests";
+			productReference = 4B1EE0642144215B00E6AEAB /* TBOI: Four SoulsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B1EE03D2144215900E6AEAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = VMart;
+				TargetAttributes = {
+					4B1EE0442144215900E6AEAB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4B1EE0582144215B00E6AEAB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4B1EE0442144215900E6AEAB;
+					};
+					4B1EE0632144215B00E6AEAB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4B1EE0442144215900E6AEAB;
+					};
+				};
+			};
+			buildConfigurationList = 4B1EE0402144215900E6AEAB /* Build configuration list for PBXProject "TBOI: Four Souls" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B1EE03C2144215900E6AEAB;
+			productRefGroup = 4B1EE0462144215900E6AEAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B1EE0442144215900E6AEAB /* TBOI: Four Souls */,
+				4B1EE0582144215B00E6AEAB /* TBOI: Four SoulsTests */,
+				4B1EE0632144215B00E6AEAB /* TBOI: Four SoulsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B1EE0432144215900E6AEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1EE0532144215A00E6AEAB /* LaunchScreen.storyboard in Resources */,
+				4B1EE0502144215A00E6AEAB /* Assets.xcassets in Resources */,
+				4B1EE04E2144215900E6AEAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1EE0572144215B00E6AEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1EE0622144215B00E6AEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B1EE0412144215900E6AEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1EE04B2144215900E6AEAB /* ViewController.swift in Sources */,
+				4B1EE0492144215900E6AEAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1EE0552144215B00E6AEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1EE05E2144215B00E6AEAB /* TBOI__Four_SoulsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1EE0602144215B00E6AEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1EE0692144215B00E6AEAB /* TBOI__Four_SoulsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B1EE05B2144215B00E6AEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B1EE0442144215900E6AEAB /* TBOI: Four Souls */;
+			targetProxy = 4B1EE05A2144215B00E6AEAB /* PBXContainerItemProxy */;
+		};
+		4B1EE0662144215B00E6AEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B1EE0442144215900E6AEAB /* TBOI: Four Souls */;
+			targetProxy = 4B1EE0652144215B00E6AEAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B1EE04C2144215900E6AEAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B1EE04D2144215900E6AEAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B1EE0512144215A00E6AEAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B1EE0522144215A00E6AEAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B1EE06B2144215B00E6AEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B1EE06C2144215B00E6AEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B1EE06E2144215B00E6AEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF2W5NA3MM;
+				INFOPLIST_FILE = "TBOI: Four Souls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmart.TBOI--Four-Souls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B1EE06F2144215B00E6AEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF2W5NA3MM;
+				INFOPLIST_FILE = "TBOI: Four Souls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmart.TBOI--Four-Souls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B1EE0712144215B00E6AEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF2W5NA3MM;
+				INFOPLIST_FILE = "TBOI: Four SoulsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmart.TBOI--Four-SoulsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBOI: Four Souls.app/TBOI: Four Souls";
+			};
+			name = Debug;
+		};
+		4B1EE0722144215B00E6AEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF2W5NA3MM;
+				INFOPLIST_FILE = "TBOI: Four SoulsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmart.TBOI--Four-SoulsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBOI: Four Souls.app/TBOI: Four Souls";
+			};
+			name = Release;
+		};
+		4B1EE0742144215B00E6AEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF2W5NA3MM;
+				INFOPLIST_FILE = "TBOI: Four SoulsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmart.TBOI--Four-SoulsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TBOI: Four Souls";
+			};
+			name = Debug;
+		};
+		4B1EE0752144215B00E6AEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF2W5NA3MM;
+				INFOPLIST_FILE = "TBOI: Four SoulsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmart.TBOI--Four-SoulsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TBOI: Four Souls";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B1EE0402144215900E6AEAB /* Build configuration list for PBXProject "TBOI: Four Souls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1EE06B2144215B00E6AEAB /* Debug */,
+				4B1EE06C2144215B00E6AEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1EE06D2144215B00E6AEAB /* Build configuration list for PBXNativeTarget "TBOI: Four Souls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1EE06E2144215B00E6AEAB /* Debug */,
+				4B1EE06F2144215B00E6AEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1EE0702144215B00E6AEAB /* Build configuration list for PBXNativeTarget "TBOI: Four SoulsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1EE0712144215B00E6AEAB /* Debug */,
+				4B1EE0722144215B00E6AEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1EE0732144215B00E6AEAB /* Build configuration list for PBXNativeTarget "TBOI: Four SoulsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1EE0742144215B00E6AEAB /* Debug */,
+				4B1EE0752144215B00E6AEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B1EE03D2144215900E6AEAB /* Project object */;
+}
