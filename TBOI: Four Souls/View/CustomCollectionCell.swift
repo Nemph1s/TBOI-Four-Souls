@@ -21,12 +21,12 @@ class CustomCollectionCell: CollectionViewSlantedCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        if let backgroundView = backgroundView {
+        /*if let backgroundView = backgroundView {
             gradient.colors = [UIColor.clear.cgColor, UIColor.black.cgColor]
             gradient.locations = [0.0, 1.0]
             gradient.frame = backgroundView.bounds
             backgroundView.layer.addSublayer(gradient)
-        }
+        }*/
     }
     
     override func layoutSubviews() {
@@ -43,11 +43,11 @@ class CustomCollectionCell: CollectionViewSlantedCell {
     }
     
     var imageHeight: CGFloat {
-        return (imageView?.image?.size.height) ?? 0.0
+        return imageView?.image?.size.height ?? 0.0
     }
     
     var imageWidth: CGFloat {
-        return (imageView?.image?.size.width) ?? 0.0
+        return imageView?.image?.size.width ?? 0.0
     }
     
     

@@ -27,6 +27,7 @@ class DetailedVC: UIViewController {
         
         collectionViewLayout.isFirstCellExcluded = true
         collectionViewLayout.isLastCellExcluded = true
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -42,6 +43,11 @@ class DetailedVC: UIViewController {
     override var preferredStatusBarUpdateAnimation : UIStatusBarAnimation {
         return UIStatusBarAnimation.slide
     }
+    
+    @IBAction func onBackButtonPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }
 
 
@@ -71,14 +77,13 @@ extension DetailedVC: CollectionViewDelegateSlantedLayout {
         NSLog("Did select item at indexPath: [\(indexPath.section)][\(indexPath.row)]")
     }
     
-    func collectionView(_ collectionView: UICollectionView,
-                        layout collectionViewLayout: CollectionViewSlantedLayout,
-                        sizeForItemAt indexPath: IndexPath) -> CGFloat {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: CollectionViewSlantedLayout, sizeForItemAt indexPath: IndexPath) -> CGFloat {
         return collectionViewLayout.scrollDirection == .vertical ? 275 : 325
     }
 }
 
 extension DetailedVC: UIScrollViewDelegate {
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         guard let collectionView = self.collectionView else {return}
         guard let visibleCells = collectionView.visibleCells as? [CustomCollectionCell] else {return}

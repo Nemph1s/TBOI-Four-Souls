@@ -21,16 +21,7 @@ class MainVC: UIViewController {
     override func loadView() {
         super.loadView()
         
-        if let url = Bundle.main.url(forResource: "cards", withExtension: "plist") {
-            let arr = NSArray(contentsOf: url) as! [Any]
-            for obj in arr {
-                if let dict = obj as? Dictionary<String, Any> {
-                    let cardsBundle = CardsBundleInfo(with: dict)
-                    cardsData.append(cardsBundle)
-                    print(cardsBundle)
-                }
-            }
-        }
+        loadDataFromPlist()
     }
     
     override func viewDidLoad() {
@@ -40,11 +31,25 @@ class MainVC: UIViewController {
         collection.delegate = self
     }
     
+    func loadDataFromPlist() {
+        
+        guard let url = Bundle.main.url(forResource: "cards", withExtension: "plist") else {return}
+        let arr = NSArray(contentsOf: url) as! [Any]
+        
+        for obj in arr {
+            guard let dict = obj as? Dictionary<String, Any> else {continue}
+            let cardsBundle = CardsBundleInfo(with: dict)
+            cardsData.append(cardsBundle)
+            print(cardsBundle)
+        }
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
         if segue.identifier == segueDetailedIdentifier {
-            if let detailedVC = segue.destination as? DetailedVC, let bundle = sender as? CardsBundleInfo {
-                detailedVC.cardsBundle = bundle
-            }
+            guard let detailedVC = segue.destination as? DetailedVC else {return}
+            guard let bundle = sender as? CardsBundleInfo else {return}
+            detailedVC.cardsBundle = bundle
         }
     }
 }
@@ -83,7 +88,7 @@ extension MainVC: UICollectionViewDataSource {
 extension MainVC: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 272, height: 120)
+        return CGSize(width: 272, height: 110)
     }
 }
 
