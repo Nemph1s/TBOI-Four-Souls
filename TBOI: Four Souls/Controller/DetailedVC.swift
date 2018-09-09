@@ -7,16 +7,16 @@
 //
 
 import UIKit
-import CollectionViewSlantedLayout
 
 class DetailedVC: UIViewController {
 
     var cardsBundle: CardsBundleInfo!
     
     @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet weak var collectionViewLayout: CollectionViewSlantedLayout!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var itemsCountLabel: UILabel!
     
-    let reuseIdentifier = "customViewCell"
+    let reuseIdentifier = "CardCell"
     
     
     override func viewDidLoad() {
@@ -25,23 +25,18 @@ class DetailedVC: UIViewController {
         collectionView.dataSource = self
         collectionView.delegate = self
         
-        collectionViewLayout.isFirstCellExcluded = true
-        collectionViewLayout.isLastCellExcluded = true
+        updateUI()
+    }
+    
+    func updateUI() {
         
+        titleLabel.text = cardsBundle.title
+        itemsCountLabel.text = "x\(cardsBundle.cards.count)"
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.collectionView.reloadData()
-        self.collectionView.collectionViewLayout.invalidateLayout()
-    }
-    
-    override var prefersStatusBarHidden : Bool {
-        return true
-    }
-    
-    override var preferredStatusBarUpdateAnimation : UIStatusBarAnimation {
-        return UIStatusBarAnimation.slide
     }
     
     @IBAction func onBackButtonPressed(_ sender: Any) {
@@ -50,6 +45,16 @@ class DetailedVC: UIViewController {
     
 }
 
+extension DetailedVC: UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+}
 
 extension DetailedVC: UICollectionViewDataSource {
     
@@ -59,39 +64,35 @@ extension DetailedVC: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CustomCollectionCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CardCell
         let cardInfo = cardsBundle.cards[indexPath.row]
         cell.image = UIImage(named: cardInfo.picture)!
+        cell.text = cardInfo.name
         
-        if let layout = collectionView.collectionViewLayout as? CollectionViewSlantedLayout {
-            cell.contentView.transform = CGAffineTransform(rotationAngle: layout.slantingAngle)
-        }
         
         return cell
     }
 }
 
-extension DetailedVC: CollectionViewDelegateSlantedLayout {
+extension DetailedVC: UICollectionViewDelegateFlowLayout {
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        NSLog("Did select item at indexPath: [\(indexPath.section)][\(indexPath.row)]")
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 123, height: 200)
     }
+    /*
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+     
+    }*/
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: CollectionViewSlantedLayout, sizeForItemAt indexPath: IndexPath) -> CGFloat {
-        return collectionViewLayout.scrollDirection == .vertical ? 275 : 325
-    }
+     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 2.0
+     }
+     /*
+     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+     
+     }
+     
+     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+     
+     }*/
 }
-
-extension DetailedVC: UIScrollViewDelegate {
-    
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        guard let collectionView = self.collectionView else {return}
-        guard let visibleCells = collectionView.visibleCells as? [CustomCollectionCell] else {return}
-        for parallaxCell in visibleCells {
-            let yOffset = ((collectionView.contentOffset.y - parallaxCell.frame.origin.y) / parallaxCell.imageHeight) * yOffsetSpeed
-            let xOffset = ((collectionView.contentOffset.x - parallaxCell.frame.origin.x) / parallaxCell.imageWidth) * xOffsetSpeed
-            parallaxCell.offset(CGPoint(x: xOffset,y :yOffset))
-        }
-    }
-}
-

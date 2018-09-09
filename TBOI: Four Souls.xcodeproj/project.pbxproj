@@ -438,7 +438,8 @@
 		4BF5BB162144266400B85D89 /* 003Parabite(2).png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5B9752144266400B85D89 /* 003Parabite(2).png */; };
 		4BF5BB18214453E800B85D89 /* CardsBundleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB17214453E800B85D89 /* CardsBundleInfo.swift */; };
 		4BF5BB1A2144570300B85D89 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB192144570300B85D89 /* CardInfo.swift */; };
-		4BF5BB1E2144764500B85D89 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB1D2144764500B85D89 /* CustomCollectionCell.swift */; };
+		4BF5BB202145700E00B85D89 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB1F2145700E00B85D89 /* CardCell.swift */; };
+		4BF5BB22214575E500B85D89 /* UIViewRoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB21214575E500B85D89 /* UIViewRoundCorners.swift */; };
 		8008A35AC184ECC07A1C585D /* Pods_TBOI__Four_SoulsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C53E3B77BFA0D2F9F32717 /* Pods_TBOI__Four_SoulsTests.framework */; };
 		80F0F844482434788445421F /* Pods_TBOI__Four_SoulsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590097F728F9373473AC0427 /* Pods_TBOI__Four_SoulsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -899,7 +900,8 @@
 		4BF5B9752144266400B85D89 /* 003Parabite(2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003Parabite(2).png"; sourceTree = "<group>"; };
 		4BF5BB17214453E800B85D89 /* CardsBundleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsBundleInfo.swift; sourceTree = "<group>"; };
 		4BF5BB192144570300B85D89 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
-		4BF5BB1D2144764500B85D89 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		4BF5BB1F2145700E00B85D89 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		4BF5BB21214575E500B85D89 /* UIViewRoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRoundCorners.swift; sourceTree = "<group>"; };
 		590097F728F9373473AC0427 /* Pods_TBOI__Four_SoulsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBOI__Four_SoulsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		794AFE09D62715E9455897F8 /* Pods-TBOI: Four SoulsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBOI: Four SoulsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBOI: Four SoulsTests/Pods-TBOI: Four SoulsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C020B591058AC6E45BC4EF6 /* Pods-TBOI: Four SoulsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBOI: Four SoulsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBOI: Four SoulsUITests/Pods-TBOI: Four SoulsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1006,7 +1008,8 @@
 			isa = PBXGroup;
 			children = (
 				4B1EE085214422D100E6AEAB /* MenuCell.swift */,
-				4BF5BB1D2144764500B85D89 /* CustomCollectionCell.swift */,
+				4BF5BB1F2145700E00B85D89 /* CardCell.swift */,
+				4BF5BB21214575E500B85D89 /* UIViewRoundCorners.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2210,7 +2213,8 @@
 				4BF5BB18214453E800B85D89 /* CardsBundleInfo.swift in Sources */,
 				4B1EE0492144215900E6AEAB /* AppDelegate.swift in Sources */,
 				4BF5BB1A2144570300B85D89 /* CardInfo.swift in Sources */,
-				4BF5BB1E2144764500B85D89 /* CustomCollectionCell.swift in Sources */,
+				4BF5BB202145700E00B85D89 /* CardCell.swift in Sources */,
+				4BF5BB22214575E500B85D89 /* UIViewRoundCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

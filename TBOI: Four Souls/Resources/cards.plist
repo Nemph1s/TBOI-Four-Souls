@@ -49,27 +49,2424 @@
 				<key>name</key>
 				<string>Mom&apos;s Box</string>
 			</dict>
+			<dict>
+				<key>picture</key>
+				<string>008SpiderMod(1)</string>
+				<key>name</key>
+				<string>Spider Mod</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>009EyeOfGReed(1)</string>
+				<key>name</key>
+				<string>Eye of Greed</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>010MomsRazor</string>
+				<key>name</key>
+				<string>Mom&apos;s Razor</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>011CheeseGrater</string>
+				<key>name</key>
+				<string>Cheeze Grater</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>012DeadBird</string>
+				<key>name</key>
+				<string>Dead Bird</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>013Dinner</string>
+				<key>name</key>
+				<string>Dinner</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>014Breakfast</string>
+				<key>name</key>
+				<string>Breakfast</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>015Synthoil</string>
+				<key>name</key>
+				<string>Synthoil</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>016Meat!</string>
+				<key>name</key>
+				<string>Meat!</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>017Polydactyl</string>
+				<key>name</key>
+				<string>Polydactyl</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>018BellyButton(1)</string>
+				<key>name</key>
+				<string>Belly Button</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>019Brimstone</string>
+				<key>name</key>
+				<string>Brimstone</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>020Ipecac</string>
+				<key>name</key>
+				<string>Ipecac</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>021MomsPurse</string>
+				<key>name</key>
+				<string>Mom&apos;s Purse</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>022momscoinpurse</string>
+				<key>name</key>
+				<string>Mom&apos;s Coin Purse</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>023TheresOptions</string>
+				<key>name</key>
+				<string>There&apos;s Options</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>024ChampionBelt(1)</string>
+				<key>name</key>
+				<string>Champion Belt</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>025monstrostooth</string>
+				<key>name</key>
+				<string>Monstro&apos;s Tooth</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>026DryBaby</string>
+				<key>name</key>
+				<string>Dry Baby</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>027GoatHead(1)</string>
+				<key>name</key>
+				<string>Goat Head</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>028BlueMap</string>
+				<key>name</key>
+				<string>The Blue Map</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>029Compass</string>
+				<key>name</key>
+				<string>The Compass</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>030Map</string>
+				<key>name</key>
+				<string>The Map</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>031FannyPack(1)</string>
+				<key>name</key>
+				<string>Funny Pack</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>032TheHabit</string>
+				<key>name</key>
+				<string>The Habit</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>033CambionConception(1)</string>
+				<key>name</key>
+				<string>Cambion Conception</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>034GreedsGullet(1)</string>
+				<key>name</key>
+				<string>Greed&apos;s Gullet</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>035SuicideKing(1)</string>
+				<key>name</key>
+				<string>Suicide King</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>036TrinityShield(1)</string>
+				<key>name</key>
+				<string>Trinity Shield</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>037SteamySale</string>
+				<key>name</key>
+				<string>Steamy Sale</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>038Shadow</string>
+				<key>name</key>
+				<string>Shadow</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>039ShinyRock</string>
+				<key>name</key>
+				<string>Shiny Rock</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>040MidasTouch</string>
+				<key>name</key>
+				<string>The Midas Touch</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>041EdensBLessing(1)</string>
+				<key>name</key>
+				<string>Eden&apos;s BLessing</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>042ThePolaroid</string>
+				<key>name</key>
+				<string>The Polaroid</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>043StarterDeck</string>
+				<key>name</key>
+				<string>Starter Deck</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>044TheChest(1)</string>
+				<key>name</key>
+				<string>The Chest</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>045Refresh(1)</string>
+				<key>name</key>
+				<string>Refresh</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>046DarkBum(1)</string>
+				<key>name</key>
+				<string>Dark Bum</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>047EmptyVessel(1)</string>
+				<key>name</key>
+				<string>Empty Vessel</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>048Bumbo(1)</string>
+				<key>name</key>
+				<string>Bumbo</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>049SacredHeart</string>
+				<key>name</key>
+				<string>Sacred Heart</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>050CurseOfTheTower(1)</string>
+				<key>name</key>
+				<string>Curse Of The Tower</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>051BabyHaunt</string>
+				<key>name</key>
+				<string>Baby Haunt</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>052DaddyHaunt</string>
+				<key>name</key>
+				<string>Daddy Haunt</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>053BobsBrain</string>
+				<key>name</key>
+				<string>Bobs Brain</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>054TwoofClubs</string>
+				<key>name</key>
+				<string>Two of Clubs</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>055MrBoom</string>
+				<key>name</key>
+				<string>Mr. Boom</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>056TechX(1)</string>
+				<key>name</key>
+				<string>Tech X</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>057RazorBlade</string>
+				<key>name</key>
+				<string>Razor Blade</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>058MiniMush</string>
+				<key>name</key>
+				<string>Mini Mush</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>059LuckyFoot</string>
+				<key>name</key>
+				<string>Lucky Foot</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>060SpoonBender</string>
+				<key>name</key>
+				<string>Spoon Bender</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>061Flush!(1)</string>
+				<key>name</key>
+				<string>Flush!</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>062MonsterManual</string>
+				<key>name</key>
+				<string>Monster Manual</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>063TheShovel</string>
+				<key>name</key>
+				<string>The Shovel</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>064D20</string>
+				<key>name</key>
+				<string>The D20</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>065PotatoPeeler</string>
+				<key>name</key>
+				<string>Potato Peeler</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>066SackHead</string>
+				<key>name</key>
+				<string>Sack Head</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>067BumFriend</string>
+				<key>name</key>
+				<string>Bum Friend</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>068Compost(1)</string>
+				<key>name</key>
+				<string>Compost</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>069Diplopia</string>
+				<key>name</key>
+				<string>Diplopia</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>070TheBattery</string>
+				<key>name</key>
+				<string>The Battery</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>071BlankCard</string>
+				<key>name</key>
+				<string>Blank Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>072Placebo(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>073MomsBra(1)</string>
+				<key>name</key>
+				<string>Mom&apos;s Bra</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>074No!</string>
+				<key>name</key>
+				<string>No!</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>075HostHat(1)</string>
+				<key>name</key>
+				<string>Host Hat</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>076ThePoop(1)</string>
+				<key>name</key>
+				<string>The Poop</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>077Decoy(1)</string>
+				<key>name</key>
+				<string>Decoy</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>078SackofPennies(1)</string>
+				<key>name</key>
+				<string>Sack of Pennies</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>079JawBone</string>
+				<key>name</key>
+				<string>JawBone</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>080Boomerang(1)</string>
+				<key>name</key>
+				<string>Boomerang</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>081ContractfromBelow(1)</string>
+				<key>name</key>
+				<string>Contract from Below</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>082Godhead</string>
+				<key>name</key>
+				<string>Godhead</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>083ModelingClay(1)</string>
+				<key>name</key>
+				<string>Modeling Clay</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>084D100</string>
+				<key>name</key>
+				<string>The D100</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>085Chaos</string>
+				<key>name</key>
+				<string>Chaos</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>086RemoteDetonator</string>
+				<key>name</key>
+				<string>Remote etonator</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>087CrystalBall</string>
+				<key>name</key>
+				<string>CrystalBall</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>088MysterySack(1)</string>
+				<key>name</key>
+				<string>Mystery Sack</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>089DonationMachine</string>
+				<key>name</key>
+				<string>Donation Machine</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>090BookofSin(1)</string>
+				<key>name</key>
+				<string>Book of Sin</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>091GlassCannon(1)</string>
+				<key>name</key>
+				<string>Glass Cannon</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>092MomsShovel(1)</string>
+				<key>name</key>
+				<string>MomsShovel</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>093ChaosCard</string>
+				<key>name</key>
+				<string>Chaos Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>094Box!</string>
+				<key>name</key>
+				<string>Box!</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>095PandorasBox(2)</string>
+				<key>name</key>
+				<string>Pandoras Box</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>096D4(1)</string>
+				<key>name</key>
+				<string>The D4</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>097BatteryBum</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>098PaytoPlay</string>
+				<key>name</key>
+				<string>Pay to Play</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>099GoldenRazor</string>
+				<key>name</key>
+				<string>Golden Razor</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>100PortableSlot</string>
+				<key>name</key>
+				<string>Portable Slot</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>101Smelter</string>
+				<key>name</key>
+				<string>Smelter</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>102TheDeadCat</string>
+				<key>name</key>
+				<string>The Dead Cat</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>103GuppysHead(1)</string>
+				<key>name</key>
+				<string>Guppys Head</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>104GuppysPaw</string>
+				<key>name</key>
+				<string>Guppys Paw</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Loot Cards</string>
+		<key>cards</key>
+		<array>
+			<dict>
+				<key>picture</key>
+				<string>001OneCent1 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002OneCent2 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003OneCent3 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004OneCent4 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>005OneCent5 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>006OneCent6 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>007TwoCents1 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>008TwoCents2 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>009TwoCents3 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>010TwoCents4 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>011TwoCents5 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>012TwoCents6 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>013TwoCents7 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>014TwoCents8 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>015TwoCents9 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>016TwoCents10 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>018TwoCents12 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>019ThreeCents1 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>020ThreeCents2 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>021ThreeCents3 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>022ThreeCents4 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>023ThreeCents5 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>024ThreeCents6 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>025ThreeCents7 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>026ThreeCents8 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>027ThreeCents9 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>028ThreeCents10 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>029ThreeCents11 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>030ThreeCents12 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>031ThreeCents13 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>032ThreeCents14 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>033ThreeCents15 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>034FourCents1 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>035FourCents2 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>036FourCents3 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>037FourCents4 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>038FourCents5 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>039FourCents6 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>040FourCents7 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>041FourCents8 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>042FourCents9</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>043Nickel1(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>044Nickel2</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>045Nickel3</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>046Nickel4</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>047Nickel5</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>048Dime(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>049ButterBean1(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>050ButterBean2</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>051ButterBean3</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>052PillRed(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>053PillBlue(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>054PillYellow(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>055Bomb!1(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>056Bomb!2</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>057Bomb!3</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>058Bomb!4</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>059GoldBomb(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>060LilBattery1(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>061LilBattery2</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>062LilBattery3</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>063LilBattery4</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>064MegaBattery(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>065DiceShard1(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>066DiceShard2</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>067DiceShard3</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>068SoulHeart1(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>069SoulHeart2</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>070BlankRune(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>071Dagaz(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>072Ehwaz(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>073BloodPenny(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>074SwallowedPenny(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>075CounterfietPenny(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>076CainsEye(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>077BrokenAnkh(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>078CurvedHorn(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>079PurpleHeart(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>080GoldenHorseshoe(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>081GuppysHairball(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>082LostSoul(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>083TheFool(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>084ITheMagician(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>085IITheHighPriestess(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>086IIITheEmpress(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>087IVTheEmperor(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>088VTheHeirophant(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>089VITheLovers(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>090VIITheChariot(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>091VIIIJustice(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>092IXTheHermit(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>093XWheelofFortune(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>094XIStrength(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>095XIITheHangedMan(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>096XIIIDeath(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>097XIVTheTower(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>098XVTheDevil(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>099XVITemperance(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>100XVIITheStars(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>101XVIIITheMoon(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>102XIXTheSun(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>103XXJudgement(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>104XXITheWorld(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Monster Cards</string>
+		<key>cards</key>
+		<array>
+			<dict>
+				<key>picture</key>
+				<string>001Dip</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002Pooter</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003Fly</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004Trite</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>005Fatty</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>006Spider</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>007ConjoinedFatty</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>008PaleFatty</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>009Leech</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>010Clotty(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>011RedHost</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>012Squirt</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>013FatBat</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>014CodWorm(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>015SwarmFly</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>016BlackBony</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>017Dinga</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>018RingofFlies</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>019Hanger(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>020Wizoob</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>021mulligan</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>022Hopper</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>023KeeperHead</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>024BigSpider</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>025BoomFly</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>026Leaper</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>027Dople</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>028PsyHorf</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>029Portal(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>030MomsDeadHand</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>031Greedling</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>032DankGlobin</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>033EvilTwin</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>034Mulliboom</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>035MomsEye(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>036RageCreep</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>037Horf</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>038MomsHand</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>039Stoney</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>040HolyDip</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>041HolyMomsEye</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>042HolyDinga</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>043HolyKeeperHead</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>044HolySquirt</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>045CursedKeeperHead</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>046CursedHorf</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>047CursedFatty</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>048CursedMomsHand</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>049CursedPsyHorf</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>050CursedGaper</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>051GoldChest1</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>052GoldChest2</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>053DarkChest1(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>054DarkChest2(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>055Chest1</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>056Chest2</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>057SecretRoom</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>058XLFLoor</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>059ShopUpgrade</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>060WeNeedtogoDeeper</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>061IcanSeeForever</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>062TrollBombs</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>063MegaTrollBomb</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>064Ambush</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>065Greed!</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>066DealWithTheDevil</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>067CursedChest</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>068CurseofAmnesia</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>069CurseofGreed</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>070CurseofLoss</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>071CurseofPain</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>072CurseoftheBlind</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>073Gurdy(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>074Monstro</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>075LittleHorn(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>076DarkOne(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>077LarryJr</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>078DukeofFLies(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>079DaddyLongLegs(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>080MegaFatty</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>081Famine</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>082War(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>083Death</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>084Pestilence(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>085Conquest</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>086Pride</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>087Wrath</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>088Gluttony</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>089Envy</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>090Greed</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>091Lust</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>092Sloth</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>093Pin</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>094TheBloat</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>095Chub</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>096Scolex</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>097Gemini</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>098GurdyJr</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>099Peep(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>100Ragman</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>101CarrionQueen</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>102TheHaunt</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>103MaskOfInfamy</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>104Mom!</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>105Satan!</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>106TheLamb(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>107Delirium(1)</string>
+				<key>name</key>
+				<string>Monster Card</string>
+			</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Character Cards</string>
+		<key>cards</key>
+		<array>
+			<dict>
+				<key>picture</key>
+				<string>001Isaac(1)</string>
+				<key>name</key>
+				<string>Isaac</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002Cain(1)</string>
+				<key>name</key>
+				<string>Cain</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003Maggy(2)</string>
+				<key>name</key>
+				<string>Maggy</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004Judas(1)</string>
+				<key>name</key>
+				<string>Judas</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>005Samson(1)</string>
+				<key>name</key>
+				<string>Samson</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>006Eve(1)</string>
+				<key>name</key>
+				<string>Eve</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>007Lilith(1)</string>
+				<key>name</key>
+				<string>Lilith</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>008BlueBaby(1)</string>
+				<key>name</key>
+				<string>Blue Baby</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>009Lazarus(2)</string>
+				<key>name</key>
+				<string>Lazarus</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>010TheForgotten(3)</string>
+				<key>name</key>
+				<string>The Forgotten</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>011Eden(1)</string>
+				<key>name</key>
+				<string>Eden</string>
+			</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Starting Items</string>
+		<key>cards</key>
+		<array>
+			<dict>
+				<key>picture</key>
+				<string>001D6(3)</string>
+				<key>name</key>
+				<string>The D6</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002SleightofHand(2)</string>
+				<key>name</key>
+				<string>Sleight of Hand</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003YumHeart(3)</string>
+				<key>name</key>
+				<string>YumHeart</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004BookofBelial(2)</string>
+				<key>name</key>
+				<string>Book of Belial</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>005BloodLust(3)</string>
+				<key>name</key>
+				<string>Blood Lust</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>006TheCurse(3)</string>
+				<key>name</key>
+				<string>The Curse</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>007Incubus(3)</string>
+				<key>name</key>
+				<string>Incubus</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>008ForeverAlone(2)</string>
+				<key>name</key>
+				<string>Forever Alone</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>009LazarusRags(3)</string>
+				<key>name</key>
+				<string>Lazarus Rags</string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>010TheBone(2)</string>
+				<key>name</key>
+				<string>The Bone</string>
+			</dict>
+		</array>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Expansion Pack</string>
+		<key>cards</key>
+		<array>
+			<dict>
+				<key>picture</key>
+				<string>001HolyMantle(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>001OneCent1(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>001Ragling(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>001TheLost(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>001TheMissingPage(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002Boil(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002MoreOptions(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002OneCent2(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002TheKeeper(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>002WoodenNickel(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003Azazel(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003LordofthePit(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003Parabite(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003SkeletonKey(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>003TwoCents1(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004Apollyon(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004Gaper(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004Placenta(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004TwoCents2(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>004Void(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>005DeathsHead(5)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>005MomsKnife(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>005ThreeCents1(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>006DadsKey(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>006RoundWorm(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>006ThreeCents2(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>007FourCents1(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>007Imp(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>007Succubus(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>008FourCents2(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>008Infamy(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>008Knight(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>009ChargedPenny(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>009Charger(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>009NineVolt(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>010Begotten(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>010Bomb!5(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>010SoyMilk(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>011GuppysTail(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>011Joker(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>011TrapDoor(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>012IAmError(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>012OuijaBoard(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>012PrayrCard(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>013CurseofTinyHands(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>013FruitCake(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>013TwoofDiamonds(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>014CurseofFatigue(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>014ICantBelieve(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>014SoulHeart3(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>015LibraryCard(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>015Polycephalus(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>015Sack(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>016CreditCard(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>016TheBible(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>016TheCage(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>017CrookedPenny(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>017Hush(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>017Jera(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>017TwoCents11 copy</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>018ButterBean(1)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>018Gurglings(4)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>018PillPurple(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>019LemonMishap(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>019PinkEye(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>019Steven(4)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>020Cancer(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>020Fistula(3)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>picture</key>
+				<string>020PlanC(2)</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 </array>
 </plist>
