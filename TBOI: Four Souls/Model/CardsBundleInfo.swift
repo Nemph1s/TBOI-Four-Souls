@@ -27,6 +27,10 @@ class CardsBundleInfo {
         return _cards
     }
     
+    var size: Int {
+        return _cards.count
+    }
+    
     init(with dict: Dictionary<String, Any>) {
         parseInfo(from: dict)
     }
