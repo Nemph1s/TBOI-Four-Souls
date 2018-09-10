@@ -13,9 +13,6 @@ class MainVC: UIViewController {
     @IBOutlet weak var collection: UICollectionView!
     @IBOutlet weak var collectionLayout: UICollectionViewFlowLayout!
     
-    let reuseIdentifier = "menuViewCell"
-    let segueDetailedIdentifier = "CardDetailedVC"
-    
     internal var cardsData = Array<CardsBundleInfo>()
     
     override func loadView() {
@@ -40,13 +37,13 @@ class MainVC: UIViewController {
             guard let dict = obj as? Dictionary<String, Any> else {continue}
             let cardsBundle = CardsBundleInfo(with: dict)
             cardsData.append(cardsBundle)
-            print(cardsBundle)
+//            print(cardsBundle)
         }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier == segueDetailedIdentifier {
+        if segue.identifier == UserDefaults.ID.CardDetailedSegueId {
             guard let detailedVC = segue.destination as? DetailedVC else {return}
             guard let bundle = sender as? CardsBundleInfo else {return}
             detailedVC.cardsBundle = bundle
@@ -59,7 +56,7 @@ extension MainVC: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         let bundleInfo = cardsData[indexPath.row]
-        performSegue(withIdentifier: segueDetailedIdentifier, sender: bundleInfo)
+        performSegue(withIdentifier: UserDefaults.ID.CardDetailedSegueId, sender: bundleInfo)
         
     }
     
@@ -76,7 +73,7 @@ extension MainVC: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        if let cell = collection.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as? MenuCell {
+        if let cell = collection.dequeueReusableCell(withReuseIdentifier: UserDefaults.ID.MenuViewCellReuseId, for: indexPath) as? MenuCell {
             let bundleInfo = cardsData[indexPath.row]
             cell.configureCell(title: bundleInfo.title)
             return cell
@@ -88,7 +85,11 @@ extension MainVC: UICollectionViewDataSource {
 extension MainVC: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 272, height: 110)
+        return CGSize(width: UserDefaults.UI.MenuItemCellWidth, height: UserDefaults.UI.MenuItemCellHeight)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+        return CGSize(width: 0, height: UserDefaults.UI.MenuItemHeightForFooterInSection)
     }
 }
 

@@ -131,7 +131,7 @@ extension DetailedVC: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: UserDefaults.ID.CardCellReuseIdentifier, for: indexPath) as! CardCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: UserDefaults.ID.CardCellReuseId, for: indexPath) as! CardCell
         
         let cardInfo: CardInfo!
         cardInfo = inSearchMode ? filteredCards[indexPath.row] : cardsBundle.cards[indexPath.row]
