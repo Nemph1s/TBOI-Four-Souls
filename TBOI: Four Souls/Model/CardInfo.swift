@@ -23,6 +23,11 @@ class CardInfo {
         return _picture
     }
     
+    var pictureSmall: String {
+        return "\(picture)Small"
+    }
+    
+    
     init(with dict: Dictionary<String, String>) {
         parseInfo(from: dict)
     }

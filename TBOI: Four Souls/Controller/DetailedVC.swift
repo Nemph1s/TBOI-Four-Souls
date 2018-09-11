@@ -135,7 +135,7 @@ extension DetailedVC: UICollectionViewDataSource {
         
         let cardInfo: CardInfo!
         cardInfo = inSearchMode ? filteredCards[indexPath.row] : cardsBundle.cards[indexPath.row]
-        cell.image = UIImage(named: cardInfo.picture)!
+        cell.image = UIImage(named: cardInfo.pictureSmall)!
         cell.text = cardInfo.name
         
         return cell

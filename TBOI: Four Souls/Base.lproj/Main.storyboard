@@ -144,7 +144,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="131" height="205"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001D6(3)" translatesAutoresizingMaskIntoConstraints="NO" id="Bxx-1Z-MAG">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001D6(3)Small" translatesAutoresizingMaskIntoConstraints="NO" id="Bxx-1Z-MAG">
                                                     <rect key="frame" x="8" y="8" width="115" height="168"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="168" id="LgM-RG-AFG"/>
@@ -278,11 +278,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZz-ra-ch6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1029.5999999999999" y="128.57142857142858"/>
+            <point key="canvasLocation" x="1009" y="131"/>
         </scene>
     </scenes>
     <resources>
-        <image name="001D6(3)" width="477" height="650"/>
+        <image name="001D6(3)Small" width="147" height="200"/>
         <image name="back" width="100" height="67"/>
         <image name="bg" width="1200" height="1525"/>
         <image name="border" width="1615" height="1082"/>
