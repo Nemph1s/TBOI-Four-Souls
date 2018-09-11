@@ -8,8 +8,7 @@ target 'TBOI: Four Souls' do
 
   # Pods for TBOI: Four Souls
     pod 'Alamofire', '~> 4.7'
-    pod "CollectionViewSlantedLayout", '~> 3.0'
-    pod 'SwiftLint', '~> 0.27'
+    #pod 'Hero', '~> 1.3'
 
   target 'TBOI: Four SoulsTests' do
     inherit! :search_paths

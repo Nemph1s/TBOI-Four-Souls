@@ -7,47 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		043784CD433D3B001103E99EA732C5A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		0B8B461237AA6F07DA8030C64050701A /* UICollectionView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1906E3535A5FD5B94CE5F97C6BA5D957 /* UICollectionView+Helpers.swift */; };
+		043784CD433D3B001103E99EA732C5A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		1A9B70B3C88F3018DA5C87E849B1AE05 /* Pods-TBOI: Four SoulsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8CCE920969C0F9604C9BA0EC9E165D /* Pods-TBOI: Four SoulsTests-dummy.m */; };
-		1FC3FD39157C2FFFF3869A1300730086 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603B4DD0423ED752240971ED22221488 /* SessionDelegate.swift */; };
-		29CD11B9EF86BCEB28FB12E976E5F28E /* Pods-TBOI: Four Souls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B8505623A353E698BCA6C68105DE53 /* Pods-TBOI: Four Souls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D9147E2C32A4C47792A4C4E605F028 /* TaskDelegate.swift */; };
-		4D86DD0BF4F86BA3ADCEDF95749300A8 /* CollectionViewSlantedLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC8D622AF632202BCF1EC9CF09A38D3 /* CollectionViewSlantedLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E1A913EFB404FB11524718FF0298EFE /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87B4A30CE39D0612156BB2E6DE49CB /* Alamofire.swift */; };
-		4EF1AE3D8C3EF4199DD6B7E706316C1B /* CollectionViewSlantedLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC986FFD77F9CD5E192F94E0344B3C /* CollectionViewSlantedLayout-dummy.m */; };
-		500C8EDA60C07B0F127C7FC385E17D38 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E19A12807D0DADE9F75F6F06730A1F /* Notifications.swift */; };
-		52237C35642089F77DD4D723CEB25737 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792013B499C7D24CB7E52E1B6862CC7C /* Response.swift */; };
-		538A20F0850F6BF39824373EE194B8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		5603041AE8997B3C63AE6ACA12433478 /* CollectionViewSlantedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA343B8E1717230AA0ABB6DDD5A42BB /* CollectionViewSlantedCell.swift */; };
-		58A9719584AFA2D108D9E5C585A79329 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589DAFC11745A52D95501C9545A3120 /* Validation.swift */; };
-		5EE5FED83B90A606A763CF1114D1D6FB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8D2BD26E799442DDD7DFA7A00EC81 /* ResponseSerialization.swift */; };
-		6BEA14EC335E07C7063CD1383C0C443C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A669F0CDA9D28146804879D49B4B56 /* ServerTrustPolicy.swift */; };
-		7068E8A7DDC1424EE8F24BC77E8746F4 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B12A6FA84E7C7DE07774E88596C2AD2 /* SessionManager.swift */; };
-		796177DE2762F24DAC16A709FD954838 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94BE638F50D7AA8001FB6B182967DBC /* ParameterEncoding.swift */; };
-		7A1A52095AF3C7FD6FE06EAD715BC2C6 /* CollectionViewSlantedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94699EAB6963525CF8562EF2480054F6 /* CollectionViewSlantedLayout.swift */; };
-		899F3E4A098B7A9E332FC3FCDCF04F09 /* CollectionViewDelegateSlantedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146A2466184C7FF04AC05F1627360E97 /* CollectionViewDelegateSlantedLayout.swift */; };
+		1FC3FD39157C2FFFF3869A1300730086 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
+		36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
+		4E1A913EFB404FB11524718FF0298EFE /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
+		500C8EDA60C07B0F127C7FC385E17D38 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
+		52237C35642089F77DD4D723CEB25737 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
+		58A9719584AFA2D108D9E5C585A79329 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
+		5EE5FED83B90A606A763CF1114D1D6FB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
+		6BEA14EC335E07C7063CD1383C0C443C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
+		7068E8A7DDC1424EE8F24BC77E8746F4 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
+		77391E1D32490734D40B32805E4CB252 /* Pods-TBOI: Four Souls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7109F9851D955EFCB4FF7A75E996049 /* Pods-TBOI: Four Souls-dummy.m */; };
+		796177DE2762F24DAC16A709FD954838 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
 		908ED3BBFFC05BCF5F82D562195A694D /* Pods-TBOI: Four SoulsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94ED31D200A5DC1886CBFDAD86D6D1C1 /* Pods-TBOI: Four SoulsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		913FF8AA83A3ADCDE1B32F58B43EC255 /* CollectionViewSlantedLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8668B106AC922D98BE24E303CE80231F /* CollectionViewSlantedLayoutAttributes.swift */; };
 		96343BBD13D39D1500275A4CEFC1C862 /* Pods-TBOI: Four SoulsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A55EC45B300459A5409BD6F0AB3F09B /* Pods-TBOI: Four SoulsUITests-dummy.m */; };
-		965DACF3DC02857ECBE66C5CBA3DA5D4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A63A17D68949E51DC93DAA259A790C5 /* Request.swift */; };
-		994991172C04154E5ACC96CDCD64FF51 /* CollectionViewSlantedLayout+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916CB85E1C3F1D0DA4FC576C70620639 /* CollectionViewSlantedLayout+Constants.swift */; };
-		B424F524BBBE34E685129945993809A8 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3E7504C61AB6687E545C392CEDAB6C /* Timeline.swift */; };
-		B77705737566AE83ED7E448923D7FA60 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFF0794E4D2E8CB38C5AFE9BE1E7A9 /* NetworkReachabilityManager.swift */; };
-		BA8EEB65E0A7AAEC0CFDB64784D2D1E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F57DCBA72AEB8BFC60D1B338A331F0 /* AFError.swift */; };
-		D4C3899574E9D5DF5E5DA52310560BCC /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2039934F71C2F121A895CF5964FBC64 /* Alamofire-dummy.m */; };
-		D890D0ACE87466D8DA08B794FF7603B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		D8EC5B74B9B5DC842F4179D19E6DE6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD32578BB54806F4C1C3722C884BE3F /* DispatchQueue+Alamofire.swift */; };
-		DEAC356CAACCC8BF16A0F5C4CDE6DC58 /* UICollectionViewLayout+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222119C484D593A604DE2929A870EF7 /* UICollectionViewLayout+Helpers.swift */; };
+		965DACF3DC02857ECBE66C5CBA3DA5D4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
+		B424F524BBBE34E685129945993809A8 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
+		B77705737566AE83ED7E448923D7FA60 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
+		B8CBE9588EB5B515C1BB6D7BFC983ADE /* Pods-TBOI: Four Souls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B8505623A353E698BCA6C68105DE53 /* Pods-TBOI: Four Souls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
+		D4C3899574E9D5DF5E5DA52310560BCC /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */; };
+		D890D0ACE87466D8DA08B794FF7603B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D8EC5B74B9B5DC842F4179D19E6DE6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
 		E1C5BCD054103B0EBD5CBFC12EA0876A /* Pods-TBOI: Four SoulsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2B450A720198208B0E94F3CA37F608 /* Pods-TBOI: Four SoulsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3A7F4105547E12EF04F16440E53B249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		E99BD160A9BF91C8AE42EC82A566B492 /* CollectionViewSlantedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 653254B0006144AAC96C719DA989008C /* CollectionViewSlantedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF1461221681BCA12A4147900A704727 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F58F22F22096F5BC1F32405C921546 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9EA61D484CC15FDDAB0D8C0D26D7949 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C6D3374C2F1E21BB633CF2E40D1B65 /* Result.swift */; };
-		FBB3AF7BC0FE384E8D91775901B0C9E1 /* Pods-TBOI: Four Souls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7109F9851D955EFCB4FF7A75E996049 /* Pods-TBOI: Four Souls-dummy.m */; };
-		FF9C7BC64DB23D2CED48197DE67F0335 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7EF3003695BE2E3AFCF522C72DA7F1 /* MultipartFormData.swift */; };
+		EF1461221681BCA12A4147900A704727 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03DECE84DC850B04690604AB7C521277 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B173003BB9017857931F2EB5602FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F9EA61D484CC15FDDAB0D8C0D26D7949 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
+		FF9C7BC64DB23D2CED48197DE67F0335 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +43,10 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EE1E3608ECE8B78C3C39D08D7CDFC09;
+			remoteGlobalIDString = 02587E43C87B557408C5A704DC5429CA;
 			remoteInfo = "Pods-TBOI: Four Souls";
 		};
-		3374A622AADB9B24F5F1AE23BBD626A9 /* PBXContainerItemProxy */ = {
+		E4D943720CDB4C186916D16C9766B23E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -69,102 +57,79 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8EE1E3608ECE8B78C3C39D08D7CDFC09;
+			remoteGlobalIDString = 02587E43C87B557408C5A704DC5429CA;
 			remoteInfo = "Pods-TBOI: Four Souls";
-		};
-		F97A5015E536871FB6EC73EDD877A9A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0786AE88948AAB786C895FFB9B61CD5B;
-			remoteInfo = CollectionViewSlantedLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D76CD8A795FCC6A9908E996C811E4C /* Pods_TBOI__Four_SoulsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_SoulsUITests.framework; path = "Pods-TBOI: Four SoulsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DECE84DC850B04690604AB7C521277 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		05CC5E52367D713D37450498ADA9C11B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C418E1910C8ADDF4105ECD9F349743 /* Pods_TBOI__Four_SoulsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_SoulsTests.framework; path = "Pods-TBOI: Four SoulsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09741F154A940C680F8EE931A392A4D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09F55F2BF27A3D053C3E581491BEBCB3 /* CollectionViewSlantedLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CollectionViewSlantedLayout.modulemap; sourceTree = "<group>"; };
-		0E7EF3003695BE2E3AFCF522C72DA7F1 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		106AE3426835FAD582E58FB29BE01238 /* CollectionViewSlantedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CollectionViewSlantedLayout.framework; path = CollectionViewSlantedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		117EFB31D9AD9673BAF51B48596F19E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		125841AB4B44D7E35DD6001B9400EF25 /* Pods-TBOI: Four SoulsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBOI: Four SoulsTests.modulemap"; sourceTree = "<group>"; };
 		141B55A9D7BD60E58DA635714BFC000B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		146A2466184C7FF04AC05F1627360E97 /* CollectionViewDelegateSlantedLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewDelegateSlantedLayout.swift; path = Sources/CollectionViewDelegateSlantedLayout.swift; sourceTree = "<group>"; };
 		14C47DFF7EDF30339E1AEA48DA04108D /* Pods-TBOI: Four SoulsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four SoulsTests-resources.sh"; sourceTree = "<group>"; };
+		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		18B8505623A353E698BCA6C68105DE53 /* Pods-TBOI: Four Souls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBOI: Four Souls-umbrella.h"; sourceTree = "<group>"; };
-		1906E3535A5FD5B94CE5F97C6BA5D957 /* UICollectionView+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Helpers.swift"; path = "Sources/Extensions/UICollectionView+Helpers.swift"; sourceTree = "<group>"; };
-		20FD1879B3F097F76AE351C95F4CE305 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		22F7C878FF7C54C12A167C18C853CC91 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		2556E17613879283AFC43127DD7EDD83 /* Pods_TBOI__Four_SoulsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_SoulsTests.framework; path = "Pods-TBOI: Four SoulsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28C6D3374C2F1E21BB633CF2E40D1B65 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		2CC8D622AF632202BCF1EC9CF09A38D3 /* CollectionViewSlantedLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollectionViewSlantedLayout-umbrella.h"; sourceTree = "<group>"; };
-		325C42130792F2F5BA7CB43961BD0C17 /* CollectionViewSlantedLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollectionViewSlantedLayout-prefix.pch"; sourceTree = "<group>"; };
+		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		1D6EA11B2DCCB3F1886CC0DF0CA90753 /* Pods_TBOI__Four_SoulsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_SoulsUITests.framework; path = "Pods-TBOI: Four SoulsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		210971763CB2FC0DC4E378271A37BE32 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		35EF3F1599C64522E0AAD5BF24FB8F9F /* Pods-TBOI: Four SoulsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBOI: Four SoulsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		360D1628FF6955517316C9C524E0DB8D /* Pods-TBOI: Four SoulsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four SoulsUITests-frameworks.sh"; sourceTree = "<group>"; };
-		3BD32578BB54806F4C1C3722C884BE3F /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		4083CA77F7E0D9DFF1D88752E87C946A /* Pods-TBOI: Four SoulsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBOI: Four SoulsUITests.modulemap"; sourceTree = "<group>"; };
+		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		4DAB6602A321E39FDC6D9610281B6964 /* Pods-TBOI: Four SoulsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four SoulsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		56F58F22F22096F5BC1F32405C921546 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A55EC45B300459A5409BD6F0AB3F09B /* Pods-TBOI: Four SoulsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBOI: Four SoulsUITests-dummy.m"; sourceTree = "<group>"; };
-		5A63A17D68949E51DC93DAA259A790C5 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		5B87B4A30CE39D0612156BB2E6DE49CB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		603B4DD0423ED752240971ED22221488 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		64BFF0794E4D2E8CB38C5AFE9BE1E7A9 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		653254B0006144AAC96C719DA989008C /* CollectionViewSlantedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CollectionViewSlantedLayout.h; path = Sources/CollectionViewSlantedLayout.h; sourceTree = "<group>"; };
-		66D9147E2C32A4C47792A4C4E605F028 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		61D920D6E48023BCBF18CD83450D05F5 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		6B43CA4EA6C8E37A3704B56C976EA0AA /* Pods-TBOI: Four SoulsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four SoulsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6E8ACC4D362F0239432D9F670FB77054 /* Pods-TBOI: Four SoulsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBOI: Four SoulsTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		792013B499C7D24CB7E52E1B6862CC7C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		7B12A6FA84E7C7DE07774E88596C2AD2 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		7EEE009927E5F259B21C1ECDD721C75A /* Pods-TBOI: Four SoulsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four SoulsTests.release.xcconfig"; sourceTree = "<group>"; };
-		814D79C3B8E2C815749A28D873BE491F /* CollectionViewSlantedLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollectionViewSlantedLayout.xcconfig; sourceTree = "<group>"; };
-		8668B106AC922D98BE24E303CE80231F /* CollectionViewSlantedLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewSlantedLayoutAttributes.swift; path = Sources/Internal/CollectionViewSlantedLayoutAttributes.swift; sourceTree = "<group>"; };
-		86F57DCBA72AEB8BFC60D1B338A331F0 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		89EE4028DB7C497DE6757E3D0018811E /* Pods-TBOI: Four Souls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBOI: Four Souls.modulemap"; sourceTree = "<group>"; };
-		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		916CB85E1C3F1D0DA4FC576C70620639 /* CollectionViewSlantedLayout+Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CollectionViewSlantedLayout+Constants.swift"; path = "Sources/CollectionViewSlantedLayout+Constants.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94699EAB6963525CF8562EF2480054F6 /* CollectionViewSlantedLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewSlantedLayout.swift; path = Sources/CollectionViewSlantedLayout.swift; sourceTree = "<group>"; };
 		94ED31D200A5DC1886CBFDAD86D6D1C1 /* Pods-TBOI: Four SoulsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBOI: Four SoulsTests-umbrella.h"; sourceTree = "<group>"; };
 		9A7EBE23338479ED7EFE0175A301B5DF /* Pods-TBOI: Four Souls-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBOI: Four Souls-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A0627226E54943D2AB7773E54DA00A74 /* Pods_TBOI__Four_Souls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_Souls.framework; path = "Pods-TBOI: Four Souls.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		A3595D868286DC65264633EF14F39699 /* Pods-TBOI: Four SoulsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four SoulsTests-frameworks.sh"; sourceTree = "<group>"; };
 		A4EE133FE944A32E67C55AB8D5461871 /* Pods-TBOI: Four Souls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBOI: Four Souls-acknowledgements.plist"; sourceTree = "<group>"; };
 		A7109F9851D955EFCB4FF7A75E996049 /* Pods-TBOI: Four Souls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBOI: Four Souls-dummy.m"; sourceTree = "<group>"; };
-		A7E19A12807D0DADE9F75F6F06730A1F /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		A8073FB9D2D08DAEE7843F91615D13B8 /* Pods-TBOI: Four Souls-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four Souls-frameworks.sh"; sourceTree = "<group>"; };
 		AC845F468F867309FB4A1B04355CFBEC /* Pods-TBOI: Four SoulsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBOI: Four SoulsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC8CCE920969C0F9604C9BA0EC9E165D /* Pods-TBOI: Four SoulsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBOI: Four SoulsTests-dummy.m"; sourceTree = "<group>"; };
-		AEEC986FFD77F9CD5E192F94E0344B3C /* CollectionViewSlantedLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CollectionViewSlantedLayout-dummy.m"; sourceTree = "<group>"; };
+		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		B0F94F31C0FFE22CAE1772DE5BF824B0 /* Pods-TBOI: Four Souls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four Souls.debug.xcconfig"; sourceTree = "<group>"; };
-		B4CBFD22337DE14690972B5FDD85A926 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		B589DAFC11745A52D95501C9545A3120 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		B59A3D41B136A04508ED590F5C63F1BA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1B8B44EC004B9602D31198C57307BB /* Pods-TBOI: Four Souls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four Souls.release.xcconfig"; sourceTree = "<group>"; };
-		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC63BB37227752A5AC31D337AF1B2E96 /* Pods_TBOI__Four_Souls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_Souls.framework; path = "Pods-TBOI: Four Souls.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC95A7D2DB8B2F774CA3E1EAEAFEFFB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C11F52C4A489F7FECFB0DD68B2046B63 /* Pods-TBOI: Four SoulsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four SoulsUITests-resources.sh"; sourceTree = "<group>"; };
-		C7518A52F8F447029DEDBD252D98AB9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C94BE638F50D7AA8001FB6B182967DBC /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		CA7B45096143A68148B80298E61F24BF /* Pods-TBOI: Four SoulsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four SoulsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D2039934F71C2F121A895CF5964FBC64 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		D4A669F0CDA9D28146804879D49B4B56 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		DAA343B8E1717230AA0ABB6DDD5A42BB /* CollectionViewSlantedCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewSlantedCell.swift; path = Sources/CollectionViewSlantedCell.swift; sourceTree = "<group>"; };
-		DC4B4D881EB807912DD4E3845D7DD66D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		DCF9DC2AD6CBB32FAB8F1BBF4E109FFF /* Pods-TBOI: Four Souls-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four Souls-resources.sh"; sourceTree = "<group>"; };
-		DD3E7504C61AB6687E545C392CEDAB6C /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		EC2B450A720198208B0E94F3CA37F608 /* Pods-TBOI: Four SoulsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBOI: Four SoulsUITests-umbrella.h"; sourceTree = "<group>"; };
-		F222119C484D593A604DE2929A870EF7 /* UICollectionViewLayout+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionViewLayout+Helpers.swift"; path = "Sources/Extensions/UICollectionViewLayout+Helpers.swift"; sourceTree = "<group>"; };
 		F470F5DF3007E0ED0F6647D7BD3B00F3 /* Pods-TBOI: Four SoulsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBOI: Four SoulsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FAF8D2BD26E799442DDD7DFA7A00EC81 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		429AFDBBF5B94AA110C22977CF281679 /* Frameworks */ = {
+		36A9F6E5C90974978CA65864D7074AD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A7F4105547E12EF04F16440E53B249 /* Foundation.framework in Frameworks */,
+				F1B173003BB9017857931F2EB5602FE7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,44 +157,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85644F59E0C75BE53BB481969A34844C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				538A20F0850F6BF39824373EE194B8E5 /* Foundation.framework in Frameworks */,
-				BA8EEB65E0A7AAEC0CFDB64784D2D1E6 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08D4EE8CCFEC2923F9DCF4E0EDF072E2 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				86F57DCBA72AEB8BFC60D1B338A331F0 /* AFError.swift */,
-				5B87B4A30CE39D0612156BB2E6DE49CB /* Alamofire.swift */,
-				3BD32578BB54806F4C1C3722C884BE3F /* DispatchQueue+Alamofire.swift */,
-				0E7EF3003695BE2E3AFCF522C72DA7F1 /* MultipartFormData.swift */,
-				64BFF0794E4D2E8CB38C5AFE9BE1E7A9 /* NetworkReachabilityManager.swift */,
-				A7E19A12807D0DADE9F75F6F06730A1F /* Notifications.swift */,
-				C94BE638F50D7AA8001FB6B182967DBC /* ParameterEncoding.swift */,
-				5A63A17D68949E51DC93DAA259A790C5 /* Request.swift */,
-				792013B499C7D24CB7E52E1B6862CC7C /* Response.swift */,
-				FAF8D2BD26E799442DDD7DFA7A00EC81 /* ResponseSerialization.swift */,
-				28C6D3374C2F1E21BB633CF2E40D1B65 /* Result.swift */,
-				D4A669F0CDA9D28146804879D49B4B56 /* ServerTrustPolicy.swift */,
-				603B4DD0423ED752240971ED22221488 /* SessionDelegate.swift */,
-				7B12A6FA84E7C7DE07774E88596C2AD2 /* SessionManager.swift */,
-				66D9147E2C32A4C47792A4C4E605F028 /* TaskDelegate.swift */,
-				DD3E7504C61AB6687E545C392CEDAB6C /* Timeline.swift */,
-				B589DAFC11745A52D95501C9545A3120 /* Validation.swift */,
-				40038AC5DABC0FF3723C79AAFD13FA01 /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
 		0D2CDFE083B581F4FEFC909221E83957 /* Pods-TBOI: Four SoulsUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,25 +178,41 @@
 			path = "Target Support Files/Pods-TBOI: Four SoulsUITests";
 			sourceTree = "<group>";
 		};
-		0E118CC9816D6A5C6210BE28DAB0F327 /* Products */ = {
+		101572EBB5E31D6F8DD9A1E3088A8BD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B59A3D41B136A04508ED590F5C63F1BA /* Alamofire.framework */,
-				106AE3426835FAD582E58FB29BE01238 /* CollectionViewSlantedLayout.framework */,
-				A0627226E54943D2AB7773E54DA00A74 /* Pods_TBOI__Four_Souls.framework */,
-				2556E17613879283AFC43127DD7EDD83 /* Pods_TBOI__Four_SoulsTests.framework */,
-				00D76CD8A795FCC6A9908E996C811E4C /* Pods_TBOI__Four_SoulsUITests.framework */,
+				05CC5E52367D713D37450498ADA9C11B /* Alamofire.framework */,
+				BC63BB37227752A5AC31D337AF1B2E96 /* Pods_TBOI__Four_Souls.framework */,
+				06C418E1910C8ADDF4105ECD9F349743 /* Pods_TBOI__Four_SoulsTests.framework */,
+				1D6EA11B2DCCB3F1886CC0DF0CA90753 /* Pods_TBOI__Four_SoulsUITests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+		200D10EB20F0397D47F022B50CF0433F /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
-				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+				4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */,
+				DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */,
+				0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */,
+				155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */,
+				E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */,
+				66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */,
+				6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */,
+				1E230A0448B394DE26E688DAC8E6201E /* Request.swift */,
+				04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */,
+				E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */,
+				3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */,
+				32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */,
+				195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */,
+				46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */,
+				A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */,
+				87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */,
+				B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */,
+				2E5925946A4DE3B8F7E4137BACAD9618 /* Support Files */,
 			);
-			name = iOS;
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		238FF2F18CE09510FBAC95680564067B /* Pods-TBOI: Four Souls */ = {
@@ -287,86 +233,45 @@
 			path = "Target Support Files/Pods-TBOI: Four Souls";
 			sourceTree = "<group>";
 		};
-		3FA1204942F206557B0CAB2DA2915AFA /* SwiftLint */ = {
+		2E5925946A4DE3B8F7E4137BACAD9618 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = SwiftLint;
-			path = SwiftLint;
-			sourceTree = "<group>";
-		};
-		40038AC5DABC0FF3723C79AAFD13FA01 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B4CBFD22337DE14690972B5FDD85A926 /* Alamofire.modulemap */,
-				20FD1879B3F097F76AE351C95F4CE305 /* Alamofire.xcconfig */,
-				D2039934F71C2F121A895CF5964FBC64 /* Alamofire-dummy.m */,
-				22F7C878FF7C54C12A167C18C853CC91 /* Alamofire-prefix.pch */,
-				56F58F22F22096F5BC1F32405C921546 /* Alamofire-umbrella.h */,
-				C7518A52F8F447029DEDBD252D98AB9A /* Info.plist */,
+				210971763CB2FC0DC4E378271A37BE32 /* Alamofire.modulemap */,
+				33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */,
+				D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */,
+				61D920D6E48023BCBF18CD83450D05F5 /* Alamofire-prefix.pch */,
+				03DECE84DC850B04690604AB7C521277 /* Alamofire-umbrella.h */,
+				117EFB31D9AD9673BAF51B48596F19E2 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5DE452EE76CDDCB1C528CF616078E9F7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				09F55F2BF27A3D053C3E581491BEBCB3 /* CollectionViewSlantedLayout.modulemap */,
-				814D79C3B8E2C815749A28D873BE491F /* CollectionViewSlantedLayout.xcconfig */,
-				AEEC986FFD77F9CD5E192F94E0344B3C /* CollectionViewSlantedLayout-dummy.m */,
-				325C42130792F2F5BA7CB43961BD0C17 /* CollectionViewSlantedLayout-prefix.pch */,
-				2CC8D622AF632202BCF1EC9CF09A38D3 /* CollectionViewSlantedLayout-umbrella.h */,
-				DC4B4D881EB807912DD4E3845D7DD66D /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CollectionViewSlantedLayout";
-			sourceTree = "<group>";
-		};
-		72A57622763D2C0F00D52B2A9F0AD6E8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				08D4EE8CCFEC2923F9DCF4E0EDF072E2 /* Alamofire */,
-				989F1044D24968EAD3E94542FE353E7C /* CollectionViewSlantedLayout */,
-				3FA1204942F206557B0CAB2DA2915AFA /* SwiftLint */,
+				200D10EB20F0397D47F022B50CF0433F /* Alamofire */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				72A57622763D2C0F00D52B2A9F0AD6E8 /* Pods */,
-				0E118CC9816D6A5C6210BE28DAB0F327 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
+				101572EBB5E31D6F8DD9A1E3088A8BD8 /* Products */,
 				B6396B9819564905D5573B7B5ABE2E05 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		989F1044D24968EAD3E94542FE353E7C /* CollectionViewSlantedLayout */ = {
-			isa = PBXGroup;
-			children = (
-				146A2466184C7FF04AC05F1627360E97 /* CollectionViewDelegateSlantedLayout.swift */,
-				DAA343B8E1717230AA0ABB6DDD5A42BB /* CollectionViewSlantedCell.swift */,
-				653254B0006144AAC96C719DA989008C /* CollectionViewSlantedLayout.h */,
-				94699EAB6963525CF8562EF2480054F6 /* CollectionViewSlantedLayout.swift */,
-				916CB85E1C3F1D0DA4FC576C70620639 /* CollectionViewSlantedLayout+Constants.swift */,
-				8668B106AC922D98BE24E303CE80231F /* CollectionViewSlantedLayoutAttributes.swift */,
-				1906E3535A5FD5B94CE5F97C6BA5D957 /* UICollectionView+Helpers.swift */,
-				F222119C484D593A604DE2929A870EF7 /* UICollectionViewLayout+Helpers.swift */,
-				5DE452EE76CDDCB1C528CF616078E9F7 /* Support Files */,
-			);
-			name = CollectionViewSlantedLayout;
-			path = CollectionViewSlantedLayout;
 			sourceTree = "<group>";
 		};
 		99ADFF6CB7F53C268354FFEB9988B9D2 /* Pods-TBOI: Four SoulsTests */ = {
@@ -397,6 +302,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -416,20 +329,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41589FA96251C3495130DBED5D72CA81 /* Headers */ = {
+		4CCE022F1748E4CDA5722BDA452E46AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29CD11B9EF86BCEB28FB12E976E5F28E /* Pods-TBOI: Four Souls-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45067D3CD4D3C38574DC89A8D019CE46 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D86DD0BF4F86BA3ADCEDF95749300A8 /* CollectionViewSlantedLayout-umbrella.h in Headers */,
-				E99BD160A9BF91C8AE42EC82A566B492 /* CollectionViewSlantedLayout.h in Headers */,
+				B8CBE9588EB5B515C1BB6D7BFC983ADE /* Pods-TBOI: Four Souls-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,22 +348,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0786AE88948AAB786C895FFB9B61CD5B /* CollectionViewSlantedLayout */ = {
+		02587E43C87B557408C5A704DC5429CA /* Pods-TBOI: Four Souls */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DD336A3AE317140214F872A59E4700A /* Build configuration list for PBXNativeTarget "CollectionViewSlantedLayout" */;
+			buildConfigurationList = DD9583EB94EE25754B46A405F5F22E41 /* Build configuration list for PBXNativeTarget "Pods-TBOI: Four Souls" */;
 			buildPhases = (
-				45067D3CD4D3C38574DC89A8D019CE46 /* Headers */,
-				7F61598B1528EE0DFB7971DE182F37FC /* Sources */,
-				85644F59E0C75BE53BB481969A34844C /* Frameworks */,
-				E87F9F00493619CCA6B06B9DD4E1FDDE /* Resources */,
+				4CCE022F1748E4CDA5722BDA452E46AA /* Headers */,
+				C89AACEE0DA3996D35A4F8674B31EBE5 /* Sources */,
+				36A9F6E5C90974978CA65864D7074AD4 /* Frameworks */,
+				05B9082100A04051BD1B6650E8846D7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				49E270B1A533A75473885120C56D71F6 /* PBXTargetDependency */,
 			);
-			name = CollectionViewSlantedLayout;
-			productName = CollectionViewSlantedLayout;
-			productReference = 106AE3426835FAD582E58FB29BE01238 /* CollectionViewSlantedLayout.framework */;
+			name = "Pods-TBOI: Four Souls";
+			productName = "Pods-TBOI: Four Souls";
+			productReference = BC63BB37227752A5AC31D337AF1B2E96 /* Pods_TBOI__Four_Souls.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7E703A44FB9C6FC1EBC3D077EA029180 /* Pods-TBOI: Four SoulsTests */ = {
@@ -478,27 +383,7 @@
 			);
 			name = "Pods-TBOI: Four SoulsTests";
 			productName = "Pods-TBOI: Four SoulsTests";
-			productReference = 2556E17613879283AFC43127DD7EDD83 /* Pods_TBOI__Four_SoulsTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8EE1E3608ECE8B78C3C39D08D7CDFC09 /* Pods-TBOI: Four Souls */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1051C5580DC531F69CF866EFE2BEC13B /* Build configuration list for PBXNativeTarget "Pods-TBOI: Four Souls" */;
-			buildPhases = (
-				41589FA96251C3495130DBED5D72CA81 /* Headers */,
-				1C4B7E4875B6BF26D516CCB6938592B1 /* Sources */,
-				429AFDBBF5B94AA110C22977CF281679 /* Frameworks */,
-				7AE58E3FA716B78AAFC7B605967FBA48 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C64BC9F200E1D6A14E2CDFD6056DB00D /* PBXTargetDependency */,
-				660017D339FAE0A2609F079AE52DAAF2 /* PBXTargetDependency */,
-			);
-			name = "Pods-TBOI: Four Souls";
-			productName = "Pods-TBOI: Four Souls";
-			productReference = A0627226E54943D2AB7773E54DA00A74 /* Pods_TBOI__Four_Souls.framework */;
+			productReference = 06C418E1910C8ADDF4105ECD9F349743 /* Pods_TBOI__Four_SoulsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		918C856FEB1664CDA24F3FA77CDBE0E6 /* Pods-TBOI: Four SoulsUITests */ = {
@@ -517,7 +402,7 @@
 			);
 			name = "Pods-TBOI: Four SoulsUITests";
 			productName = "Pods-TBOI: Four SoulsUITests";
-			productReference = 00D76CD8A795FCC6A9908E996C811E4C /* Pods_TBOI__Four_SoulsUITests.framework */;
+			productReference = 1D6EA11B2DCCB3F1886CC0DF0CA90753 /* Pods_TBOI__Four_SoulsUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E76458C58C9140B6A16D60547E68E80C /* Alamofire */ = {
@@ -535,7 +420,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = B59A3D41B136A04508ED590F5C63F1BA /* Alamofire.framework */;
+			productReference = 05CC5E52367D713D37450498ADA9C11B /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -555,13 +440,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0E118CC9816D6A5C6210BE28DAB0F327 /* Products */;
+			productRefGroup = 101572EBB5E31D6F8DD9A1E3088A8BD8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E76458C58C9140B6A16D60547E68E80C /* Alamofire */,
-				0786AE88948AAB786C895FFB9B61CD5B /* CollectionViewSlantedLayout */,
-				8EE1E3608ECE8B78C3C39D08D7CDFC09 /* Pods-TBOI: Four Souls */,
+				02587E43C87B557408C5A704DC5429CA /* Pods-TBOI: Four Souls */,
 				7E703A44FB9C6FC1EBC3D077EA029180 /* Pods-TBOI: Four SoulsTests */,
 				918C856FEB1664CDA24F3FA77CDBE0E6 /* Pods-TBOI: Four SoulsUITests */,
 			);
@@ -569,6 +453,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		05B9082100A04051BD1B6650E8846D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DDB7E21141D7764AE4658D5B6AFF8C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -576,21 +467,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AE58E3FA716B78AAFC7B605967FBA48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		82AD3325DD42D208F3E06ACF42D9FDAE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E87F9F00493619CCA6B06B9DD4E1FDDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -607,14 +484,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C4B7E4875B6BF26D516CCB6938592B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBB3AF7BC0FE384E8D91775901B0C9E1 /* Pods-TBOI: Four Souls-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C7964F20403ED3BBC0360F3A576CBAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,26 +492,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F61598B1528EE0DFB7971DE182F37FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				899F3E4A098B7A9E332FC3FCDCF04F09 /* CollectionViewDelegateSlantedLayout.swift in Sources */,
-				5603041AE8997B3C63AE6ACA12433478 /* CollectionViewSlantedCell.swift in Sources */,
-				994991172C04154E5ACC96CDCD64FF51 /* CollectionViewSlantedLayout+Constants.swift in Sources */,
-				4EF1AE3D8C3EF4199DD6B7E706316C1B /* CollectionViewSlantedLayout-dummy.m in Sources */,
-				7A1A52095AF3C7FD6FE06EAD715BC2C6 /* CollectionViewSlantedLayout.swift in Sources */,
-				913FF8AA83A3ADCDE1B32F58B43EC255 /* CollectionViewSlantedLayoutAttributes.swift in Sources */,
-				0B8B461237AA6F07DA8030C64050701A /* UICollectionView+Helpers.swift in Sources */,
-				DEAC356CAACCC8BF16A0F5C4CDE6DC58 /* UICollectionViewLayout+Helpers.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		84A2C62EC7884005B94A48EDE36A1991 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				96343BBD13D39D1500275A4CEFC1C862 /* Pods-TBOI: Four SoulsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89AACEE0DA3996D35A4F8674B31EBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77391E1D32490734D40B32805E4CB252 /* Pods-TBOI: Four Souls-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,36 +536,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		660017D339FAE0A2609F079AE52DAAF2 /* PBXTargetDependency */ = {
+		49E270B1A533A75473885120C56D71F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CollectionViewSlantedLayout;
-			target = 0786AE88948AAB786C895FFB9B61CD5B /* CollectionViewSlantedLayout */;
-			targetProxy = F97A5015E536871FB6EC73EDD877A9A9 /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = E76458C58C9140B6A16D60547E68E80C /* Alamofire */;
+			targetProxy = E4D943720CDB4C186916D16C9766B23E /* PBXContainerItemProxy */;
 		};
 		9C291F3D3883CFFCCE4A5BEE5CF52D16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TBOI: Four Souls";
-			target = 8EE1E3608ECE8B78C3C39D08D7CDFC09 /* Pods-TBOI: Four Souls */;
+			target = 02587E43C87B557408C5A704DC5429CA /* Pods-TBOI: Four Souls */;
 			targetProxy = EBAF5E472A1E0644F6EA8A2D4BAAE0F2 /* PBXContainerItemProxy */;
 		};
 		A1E2497C44524E84B0A89CD4F0FA3E3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TBOI: Four Souls";
-			target = 8EE1E3608ECE8B78C3C39D08D7CDFC09 /* Pods-TBOI: Four Souls */;
+			target = 02587E43C87B557408C5A704DC5429CA /* Pods-TBOI: Four Souls */;
 			targetProxy = 2EAEC60F12D4ABFB707283D5BFB22B0A /* PBXContainerItemProxy */;
-		};
-		C64BC9F200E1D6A14E2CDFD6056DB00D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = E76458C58C9140B6A16D60547E68E80C /* Alamofire */;
-			targetProxy = 3374A622AADB9B24F5F1AE23BBD626A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0CE3AF37574381AF901BDA40A1F17C0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20FD1879B3F097F76AE351C95F4CE305 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -736,47 +592,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		175FBBF4DDB7461FCF0891CE6EFBD664 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB1B8B44EC004B9602D31198C57307BB /* Pods-TBOI: Four Souls.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBOI: Four Souls/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBOI: Four Souls/Pods-TBOI: Four Souls.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		1A266EFF5BF909A92A59B1D4C22C53BE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -816,49 +631,9 @@
 			};
 			name = Debug;
 		};
-		1D47D4C8314D081F40C644DCF2552A3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0F94F31C0FFE22CAE1772DE5BF824B0 /* Pods-TBOI: Four Souls.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBOI: Four Souls/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBOI: Four Souls/Pods-TBOI: Four Souls.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		29461B23402771DC36BB84FE023D99B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20FD1879B3F097F76AE351C95F4CE305 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -933,80 +708,6 @@
 			};
 			name = Release;
 		};
-		629D4B80203235CC22AA642BE74E8D56 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 814D79C3B8E2C815749A28D873BE491F /* CollectionViewSlantedLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CollectionViewSlantedLayout/CollectionViewSlantedLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CollectionViewSlantedLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CollectionViewSlantedLayout/CollectionViewSlantedLayout.modulemap";
-				PRODUCT_MODULE_NAME = CollectionViewSlantedLayout;
-				PRODUCT_NAME = CollectionViewSlantedLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		79323C04086A1E3735D341A9E4C77D38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 814D79C3B8E2C815749A28D873BE491F /* CollectionViewSlantedLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CollectionViewSlantedLayout/CollectionViewSlantedLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CollectionViewSlantedLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CollectionViewSlantedLayout/CollectionViewSlantedLayout.modulemap";
-				PRODUCT_MODULE_NAME = CollectionViewSlantedLayout;
-				PRODUCT_NAME = CollectionViewSlantedLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		864D2355708586A650C6BCE693AD4AD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA7B45096143A68148B80298E61F24BF /* Pods-TBOI: Four SoulsUITests.debug.xcconfig */;
@@ -1044,6 +745,87 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A40D8694C4C9CDAF97C456042B5452F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F94F31C0FFE22CAE1772DE5BF824B0 /* Pods-TBOI: Four Souls.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBOI: Four Souls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBOI: Four Souls/Pods-TBOI: Four Souls.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B903A1E151EEB305904898546AF1F4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1B8B44EC004B9602D31198C57307BB /* Pods-TBOI: Four Souls.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBOI: Four Souls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBOI: Four Souls/Pods-TBOI: Four Souls.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1210,24 +992,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1051C5580DC531F69CF866EFE2BEC13B /* Build configuration list for PBXNativeTarget "Pods-TBOI: Four Souls" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D47D4C8314D081F40C644DCF2552A3C /* Debug */,
-				175FBBF4DDB7461FCF0891CE6EFBD664 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DD336A3AE317140214F872A59E4700A /* Build configuration list for PBXNativeTarget "CollectionViewSlantedLayout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				629D4B80203235CC22AA642BE74E8D56 /* Debug */,
-				79323C04086A1E3735D341A9E4C77D38 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1251,6 +1015,15 @@
 			buildConfigurations = (
 				864D2355708586A650C6BCE693AD4AD3 /* Debug */,
 				DB589C8207D47A199842DB2DE2E1204B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9583EB94EE25754B46A405F5F22E41 /* Build configuration list for PBXNativeTarget "Pods-TBOI: Four Souls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40D8694C4C9CDAF97C456042B5452F7 /* Debug */,
+				B903A1E151EEB305904898546AF1F4A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
