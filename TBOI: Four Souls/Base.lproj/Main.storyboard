@@ -101,7 +101,7 @@
                     <connections>
                         <outlet property="collection" destination="nb8-gY-Wu7" id="fcr-xq-Sak"/>
                         <outlet property="collectionLayout" destination="9ga-OW-yQP" id="Na7-lx-EuA"/>
-                        <segue destination="lrt-GR-a4e" kind="show" identifier="CardDetailedVC" id="mZ6-WY-EEk"/>
+                        <segue destination="lrt-GR-a4e" kind="show" identifier="DetailedVC" id="mZ6-WY-EEk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -179,7 +179,7 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ybb-qv-vlN">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ybb-qv-vlN" userLabel="SearchBarView">
                                 <rect key="frame" x="0.0" y="52" width="375" height="56"/>
                                 <subviews>
                                     <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="0uv-Ox-Oq8">
@@ -197,7 +197,7 @@
                                     <constraint firstAttribute="trailing" secondItem="0uv-Ox-Oq8" secondAttribute="trailing" id="zys-ei-KCx"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iey-xZ-RLs">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iey-xZ-RLs" userLabel="TitleView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="102"/>
                                 <color key="backgroundColor" red="0.078018985690000001" green="0.062814161179999994" blue="0.058820225300000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -235,6 +235,43 @@
                                     <action selector="onBackButtonPressed:" destination="lrt-GR-a4e" eventType="touchUpInside" id="yCo-aq-7xO"/>
                                 </connections>
                             </button>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9G7-Vd-Oh8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0n3-FK-C15" customClass="CloseupCardView" customModule="TBOI__Four_Souls" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="115" width="375" height="550"/>
+                                <subviews>
+                                    <view userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BDf-AV-ihy" customClass="UIViewRoundCorners" customModule="TBOI__Four_Souls" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="359" height="542"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001D6(3)" translatesAutoresizingMaskIntoConstraints="NO" id="p4v-0Z-vYt">
+                                        <rect key="frame" x="4" y="7" width="367" height="500"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="5tG-u4-7OO" appends="YES" id="Aou-eJ-Osp"/>
+                                            <outletCollection property="gestureRecognizers" destination="TRu-N3-pFh" appends="YES" id="auE-0F-Sli"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="p4v-0Z-vYt" secondAttribute="trailing" constant="4" id="32e-9w-OAo"/>
+                                    <constraint firstAttribute="bottom" secondItem="p4v-0Z-vYt" secondAttribute="bottom" constant="43" id="Fc2-HK-W5k"/>
+                                    <constraint firstAttribute="trailing" secondItem="BDf-AV-ihy" secondAttribute="trailing" constant="8" id="GV9-F3-ZDr"/>
+                                    <constraint firstAttribute="bottom" secondItem="BDf-AV-ihy" secondAttribute="bottom" id="His-Sy-3kf"/>
+                                    <constraint firstAttribute="height" constant="550" id="MhP-Jj-ddR"/>
+                                    <constraint firstItem="p4v-0Z-vYt" firstAttribute="top" secondItem="0n3-FK-C15" secondAttribute="top" constant="7" id="My9-V7-jGU"/>
+                                    <constraint firstItem="BDf-AV-ihy" firstAttribute="top" secondItem="0n3-FK-C15" secondAttribute="top" constant="8" id="gab-79-MFK"/>
+                                    <constraint firstItem="p4v-0Z-vYt" firstAttribute="leading" secondItem="0n3-FK-C15" secondAttribute="leading" constant="4" id="lMI-fr-Fm5"/>
+                                    <constraint firstItem="BDf-AV-ihy" firstAttribute="leading" secondItem="0n3-FK-C15" secondAttribute="leading" constant="8" id="q08-ln-PZG"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="cardImage" destination="p4v-0Z-vYt" id="3sp-CF-qat"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -248,10 +285,12 @@
                             <constraint firstAttribute="bottom" secondItem="fGc-tr-47m" secondAttribute="bottom" id="Hjy-J4-yqF"/>
                             <constraint firstItem="ybb-qv-vlN" firstAttribute="centerX" secondItem="ELb-t7-D7E" secondAttribute="centerX" id="KsG-Pu-V1b"/>
                             <constraint firstItem="dwY-kL-eTw" firstAttribute="leading" secondItem="7gT-K0-kok" secondAttribute="trailing" constant="12" id="RCU-id-KsA"/>
+                            <constraint firstItem="0n3-FK-C15" firstAttribute="trailing" secondItem="hZM-ku-2qe" secondAttribute="trailing" id="SvC-FB-yja"/>
                             <constraint firstItem="Ddg-EF-Ahe" firstAttribute="trailing" secondItem="hZM-ku-2qe" secondAttribute="trailing" id="TaG-gB-Df7"/>
                             <constraint firstItem="iey-xZ-RLs" firstAttribute="trailing" secondItem="hZM-ku-2qe" secondAttribute="trailing" id="Uh7-vt-bau"/>
                             <constraint firstItem="zkf-qi-4uI" firstAttribute="leading" secondItem="hZM-ku-2qe" secondAttribute="leading" id="X0M-4o-l96"/>
                             <constraint firstItem="ybb-qv-vlN" firstAttribute="top" secondItem="iey-xZ-RLs" secondAttribute="bottom" constant="-50" id="ZJD-Hb-XrT"/>
+                            <constraint firstItem="0n3-FK-C15" firstAttribute="leading" secondItem="hZM-ku-2qe" secondAttribute="leading" id="ZaG-Vz-cBC"/>
                             <constraint firstItem="7gT-K0-kok" firstAttribute="top" secondItem="hZM-ku-2qe" secondAttribute="top" constant="12" id="bD1-Nj-W4d"/>
                             <constraint firstItem="iey-xZ-RLs" firstAttribute="leading" secondItem="hZM-ku-2qe" secondAttribute="leading" id="bbM-1K-rme"/>
                             <constraint firstItem="zkf-qi-4uI" firstAttribute="top" secondItem="ELb-t7-D7E" secondAttribute="top" id="dCk-Pp-kQI"/>
@@ -264,24 +303,42 @@
                             <constraint firstItem="7gT-K0-kok" firstAttribute="centerX" secondItem="ELb-t7-D7E" secondAttribute="centerX" id="wY2-ON-wUZ"/>
                             <constraint firstItem="QCx-cW-8rk" firstAttribute="centerY" secondItem="7gT-K0-kok" secondAttribute="centerY" constant="7.5" id="wdx-Ub-G1A"/>
                             <constraint firstItem="fGc-tr-47m" firstAttribute="trailing" secondItem="hZM-ku-2qe" secondAttribute="trailing" id="xVU-6w-3Kk"/>
+                            <constraint firstItem="0n3-FK-C15" firstAttribute="top" secondItem="iey-xZ-RLs" secondAttribute="bottom" constant="13" id="zWw-mG-adY"/>
                             <constraint firstItem="fGc-tr-47m" firstAttribute="top" secondItem="ybb-qv-vlN" secondAttribute="bottom" constant="5" id="zc1-Ih-XtZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hZM-ku-2qe"/>
                     </view>
                     <connections>
+                        <outlet property="bgImageView" destination="Ddg-EF-Ahe" id="JZP-BH-Mro"/>
+                        <outlet property="bluredBgView" destination="9G7-Vd-Oh8" id="KIK-Nl-dIG"/>
+                        <outlet property="closeupCardView" destination="0n3-FK-C15" id="yV9-Mv-7gY"/>
                         <outlet property="collectionView" destination="fGc-tr-47m" id="aJU-R0-kdr"/>
                         <outlet property="constrainHeightHeader" destination="ZJD-Hb-XrT" id="sSr-cg-mSE"/>
                         <outlet property="itemsCountLabel" destination="dwY-kL-eTw" id="seT-Bl-CwG"/>
                         <outlet property="searchBar" destination="0uv-Ox-Oq8" id="rWZ-Aw-SaA"/>
+                        <outlet property="swipeGestureRecognizer" destination="TRu-N3-pFh" id="kCy-Sb-USo"/>
+                        <outlet property="tapGestureRecognizer" destination="5tG-u4-7OO" id="zrv-My-HoO"/>
                         <outlet property="titleLabel" destination="7gT-K0-kok" id="rLw-hf-oaY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZz-ra-ch6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5tG-u4-7OO">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="lrt-GR-a4e" id="SWM-F6-yfq"/>
+                        <outlet property="delegate" destination="lrt-GR-a4e" id="Mb4-wc-whp"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="TRu-N3-pFh">
+                    <connections>
+                        <outlet property="delegate" destination="lrt-GR-a4e" id="me1-W5-NS6"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1009" y="131"/>
+            <point key="canvasLocation" x="1008.8" y="130.78817733990149"/>
         </scene>
     </scenes>
     <resources>
+        <image name="001D6(3)" width="477" height="650"/>
         <image name="001D6(3)Small" width="147" height="200"/>
         <image name="back" width="100" height="67"/>
         <image name="bg" width="1200" height="1525"/>

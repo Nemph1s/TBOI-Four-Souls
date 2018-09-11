@@ -7,35 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		043784CD433D3B001103E99EA732C5A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		043784CD433D3B001103E99EA732C5A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		09B4BED5F4E3FAA4FEB84F7EF9D97841 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955CA72E3109BF0726D99882C9A111E1 /* HeroAnimatorViewContext.swift */; };
+		0AC6BFAFD48EB1271503CB0E82994B5D /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA360D33527B223694D880C8EA22E7 /* HeroTransition+Animate.swift */; };
+		1349B7E61C548402E2808E92A7BA4B5E /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D34EAED6EF205C86BF63C5307DF1A /* HeroModifier+HeroStringConvertible.swift */; };
+		15C88A7113C79C7BF327E59744B3E3BC /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75945F11A258F043DFB30EBFCC7AD5E1 /* Regex.swift */; };
+		17C1D4357243F5D3BDA3DB5B8E6B9B5B /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153CEA8F5BD516080C0B59DFAD7F25A8 /* HeroTransition+Complete.swift */; };
+		1936B01C5D3224DE0A2EA327672BCE1A /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3692AE19F673FE6416F8F56FC350D5C /* DefaultAnimationPreprocessor.swift */; };
+		1A8DE7DC6EA68BA56067CBC46913ECE1 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1076456F2B9E15E2AF8615A0DAB78EF4 /* CG+Hero.swift */; };
 		1A9B70B3C88F3018DA5C87E849B1AE05 /* Pods-TBOI: Four SoulsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8CCE920969C0F9604C9BA0EC9E165D /* Pods-TBOI: Four SoulsTests-dummy.m */; };
-		1FC3FD39157C2FFFF3869A1300730086 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
-		36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
-		4E1A913EFB404FB11524718FF0298EFE /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
-		500C8EDA60C07B0F127C7FC385E17D38 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
-		52237C35642089F77DD4D723CEB25737 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
-		58A9719584AFA2D108D9E5C585A79329 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
-		5EE5FED83B90A606A763CF1114D1D6FB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
-		6BEA14EC335E07C7063CD1383C0C443C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
-		7068E8A7DDC1424EE8F24BC77E8746F4 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
-		77391E1D32490734D40B32805E4CB252 /* Pods-TBOI: Four Souls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7109F9851D955EFCB4FF7A75E996049 /* Pods-TBOI: Four Souls-dummy.m */; };
-		796177DE2762F24DAC16A709FD954838 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
+		1D203FABC7D72B58870AF7F7EB8CD447 /* Pods-TBOI: Four Souls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B8505623A353E698BCA6C68105DE53 /* Pods-TBOI: Four Souls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB374F9285505666B1113879A725EEF /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B9A94445DA97C878F2FEC343930D53 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC3FD39157C2FFFF3869A1300730086 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D10201862776C445481C98A50798937 /* SessionDelegate.swift */; };
+		1FE24D87AC075FA15D5ADF13BB193037 /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701DAB5F6CDB871259833A9BC4F642C /* HeroTransition+CustomTransition.swift */; };
+		292E09257EF91BD4ED2C65939B02DE76 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498AE808CE20EFB5D952102EA48CF2CB /* Lexer.swift */; };
+		2A1F75A11800E185E26D5E442835AC7D /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546AFA2DD0D56E691F16FAE1E905726 /* HeroDefaultAnimator.swift */; };
+		2EF76EA82E380062E6A20AE164FDE20D /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB44FE48858B9B9BFB1A81B530A97B3 /* UIView+Hero.swift */; };
+		36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97453EFD62378BD418AE4D27DDB09F /* TaskDelegate.swift */; };
+		38ACDE0DF34909BFF69AE3BE738BD43F /* HeroCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658F73600F0409669FDB748E796F7255 /* HeroCompatible.swift */; };
+		3EDDB8DA09445C9981C97D8C7226DFB2 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681AC5EB3A0F25B5CB52480EF704525F /* CALayer+Hero.swift */; };
+		4E1A913EFB404FB11524718FF0298EFE /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AD81661C81B642E60D43E394EED66 /* Alamofire.swift */; };
+		500C8EDA60C07B0F127C7FC385E17D38 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE364CE836A532F7921EB888FDBD6FF5 /* Notifications.swift */; };
+		52237C35642089F77DD4D723CEB25737 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FD1E214C8B5761EE8584BCE1D64B6 /* Response.swift */; };
+		5372EADECAE1C46077FDAAEB9E339E6E /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB53585FB86A30619CF33546A616975 /* UIViewController+Hero.swift */; };
+		58A9719584AFA2D108D9E5C585A79329 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D62313B562A88CC4EA39597484BA5 /* Validation.swift */; };
+		5AB42FC0D87DCF867841712D229E4521 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E602AFA9C0ED5E19B544EDBF2C3B59 /* HeroCoreAnimationViewContext.swift */; };
+		5ADF1DD2EFEFFA07890EE6DE56F3A35E /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69397BB6B2BAD58D0039688CF7F4EC29 /* HeroTypes.swift */; };
+		5B00A79CF6F7A0D09522667BEB5DCF5F /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5CB5E3D8A8BB74AEB3B2D848D74F /* Hero-dummy.m */; };
+		5BFC77CEEA4E421AC619D5808D378A93 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FB5336E1CA263B5CF8D2ECFA69D6A /* Array+HeroModifier.swift */; };
+		5EE5FED83B90A606A763CF1114D1D6FB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA69BA5C2421D18CC6ADB9ED92FC0D98 /* ResponseSerialization.swift */; };
+		5FD1DD09DAE8F4AB2CB278A03173F96F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		63AC0A94F4C06BDAE3CB0C1852821F85 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98572F5F428D3B936676894A19149D5F /* MatchPreprocessor.swift */; };
+		6BEA14EC335E07C7063CD1383C0C443C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D83B7CA3977ACF42BDCB7808487D73 /* ServerTrustPolicy.swift */; };
+		7068E8A7DDC1424EE8F24BC77E8746F4 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAF893E1786703295CCB075E22F8A9B /* SessionManager.swift */; };
+		72974110C62D6124860F8DFC862B479C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		7517B8CACD655BB56DFEE9FA02F0D82A /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9447454F8F035B5C936B6DB61A864A6 /* HeroTransition.swift */; };
+		759EAADECF55BF30F968EF19F1CB9FF4 /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4E28F5659176883F14B7966EE8C85A /* HeroPlugin.swift */; };
+		78CCDC2B70FF0482E95252C1365C3204 /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC7DCB47C8C63E616FA1E3F5E92CCA /* HeroModifier.swift */; };
+		796177DE2762F24DAC16A709FD954838 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97826B95D79422901989D0D8F50E0AD7 /* ParameterEncoding.swift */; };
+		8E75511F183C72276DBAC719E4885B4A /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08194708B913C6281840138122968B7E /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
 		908ED3BBFFC05BCF5F82D562195A694D /* Pods-TBOI: Four SoulsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94ED31D200A5DC1886CBFDAD86D6D1C1 /* Pods-TBOI: Four SoulsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96343BBD13D39D1500275A4CEFC1C862 /* Pods-TBOI: Four SoulsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A55EC45B300459A5409BD6F0AB3F09B /* Pods-TBOI: Four SoulsUITests-dummy.m */; };
-		965DACF3DC02857ECBE66C5CBA3DA5D4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
-		B424F524BBBE34E685129945993809A8 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
-		B77705737566AE83ED7E448923D7FA60 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
-		B8CBE9588EB5B515C1BB6D7BFC983ADE /* Pods-TBOI: Four Souls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B8505623A353E698BCA6C68105DE53 /* Pods-TBOI: Four Souls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
-		D4C3899574E9D5DF5E5DA52310560BCC /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */; };
-		D890D0ACE87466D8DA08B794FF7603B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D8EC5B74B9B5DC842F4179D19E6DE6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
+		965DACF3DC02857ECBE66C5CBA3DA5D4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2493FB6EE59D9743FAE9A4D857B460 /* Request.swift */; };
+		99C2EBFBA2955DF6398F9550DF5245FA /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22FC16B52E27C4C1836A89967F1EA31 /* HeroDebugView.swift */; };
+		9F240CC81313E9FF05DDE385D158BF9C /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362E2E2B7D6973F571B2F687B50C10BA /* CascadePreprocessor.swift */; };
+		A3287501AFD9F7071A224AD3C3FFDF58 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4FCD1A9C58FC2190956DBDF51C07B /* HeroTransition+Interactive.swift */; };
+		A6FB4694E49F6EE8D08212523563CA81 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF1A2759A638FADBDFE4B4FF2937DD /* UIKit+Hero.swift */; };
+		A8BAEDAF25017F3C61A1F6BAECF07CF8 /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60074FA1EEEC0C5ABF31310F59293DD9 /* BasePreprocessor.swift */; };
+		AD827DC2A11268E8D5B0A2CD1CC2D1AD /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F822AE0731B72B455B6BFFF14A0F8 /* HeroTransition+Start.swift */; };
+		AF5617DE771E8E321FB7C526F76229BC /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7FB051764177CA4450A19E7D56800B /* HeroViewPropertyViewContext.swift */; };
+		B19B9466FBF475576C45A2DEE4252A91 /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF4C79EF90C3D8B91261C76182B4DAB /* HeroContext.swift */; };
+		B424F524BBBE34E685129945993809A8 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD61B2AAE5F2310E0E34AB6E7407490 /* Timeline.swift */; };
+		B4B388B8F6FDDE8C2BE22AC87E95FE56 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6019B6BDB9E475A2F86A011D1D19EE8E /* HeroDebugPlugin.swift */; };
+		B7630FD9D8C01A8114FB22FEFF77C393 /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47D1222321EE8CA7A71B2FF0A982DE /* HeroTransitionState.swift */; };
+		B77705737566AE83ED7E448923D7FA60 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E2BC9172E6A0506DB7A7EF4F407E19 /* NetworkReachabilityManager.swift */; };
+		BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DA1F78C3202058981904F2E056793 /* AFError.swift */; };
+		BE5B5F7108C54D38235B42B1468AB40D /* Pods-TBOI: Four Souls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7109F9851D955EFCB4FF7A75E996049 /* Pods-TBOI: Four Souls-dummy.m */; };
+		BF296E4014D347F98B928398694F9461 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DD848D9E8682AE3FA4CA8044DA94AB /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		C08B6282E4E518773F633ECA6B2AD27F /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D982F55F5EFF028762FCFABDB0955B9B /* Parser.swift */; };
+		C5D8B60C2202B69D7FC001A92C6E198D /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A547E1E776725E556C24002BCB2304A /* Nodes.swift */; };
+		C6209A6A34B9364C11339812819F784C /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1CCC7E4D8F0DF180065C520BBA76D /* ConditionalPreprocessor.swift */; };
+		CCDD8368BAFF83A91BFEBD13B105E52B /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0C6CEF9FB2C7E9F931300CBD4039D /* HeroViewControllerDelegate.swift */; };
+		D01396A86AB05BDDE69B068A8A180DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		D4C3899574E9D5DF5E5DA52310560BCC /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D1F85FDF534225C78CD49DA5069FF1 /* Alamofire-dummy.m */; };
+		D5D5A5E3A5AE94AE02CCF174CBC1DA7B /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BA8BE6C54FC84599ACB03C3B73D8 /* SourcePreprocessor.swift */; };
+		D890D0ACE87466D8DA08B794FF7603B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		D8EC5B74B9B5DC842F4179D19E6DE6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93A93A6CAC2EA6BB52BFBCC3BC476E /* DispatchQueue+Alamofire.swift */; };
 		E1C5BCD054103B0EBD5CBFC12EA0876A /* Pods-TBOI: Four SoulsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2B450A720198208B0E94F3CA37F608 /* Pods-TBOI: Four SoulsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF1461221681BCA12A4147900A704727 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03DECE84DC850B04690604AB7C521277 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1B173003BB9017857931F2EB5602FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F9EA61D484CC15FDDAB0D8C0D26D7949 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
-		FF9C7BC64DB23D2CED48197DE67F0335 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
+		E4345235C6545DB48F0F859E7714E68F /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459239ED7133DEABFEA62E017E7728F /* HeroTargetState.swift */; };
+		E682338D103F4A23B28ABEF910C61599 /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D866169067CD594A73964C683F33F /* HeroStringConvertible.swift */; };
+		EBEC8F80F8CFDABA5C3E0AAF95D21CFF /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99548EBC81C904B1FED2100FA6DDD540 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		EF1461221681BCA12A4147900A704727 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1118509231564F6CB2B2E9D82BA0A8BD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF28D714D7E5E19FFF18352AA9539C1B /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3874AFF6957F27AC2439B51CA79181 /* DispatchQueue+Hero.swift */; };
+		F60C14BAEFBE5D60753468F1E66284AA /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CD7861904CFE3ED8D5D71B6CCBD455 /* CAMediaTimingFunction+Hero.swift */; };
+		F82707F21C810EA6BD652C38E67FE535 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0A1676925BB2F040864E1DC371DCC6 /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		F9EA61D484CC15FDDAB0D8C0D26D7949 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE725C5F00BCFAF2F272B5C1DB9E3F7 /* Result.swift */; };
+		FE420202E937808A24035D9EC0F62067 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA394AF8E619CEC7D67603478D605E40 /* HeroProgressRunner.swift */; };
+		FF9C7BC64DB23D2CED48197DE67F0335 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6637201BC5FECB851F4568AB3D0C91 /* MultipartFormData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +92,10 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 02587E43C87B557408C5A704DC5429CA;
+			remoteGlobalIDString = 268FE6757E1434C69460F772BE6C1652;
 			remoteInfo = "Pods-TBOI: Four Souls";
 		};
-		E4D943720CDB4C186916D16C9766B23E /* PBXContainerItemProxy */ = {
+		5B8EE0F3B686C6927C0252D92C4F09A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -57,79 +106,140 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 02587E43C87B557408C5A704DC5429CA;
+			remoteGlobalIDString = 268FE6757E1434C69460F772BE6C1652;
 			remoteInfo = "Pods-TBOI: Four Souls";
+		};
+		FCB100F19260EEB0588F7929FA99BAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F9700AF1702B7C5D9E758C1A1E3A2B;
+			remoteInfo = Hero;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03DECE84DC850B04690604AB7C521277 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		05CC5E52367D713D37450498ADA9C11B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06C418E1910C8ADDF4105ECD9F349743 /* Pods_TBOI__Four_SoulsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_SoulsTests.framework; path = "Pods-TBOI: Four SoulsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A1CCC7E4D8F0DF180065C520BBA76D /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		04FA360D33527B223694D880C8EA22E7 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		073F822AE0731B72B455B6BFFF14A0F8 /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		08194708B913C6281840138122968B7E /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
 		09741F154A940C680F8EE931A392A4D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		117EFB31D9AD9673BAF51B48596F19E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1076456F2B9E15E2AF8615A0DAB78EF4 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
+		1118509231564F6CB2B2E9D82BA0A8BD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		125841AB4B44D7E35DD6001B9400EF25 /* Pods-TBOI: Four SoulsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBOI: Four SoulsTests.modulemap"; sourceTree = "<group>"; };
 		141B55A9D7BD60E58DA635714BFC000B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14C47DFF7EDF30339E1AEA48DA04108D /* Pods-TBOI: Four SoulsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four SoulsTests-resources.sh"; sourceTree = "<group>"; };
-		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		153CEA8F5BD516080C0B59DFAD7F25A8 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
+		186FB5336E1CA263B5CF8D2ECFA69D6A /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
 		18B8505623A353E698BCA6C68105DE53 /* Pods-TBOI: Four Souls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBOI: Four Souls-umbrella.h"; sourceTree = "<group>"; };
-		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		1D6EA11B2DCCB3F1886CC0DF0CA90753 /* Pods_TBOI__Four_SoulsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_SoulsUITests.framework; path = "Pods-TBOI: Four SoulsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		210971763CB2FC0DC4E378271A37BE32 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		1DAF893E1786703295CCB075E22F8A9B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		35EF3F1599C64522E0AAD5BF24FB8F9F /* Pods-TBOI: Four SoulsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBOI: Four SoulsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		360D1628FF6955517316C9C524E0DB8D /* Pods-TBOI: Four SoulsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four SoulsUITests-frameworks.sh"; sourceTree = "<group>"; };
-		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		362E2E2B7D6973F571B2F687B50C10BA /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		3A7DD9939FCA22F58EB11B95B4B12956 /* Pods_TBOI__Four_Souls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_Souls.framework; path = "Pods-TBOI: Four Souls.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE725C5F00BCFAF2F272B5C1DB9E3F7 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		3F8DA1F78C3202058981904F2E056793 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		3F97453EFD62378BD418AE4D27DDB09F /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		4083CA77F7E0D9DFF1D88752E87C946A /* Pods-TBOI: Four SoulsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBOI: Four SoulsUITests.modulemap"; sourceTree = "<group>"; };
-		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		471F5CB5E3D8A8BB74AEB3B2D848D74F /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		498AE808CE20EFB5D952102EA48CF2CB /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		49AA95EF5E2C6F190732AF3FD79B2371 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB53585FB86A30619CF33546A616975 /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		4C5B5975F6537B5474FFFDD56CA933EE /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		4C85E9241B2D6B9078A367AC5875F395 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		4DAB6602A321E39FDC6D9610281B6964 /* Pods-TBOI: Four SoulsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four SoulsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4EB44FE48858B9B9BFB1A81B530A97B3 /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		54DD848D9E8682AE3FA4CA8044DA94AB /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		5701DAB5F6CDB871259833A9BC4F642C /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
 		5A55EC45B300459A5409BD6F0AB3F09B /* Pods-TBOI: Four SoulsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBOI: Four SoulsUITests-dummy.m"; sourceTree = "<group>"; };
-		61D920D6E48023BCBF18CD83450D05F5 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		60074FA1EEEC0C5ABF31310F59293DD9 /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		6019B6BDB9E475A2F86A011D1D19EE8E /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
+		60E2BC9172E6A0506DB7A7EF4F407E19 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		64C861AB476ADF780EE9F48D2B386CA7 /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		658F73600F0409669FDB748E796F7255 /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
+		681AC5EB3A0F25B5CB52480EF704525F /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		69397BB6B2BAD58D0039688CF7F4EC29 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
 		6B43CA4EA6C8E37A3704B56C976EA0AA /* Pods-TBOI: Four SoulsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four SoulsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C47D1222321EE8CA7A71B2FF0A982DE /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		6C7FB051764177CA4450A19E7D56800B /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		6CF4C79EF90C3D8B91261C76182B4DAB /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		6D84948E554BE12EAEBF6DD1D5EE1274 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8ACC4D362F0239432D9F670FB77054 /* Pods-TBOI: Four SoulsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBOI: Four SoulsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		71E602AFA9C0ED5E19B544EDBF2C3B59 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		72C0C6CEF9FB2C7E9F931300CBD4039D /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
+		75945F11A258F043DFB30EBFCC7AD5E1 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		7D2493FB6EE59D9743FAE9A4D857B460 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		7E9C17DB93A9810B38177AF5B2F45263 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EEE009927E5F259B21C1ECDD721C75A /* Pods-TBOI: Four SoulsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four SoulsTests.release.xcconfig"; sourceTree = "<group>"; };
-		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		8546AFA2DD0D56E691F16FAE1E905726 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		85F9EF28B6E8B69A1C929E321E565DE4 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		87398584A076C4CA9F76CD97C5FE5B05 /* Pods_TBOI__Four_SoulsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_SoulsTests.framework; path = "Pods-TBOI: Four SoulsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EE4028DB7C497DE6757E3D0018811E /* Pods-TBOI: Four Souls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBOI: Four Souls.modulemap"; sourceTree = "<group>"; };
+		8B0A1676925BB2F040864E1DC371DCC6 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		8D10201862776C445481C98A50798937 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		8E9AD81661C81B642E60D43E394EED66 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94ED31D200A5DC1886CBFDAD86D6D1C1 /* Pods-TBOI: Four SoulsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBOI: Four SoulsTests-umbrella.h"; sourceTree = "<group>"; };
+		955CA72E3109BF0726D99882C9A111E1 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		97826B95D79422901989D0D8F50E0AD7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		98572F5F428D3B936676894A19149D5F /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		99548EBC81C904B1FED2100FA6DDD540 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		9A547E1E776725E556C24002BCB2304A /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
 		9A7EBE23338479ED7EFE0175A301B5DF /* Pods-TBOI: Four Souls-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBOI: Four Souls-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		A0AB08EA18CC6EC7241E0E3F72F34B08 /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17D62313B562A88CC4EA39597484BA5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		A22FC16B52E27C4C1836A89967F1EA31 /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
 		A3595D868286DC65264633EF14F39699 /* Pods-TBOI: Four SoulsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four SoulsTests-frameworks.sh"; sourceTree = "<group>"; };
+		A459239ED7133DEABFEA62E017E7728F /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
 		A4EE133FE944A32E67C55AB8D5461871 /* Pods-TBOI: Four Souls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBOI: Four Souls-acknowledgements.plist"; sourceTree = "<group>"; };
 		A7109F9851D955EFCB4FF7A75E996049 /* Pods-TBOI: Four Souls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBOI: Four Souls-dummy.m"; sourceTree = "<group>"; };
 		A8073FB9D2D08DAEE7843F91615D13B8 /* Pods-TBOI: Four Souls-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four Souls-frameworks.sh"; sourceTree = "<group>"; };
+		A9447454F8F035B5C936B6DB61A864A6 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
 		AC845F468F867309FB4A1B04355CFBEC /* Pods-TBOI: Four SoulsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBOI: Four SoulsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC8CCE920969C0F9604C9BA0EC9E165D /* Pods-TBOI: Four SoulsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBOI: Four SoulsTests-dummy.m"; sourceTree = "<group>"; };
-		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		AC93A93A6CAC2EA6BB52BFBCC3BC476E /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		B0F94F31C0FFE22CAE1772DE5BF824B0 /* Pods-TBOI: Four Souls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four Souls.debug.xcconfig"; sourceTree = "<group>"; };
+		B3692AE19F673FE6416F8F56FC350D5C /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		B56FD1E214C8B5761EE8584BCE1D64B6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		BA69BA5C2421D18CC6ADB9ED92FC0D98 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		BB1B8B44EC004B9602D31198C57307BB /* Pods-TBOI: Four Souls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four Souls.release.xcconfig"; sourceTree = "<group>"; };
-		BC63BB37227752A5AC31D337AF1B2E96 /* Pods_TBOI__Four_Souls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_Souls.framework; path = "Pods-TBOI: Four Souls.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BC95A7D2DB8B2F774CA3E1EAEAFEFFB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFABBCB076331D04FA2EACA39D70DB20 /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hero.modulemap; sourceTree = "<group>"; };
 		C11F52C4A489F7FECFB0DD68B2046B63 /* Pods-TBOI: Four SoulsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four SoulsUITests-resources.sh"; sourceTree = "<group>"; };
+		CA394AF8E619CEC7D67603478D605E40 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
 		CA7B45096143A68148B80298E61F24BF /* Pods-TBOI: Four SoulsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBOI: Four SoulsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		CAD61B2AAE5F2310E0E34AB6E7407490 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		D2D83B7CA3977ACF42BDCB7808487D73 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		D7CD7861904CFE3ED8D5D71B6CCBD455 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		D982F55F5EFF028762FCFABDB0955B9B /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
 		DCF9DC2AD6CBB32FAB8F1BBF4E109FFF /* Pods-TBOI: Four Souls-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBOI: Four Souls-resources.sh"; sourceTree = "<group>"; };
-		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		DE364CE836A532F7921EB888FDBD6FF5 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		DE5A18A231EF92D7E800057DC934E9AD /* Pods_TBOI__Four_SoulsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBOI__Four_SoulsUITests.framework; path = "Pods-TBOI: Four SoulsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6637201BC5FECB851F4568AB3D0C91 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		E20A950305464C66374BF84171255190 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		E5C4FCD1A9C58FC2190956DBDF51C07B /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
 		EC2B450A720198208B0E94F3CA37F608 /* Pods-TBOI: Four SoulsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBOI: Four SoulsUITests-umbrella.h"; sourceTree = "<group>"; };
+		EC31BA8BE6C54FC84599ACB03C3B73D8 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		ECFC7DCB47C8C63E616FA1E3F5E92CCA /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		EE7D866169067CD594A73964C683F33F /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		F0B9A94445DA97C878F2FEC343930D53 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		F1BF1A2759A638FADBDFE4B4FF2937DD /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
 		F470F5DF3007E0ED0F6647D7BD3B00F3 /* Pods-TBOI: Four SoulsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBOI: Four SoulsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4D1F85FDF534225C78CD49DA5069FF1 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		F78D34EAED6EF205C86BF63C5307DF1A /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		FB4E28F5659176883F14B7966EE8C85A /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		FF3874AFF6957F27AC2439B51CA79181 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36A9F6E5C90974978CA65864D7074AD4 /* Frameworks */ = {
+		2F6D42B7711747FA55B2775FD4B3EC64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1B173003BB9017857931F2EB5602FE7 /* Foundation.framework in Frameworks */,
+				72974110C62D6124860F8DFC862B479C /* Foundation.framework in Frameworks */,
+				5FD1DD09DAE8F4AB2CB278A03173F96F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +267,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8AC3EB3E2245BE26A28E4E71B76A323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01396A86AB05BDDE69B068A8A180DA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -178,38 +296,36 @@
 			path = "Target Support Files/Pods-TBOI: Four SoulsUITests";
 			sourceTree = "<group>";
 		};
-		101572EBB5E31D6F8DD9A1E3088A8BD8 /* Products */ = {
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				05CC5E52367D713D37450498ADA9C11B /* Alamofire.framework */,
-				BC63BB37227752A5AC31D337AF1B2E96 /* Pods_TBOI__Four_Souls.framework */,
-				06C418E1910C8ADDF4105ECD9F349743 /* Pods_TBOI__Four_SoulsTests.framework */,
-				1D6EA11B2DCCB3F1886CC0DF0CA90753 /* Pods_TBOI__Four_SoulsUITests.framework */,
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		200D10EB20F0397D47F022B50CF0433F /* Alamofire */ = {
+		152F42775BE356C3A1849F0851051BD0 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */,
-				DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */,
-				0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */,
-				155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */,
-				E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */,
-				66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */,
-				6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */,
-				1E230A0448B394DE26E688DAC8E6201E /* Request.swift */,
-				04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */,
-				E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */,
-				3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */,
-				32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */,
-				195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */,
-				46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */,
-				A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */,
-				87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */,
-				B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */,
-				2E5925946A4DE3B8F7E4137BACAD9618 /* Support Files */,
+				3F8DA1F78C3202058981904F2E056793 /* AFError.swift */,
+				8E9AD81661C81B642E60D43E394EED66 /* Alamofire.swift */,
+				AC93A93A6CAC2EA6BB52BFBCC3BC476E /* DispatchQueue+Alamofire.swift */,
+				DE6637201BC5FECB851F4568AB3D0C91 /* MultipartFormData.swift */,
+				60E2BC9172E6A0506DB7A7EF4F407E19 /* NetworkReachabilityManager.swift */,
+				DE364CE836A532F7921EB888FDBD6FF5 /* Notifications.swift */,
+				97826B95D79422901989D0D8F50E0AD7 /* ParameterEncoding.swift */,
+				7D2493FB6EE59D9743FAE9A4D857B460 /* Request.swift */,
+				B56FD1E214C8B5761EE8584BCE1D64B6 /* Response.swift */,
+				BA69BA5C2421D18CC6ADB9ED92FC0D98 /* ResponseSerialization.swift */,
+				3CE725C5F00BCFAF2F272B5C1DB9E3F7 /* Result.swift */,
+				D2D83B7CA3977ACF42BDCB7808487D73 /* ServerTrustPolicy.swift */,
+				8D10201862776C445481C98A50798937 /* SessionDelegate.swift */,
+				1DAF893E1786703295CCB075E22F8A9B /* SessionManager.swift */,
+				3F97453EFD62378BD418AE4D27DDB09F /* TaskDelegate.swift */,
+				CAD61B2AAE5F2310E0E34AB6E7407490 /* Timeline.swift */,
+				A17D62313B562A88CC4EA39597484BA5 /* Validation.swift */,
+				C2CDF9A6AC6D617D7EF2CDE15D319466 /* Support Files */,
 			);
 			name = Alamofire;
 			path = Alamofire;
@@ -233,45 +349,86 @@
 			path = "Target Support Files/Pods-TBOI: Four Souls";
 			sourceTree = "<group>";
 		};
-		2E5925946A4DE3B8F7E4137BACAD9618 /* Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				210971763CB2FC0DC4E378271A37BE32 /* Alamofire.modulemap */,
-				33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */,
-				D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */,
-				61D920D6E48023BCBF18CD83450D05F5 /* Alamofire-prefix.pch */,
-				03DECE84DC850B04690604AB7C521277 /* Alamofire-umbrella.h */,
-				117EFB31D9AD9673BAF51B48596F19E2 /* Info.plist */,
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
+		617E9C7F130A5DF7BB122D982822EB50 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				200D10EB20F0397D47F022B50CF0433F /* Alamofire */,
+				152F42775BE356C3A1849F0851051BD0 /* Alamofire */,
+				8EC71DDFEA749F9BF3509E2128CB282B /* Hero */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
-				101572EBB5E31D6F8DD9A1E3088A8BD8 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				617E9C7F130A5DF7BB122D982822EB50 /* Pods */,
+				F02664DDEEFB4B88C7A7B2EF41570E56 /* Products */,
 				B6396B9819564905D5573B7B5ABE2E05 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8EC71DDFEA749F9BF3509E2128CB282B /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				186FB5336E1CA263B5CF8D2ECFA69D6A /* Array+HeroModifier.swift */,
+				60074FA1EEEC0C5ABF31310F59293DD9 /* BasePreprocessor.swift */,
+				681AC5EB3A0F25B5CB52480EF704525F /* CALayer+Hero.swift */,
+				D7CD7861904CFE3ED8D5D71B6CCBD455 /* CAMediaTimingFunction+Hero.swift */,
+				362E2E2B7D6973F571B2F687B50C10BA /* CascadePreprocessor.swift */,
+				1076456F2B9E15E2AF8615A0DAB78EF4 /* CG+Hero.swift */,
+				03A1CCC7E4D8F0DF180065C520BBA76D /* ConditionalPreprocessor.swift */,
+				B3692AE19F673FE6416F8F56FC350D5C /* DefaultAnimationPreprocessor.swift */,
+				FF3874AFF6957F27AC2439B51CA79181 /* DispatchQueue+Hero.swift */,
+				955CA72E3109BF0726D99882C9A111E1 /* HeroAnimatorViewContext.swift */,
+				658F73600F0409669FDB748E796F7255 /* HeroCompatible.swift */,
+				6CF4C79EF90C3D8B91261C76182B4DAB /* HeroContext.swift */,
+				71E602AFA9C0ED5E19B544EDBF2C3B59 /* HeroCoreAnimationViewContext.swift */,
+				6019B6BDB9E475A2F86A011D1D19EE8E /* HeroDebugPlugin.swift */,
+				A22FC16B52E27C4C1836A89967F1EA31 /* HeroDebugView.swift */,
+				8546AFA2DD0D56E691F16FAE1E905726 /* HeroDefaultAnimator.swift */,
+				ECFC7DCB47C8C63E616FA1E3F5E92CCA /* HeroModifier.swift */,
+				F78D34EAED6EF205C86BF63C5307DF1A /* HeroModifier+HeroStringConvertible.swift */,
+				FB4E28F5659176883F14B7966EE8C85A /* HeroPlugin.swift */,
+				CA394AF8E619CEC7D67603478D605E40 /* HeroProgressRunner.swift */,
+				EE7D866169067CD594A73964C683F33F /* HeroStringConvertible.swift */,
+				A459239ED7133DEABFEA62E017E7728F /* HeroTargetState.swift */,
+				A9447454F8F035B5C936B6DB61A864A6 /* HeroTransition.swift */,
+				04FA360D33527B223694D880C8EA22E7 /* HeroTransition+Animate.swift */,
+				153CEA8F5BD516080C0B59DFAD7F25A8 /* HeroTransition+Complete.swift */,
+				5701DAB5F6CDB871259833A9BC4F642C /* HeroTransition+CustomTransition.swift */,
+				E5C4FCD1A9C58FC2190956DBDF51C07B /* HeroTransition+Interactive.swift */,
+				073F822AE0731B72B455B6BFFF14A0F8 /* HeroTransition+Start.swift */,
+				54DD848D9E8682AE3FA4CA8044DA94AB /* HeroTransition+UINavigationControllerDelegate.swift */,
+				8B0A1676925BB2F040864E1DC371DCC6 /* HeroTransition+UITabBarControllerDelegate.swift */,
+				08194708B913C6281840138122968B7E /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+				6C47D1222321EE8CA7A71B2FF0A982DE /* HeroTransitionState.swift */,
+				69397BB6B2BAD58D0039688CF7F4EC29 /* HeroTypes.swift */,
+				72C0C6CEF9FB2C7E9F931300CBD4039D /* HeroViewControllerDelegate.swift */,
+				6C7FB051764177CA4450A19E7D56800B /* HeroViewPropertyViewContext.swift */,
+				99548EBC81C904B1FED2100FA6DDD540 /* IgnoreSubviewModifiersPreprocessor.swift */,
+				498AE808CE20EFB5D952102EA48CF2CB /* Lexer.swift */,
+				98572F5F428D3B936676894A19149D5F /* MatchPreprocessor.swift */,
+				9A547E1E776725E556C24002BCB2304A /* Nodes.swift */,
+				D982F55F5EFF028762FCFABDB0955B9B /* Parser.swift */,
+				75945F11A258F043DFB30EBFCC7AD5E1 /* Regex.swift */,
+				EC31BA8BE6C54FC84599ACB03C3B73D8 /* SourcePreprocessor.swift */,
+				F1BF1A2759A638FADBDFE4B4FF2937DD /* UIKit+Hero.swift */,
+				4EB44FE48858B9B9BFB1A81B530A97B3 /* UIView+Hero.swift */,
+				4AB53585FB86A30619CF33546A616975 /* UIViewController+Hero.swift */,
+				DCB54B1887343AF2F1CECB0FACC511D3 /* Support Files */,
+			);
+			name = Hero;
+			path = Hero;
 			sourceTree = "<group>";
 		};
 		99ADFF6CB7F53C268354FFEB9988B9D2 /* Pods-TBOI: Four SoulsTests */ = {
@@ -302,12 +459,44 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C2CDF9A6AC6D617D7EF2CDE15D319466 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				85F9EF28B6E8B69A1C929E321E565DE4 /* Alamofire.modulemap */,
+				4C85E9241B2D6B9078A367AC5875F395 /* Alamofire.xcconfig */,
+				F4D1F85FDF534225C78CD49DA5069FF1 /* Alamofire-dummy.m */,
+				4C5B5975F6537B5474FFFDD56CA933EE /* Alamofire-prefix.pch */,
+				1118509231564F6CB2B2E9D82BA0A8BD /* Alamofire-umbrella.h */,
+				7E9C17DB93A9810B38177AF5B2F45263 /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		DCB54B1887343AF2F1CECB0FACC511D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFABBCB076331D04FA2EACA39D70DB20 /* Hero.modulemap */,
+				E20A950305464C66374BF84171255190 /* Hero.xcconfig */,
+				471F5CB5E3D8A8BB74AEB3B2D848D74F /* Hero-dummy.m */,
+				64C861AB476ADF780EE9F48D2B386CA7 /* Hero-prefix.pch */,
+				F0B9A94445DA97C878F2FEC343930D53 /* Hero-umbrella.h */,
+				49AA95EF5E2C6F190732AF3FD79B2371 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		F02664DDEEFB4B88C7A7B2EF41570E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D84948E554BE12EAEBF6DD1D5EE1274 /* Alamofire.framework */,
+				A0AB08EA18CC6EC7241E0E3F72F34B08 /* Hero.framework */,
+				3A7DD9939FCA22F58EB11B95B4B12956 /* Pods_TBOI__Four_Souls.framework */,
+				87398584A076C4CA9F76CD97C5FE5B05 /* Pods_TBOI__Four_SoulsTests.framework */,
+				DE5A18A231EF92D7E800057DC934E9AD /* Pods_TBOI__Four_SoulsUITests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,11 +518,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CCE022F1748E4CDA5722BDA452E46AA /* Headers */ = {
+		491B71DAD19B37C8132CAAD942770EF9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8CBE9588EB5B515C1BB6D7BFC983ADE /* Pods-TBOI: Four Souls-umbrella.h in Headers */,
+				1D203FABC7D72B58870AF7F7EB8CD447 /* Pods-TBOI: Four Souls-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,26 +534,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDB4B28099F4E4E8A747AB691FCD30A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB374F9285505666B1113879A725EEF /* Hero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02587E43C87B557408C5A704DC5429CA /* Pods-TBOI: Four Souls */ = {
+		268FE6757E1434C69460F772BE6C1652 /* Pods-TBOI: Four Souls */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD9583EB94EE25754B46A405F5F22E41 /* Build configuration list for PBXNativeTarget "Pods-TBOI: Four Souls" */;
+			buildConfigurationList = 717CEFDA62E3B01DBC6FB4C7E76EBF38 /* Build configuration list for PBXNativeTarget "Pods-TBOI: Four Souls" */;
 			buildPhases = (
-				4CCE022F1748E4CDA5722BDA452E46AA /* Headers */,
-				C89AACEE0DA3996D35A4F8674B31EBE5 /* Sources */,
-				36A9F6E5C90974978CA65864D7074AD4 /* Frameworks */,
-				05B9082100A04051BD1B6650E8846D7F /* Resources */,
+				491B71DAD19B37C8132CAAD942770EF9 /* Headers */,
+				F0602383985CE2A82852F07B793B956F /* Sources */,
+				A8AC3EB3E2245BE26A28E4E71B76A323 /* Frameworks */,
+				CBFDCA49BFF2BA570C173D89B7AC0025 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49E270B1A533A75473885120C56D71F6 /* PBXTargetDependency */,
+				3DC2B0E611BB27F595A31ED9141DC613 /* PBXTargetDependency */,
+				D8AA5A7D5D84FF4F708ED3FB3E8C534B /* PBXTargetDependency */,
 			);
 			name = "Pods-TBOI: Four Souls";
 			productName = "Pods-TBOI: Four Souls";
-			productReference = BC63BB37227752A5AC31D337AF1B2E96 /* Pods_TBOI__Four_Souls.framework */;
+			productReference = 3A7DD9939FCA22F58EB11B95B4B12956 /* Pods_TBOI__Four_Souls.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7E703A44FB9C6FC1EBC3D077EA029180 /* Pods-TBOI: Four SoulsTests */ = {
@@ -383,7 +581,7 @@
 			);
 			name = "Pods-TBOI: Four SoulsTests";
 			productName = "Pods-TBOI: Four SoulsTests";
-			productReference = 06C418E1910C8ADDF4105ECD9F349743 /* Pods_TBOI__Four_SoulsTests.framework */;
+			productReference = 87398584A076C4CA9F76CD97C5FE5B05 /* Pods_TBOI__Four_SoulsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		918C856FEB1664CDA24F3FA77CDBE0E6 /* Pods-TBOI: Four SoulsUITests */ = {
@@ -402,7 +600,25 @@
 			);
 			name = "Pods-TBOI: Four SoulsUITests";
 			productName = "Pods-TBOI: Four SoulsUITests";
-			productReference = 1D6EA11B2DCCB3F1886CC0DF0CA90753 /* Pods_TBOI__Four_SoulsUITests.framework */;
+			productReference = DE5A18A231EF92D7E800057DC934E9AD /* Pods_TBOI__Four_SoulsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98F9700AF1702B7C5D9E758C1A1E3A2B /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EEE0F4DA36142B2F20DF4963B7861E /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				EDB4B28099F4E4E8A747AB691FCD30A2 /* Headers */,
+				AE2B153DACBB005BA17E49154F04036E /* Sources */,
+				2F6D42B7711747FA55B2775FD4B3EC64 /* Frameworks */,
+				86EC8FBBCBBEAF05807CFA19F5514901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = A0AB08EA18CC6EC7241E0E3F72F34B08 /* Hero.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E76458C58C9140B6A16D60547E68E80C /* Alamofire */ = {
@@ -420,7 +636,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 05CC5E52367D713D37450498ADA9C11B /* Alamofire.framework */;
+			productReference = 6D84948E554BE12EAEBF6DD1D5EE1274 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -440,12 +656,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 101572EBB5E31D6F8DD9A1E3088A8BD8 /* Products */;
+			productRefGroup = F02664DDEEFB4B88C7A7B2EF41570E56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E76458C58C9140B6A16D60547E68E80C /* Alamofire */,
-				02587E43C87B557408C5A704DC5429CA /* Pods-TBOI: Four Souls */,
+				98F9700AF1702B7C5D9E758C1A1E3A2B /* Hero */,
+				268FE6757E1434C69460F772BE6C1652 /* Pods-TBOI: Four Souls */,
 				7E703A44FB9C6FC1EBC3D077EA029180 /* Pods-TBOI: Four SoulsTests */,
 				918C856FEB1664CDA24F3FA77CDBE0E6 /* Pods-TBOI: Four SoulsUITests */,
 			);
@@ -453,13 +670,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05B9082100A04051BD1B6650E8846D7F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3DDB7E21141D7764AE4658D5B6AFF8C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,6 +678,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		82AD3325DD42D208F3E06ACF42D9FDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EC8FBBCBBEAF05807CFA19F5514901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFDCA49BFF2BA570C173D89B7AC0025 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -500,11 +724,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C89AACEE0DA3996D35A4F8674B31EBE5 /* Sources */ = {
+		AE2B153DACBB005BA17E49154F04036E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77391E1D32490734D40B32805E4CB252 /* Pods-TBOI: Four Souls-dummy.m in Sources */,
+				5BFC77CEEA4E421AC619D5808D378A93 /* Array+HeroModifier.swift in Sources */,
+				A8BAEDAF25017F3C61A1F6BAECF07CF8 /* BasePreprocessor.swift in Sources */,
+				3EDDB8DA09445C9981C97D8C7226DFB2 /* CALayer+Hero.swift in Sources */,
+				F60C14BAEFBE5D60753468F1E66284AA /* CAMediaTimingFunction+Hero.swift in Sources */,
+				9F240CC81313E9FF05DDE385D158BF9C /* CascadePreprocessor.swift in Sources */,
+				1A8DE7DC6EA68BA56067CBC46913ECE1 /* CG+Hero.swift in Sources */,
+				C6209A6A34B9364C11339812819F784C /* ConditionalPreprocessor.swift in Sources */,
+				1936B01C5D3224DE0A2EA327672BCE1A /* DefaultAnimationPreprocessor.swift in Sources */,
+				EF28D714D7E5E19FFF18352AA9539C1B /* DispatchQueue+Hero.swift in Sources */,
+				5B00A79CF6F7A0D09522667BEB5DCF5F /* Hero-dummy.m in Sources */,
+				09B4BED5F4E3FAA4FEB84F7EF9D97841 /* HeroAnimatorViewContext.swift in Sources */,
+				38ACDE0DF34909BFF69AE3BE738BD43F /* HeroCompatible.swift in Sources */,
+				B19B9466FBF475576C45A2DEE4252A91 /* HeroContext.swift in Sources */,
+				5AB42FC0D87DCF867841712D229E4521 /* HeroCoreAnimationViewContext.swift in Sources */,
+				B4B388B8F6FDDE8C2BE22AC87E95FE56 /* HeroDebugPlugin.swift in Sources */,
+				99C2EBFBA2955DF6398F9550DF5245FA /* HeroDebugView.swift in Sources */,
+				2A1F75A11800E185E26D5E442835AC7D /* HeroDefaultAnimator.swift in Sources */,
+				1349B7E61C548402E2808E92A7BA4B5E /* HeroModifier+HeroStringConvertible.swift in Sources */,
+				78CCDC2B70FF0482E95252C1365C3204 /* HeroModifier.swift in Sources */,
+				759EAADECF55BF30F968EF19F1CB9FF4 /* HeroPlugin.swift in Sources */,
+				FE420202E937808A24035D9EC0F62067 /* HeroProgressRunner.swift in Sources */,
+				E682338D103F4A23B28ABEF910C61599 /* HeroStringConvertible.swift in Sources */,
+				E4345235C6545DB48F0F859E7714E68F /* HeroTargetState.swift in Sources */,
+				0AC6BFAFD48EB1271503CB0E82994B5D /* HeroTransition+Animate.swift in Sources */,
+				17C1D4357243F5D3BDA3DB5B8E6B9B5B /* HeroTransition+Complete.swift in Sources */,
+				1FE24D87AC075FA15D5ADF13BB193037 /* HeroTransition+CustomTransition.swift in Sources */,
+				A3287501AFD9F7071A224AD3C3FFDF58 /* HeroTransition+Interactive.swift in Sources */,
+				AD827DC2A11268E8D5B0A2CD1CC2D1AD /* HeroTransition+Start.swift in Sources */,
+				BF296E4014D347F98B928398694F9461 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */,
+				F82707F21C810EA6BD652C38E67FE535 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
+				8E75511F183C72276DBAC719E4885B4A /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				7517B8CACD655BB56DFEE9FA02F0D82A /* HeroTransition.swift in Sources */,
+				B7630FD9D8C01A8114FB22FEFF77C393 /* HeroTransitionState.swift in Sources */,
+				5ADF1DD2EFEFFA07890EE6DE56F3A35E /* HeroTypes.swift in Sources */,
+				CCDD8368BAFF83A91BFEBD13B105E52B /* HeroViewControllerDelegate.swift in Sources */,
+				AF5617DE771E8E321FB7C526F76229BC /* HeroViewPropertyViewContext.swift in Sources */,
+				EBEC8F80F8CFDABA5C3E0AAF95D21CFF /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				292E09257EF91BD4ED2C65939B02DE76 /* Lexer.swift in Sources */,
+				63AC0A94F4C06BDAE3CB0C1852821F85 /* MatchPreprocessor.swift in Sources */,
+				C5D8B60C2202B69D7FC001A92C6E198D /* Nodes.swift in Sources */,
+				C08B6282E4E518773F633ECA6B2AD27F /* Parser.swift in Sources */,
+				15C88A7113C79C7BF327E59744B3E3BC /* Regex.swift in Sources */,
+				D5D5A5E3A5AE94AE02CCF174CBC1DA7B /* SourcePreprocessor.swift in Sources */,
+				A6FB4694E49F6EE8D08212523563CA81 /* UIKit+Hero.swift in Sources */,
+				2EF76EA82E380062E6A20AE164FDE20D /* UIView+Hero.swift in Sources */,
+				5372EADECAE1C46077FDAAEB9E339E6E /* UIViewController+Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,33 +802,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0602383985CE2A82852F07B793B956F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5B5F7108C54D38235B42B1468AB40D /* Pods-TBOI: Four Souls-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		49E270B1A533A75473885120C56D71F6 /* PBXTargetDependency */ = {
+		3DC2B0E611BB27F595A31ED9141DC613 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = E76458C58C9140B6A16D60547E68E80C /* Alamofire */;
-			targetProxy = E4D943720CDB4C186916D16C9766B23E /* PBXContainerItemProxy */;
+			targetProxy = 5B8EE0F3B686C6927C0252D92C4F09A7 /* PBXContainerItemProxy */;
 		};
 		9C291F3D3883CFFCCE4A5BEE5CF52D16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TBOI: Four Souls";
-			target = 02587E43C87B557408C5A704DC5429CA /* Pods-TBOI: Four Souls */;
+			target = 268FE6757E1434C69460F772BE6C1652 /* Pods-TBOI: Four Souls */;
 			targetProxy = EBAF5E472A1E0644F6EA8A2D4BAAE0F2 /* PBXContainerItemProxy */;
 		};
 		A1E2497C44524E84B0A89CD4F0FA3E3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TBOI: Four Souls";
-			target = 02587E43C87B557408C5A704DC5429CA /* Pods-TBOI: Four Souls */;
+			target = 268FE6757E1434C69460F772BE6C1652 /* Pods-TBOI: Four Souls */;
 			targetProxy = 2EAEC60F12D4ABFB707283D5BFB22B0A /* PBXContainerItemProxy */;
+		};
+		D8AA5A7D5D84FF4F708ED3FB3E8C534B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = 98F9700AF1702B7C5D9E758C1A1E3A2B /* Hero */;
+			targetProxy = FCB100F19260EEB0588F7929FA99BAC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0CE3AF37574381AF901BDA40A1F17C0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 4C85E9241B2D6B9078A367AC5875F395 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -631,9 +914,45 @@
 			};
 			name = Debug;
 		};
+		245EBE7E6305C853571A58732340B7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20A950305464C66374BF84171255190 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		29461B23402771DC36BB84FE023D99B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 4C85E9241B2D6B9078A367AC5875F395 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -668,6 +987,46 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		29CC8339EE3370BB3B21CA6D5A4B008C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F94F31C0FFE22CAE1772DE5BF824B0 /* Pods-TBOI: Four Souls.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBOI: Four Souls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBOI: Four Souls/Pods-TBOI: Four Souls.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		5C0B39C3201655B026AA74DDBC4C1FEF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -746,47 +1105,7 @@
 			};
 			name = Debug;
 		};
-		A40D8694C4C9CDAF97C456042B5452F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0F94F31C0FFE22CAE1772DE5BF824B0 /* Pods-TBOI: Four Souls.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TBOI: Four Souls/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TBOI: Four Souls/Pods-TBOI: Four Souls.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B903A1E151EEB305904898546AF1F4A3 /* Release */ = {
+		B3437EBB23AF8CEE71D5C52588A34306 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB1B8B44EC004B9602D31198C57307BB /* Pods-TBOI: Four Souls.release.xcconfig */;
 			buildSettings = {
@@ -890,6 +1209,44 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		D65058F9C66EDC5E8C96B12EA743CE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20A950305464C66374BF84171255190 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		DB589C8207D47A199842DB2DE2E1204B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1001,6 +1358,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		41EEE0F4DA36142B2F20DF4963B7861E /* Build configuration list for PBXNativeTarget "Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245EBE7E6305C853571A58732340B7BA /* Debug */,
+				D65058F9C66EDC5E8C96B12EA743CE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		427F0F003A1AD80AE00155AFCDEFAC20 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1010,20 +1376,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		717CEFDA62E3B01DBC6FB4C7E76EBF38 /* Build configuration list for PBXNativeTarget "Pods-TBOI: Four Souls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CC8339EE3370BB3B21CA6D5A4B008C /* Debug */,
+				B3437EBB23AF8CEE71D5C52588A34306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		74902287E814E3756BAF72C9B838E08A /* Build configuration list for PBXNativeTarget "Pods-TBOI: Four SoulsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				864D2355708586A650C6BCE693AD4AD3 /* Debug */,
 				DB589C8207D47A199842DB2DE2E1204B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD9583EB94EE25754B46A405F5F22E41 /* Build configuration list for PBXNativeTarget "Pods-TBOI: Four Souls" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A40D8694C4C9CDAF97C456042B5452F7 /* Debug */,
-				B903A1E151EEB305904898546AF1F4A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

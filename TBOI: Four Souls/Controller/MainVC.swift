@@ -43,7 +43,7 @@ class MainVC: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier == UserDefaults.ID.CardDetailedSegueId {
+        if segue.identifier == UserDefaults.ID.DetailedVCSegueId {
             guard let detailedVC = segue.destination as? DetailedVC else {return}
             guard let bundle = sender as? CardsBundleInfo else {return}
             detailedVC.cardsBundle = bundle
@@ -56,7 +56,7 @@ extension MainVC: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         let bundleInfo = cardsData[indexPath.row]
-        performSegue(withIdentifier: UserDefaults.ID.CardDetailedSegueId, sender: bundleInfo)
+        performSegue(withIdentifier: UserDefaults.ID.DetailedVCSegueId, sender: bundleInfo)
         
     }
     

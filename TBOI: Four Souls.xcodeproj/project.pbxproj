@@ -19,6 +19,7 @@
 		4B1EE08C214422D100E6AEAB /* cards.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EE083214422D100E6AEAB /* cards.plist */; };
 		4B1EE08D214422D100E6AEAB /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE085214422D100E6AEAB /* MenuCell.swift */; };
 		4B50CBD52146FA51000372E4 /* Constansts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CBD42146FA51000372E4 /* Constansts.swift */; };
+		4B50CBDB21485FEC000372E4 /* CloseupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */; };
 		4BF5B9812144266400B85D89 /* IsaacsFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5B7D82144266300B85D89 /* IsaacsFont.ttf */; };
 		4BF5BB18214453E800B85D89 /* CardsBundleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB17214453E800B85D89 /* CardsBundleInfo.swift */; };
 		4BF5BB1A2144570300B85D89 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB192144570300B85D89 /* CardInfo.swift */; };
@@ -65,6 +66,7 @@
 		4B1EE083214422D100E6AEAB /* cards.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cards.plist; sourceTree = "<group>"; };
 		4B1EE085214422D100E6AEAB /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		4B50CBD42146FA51000372E4 /* Constansts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constansts.swift; sourceTree = "<group>"; };
+		4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseupCardView.swift; sourceTree = "<group>"; };
 		4BF5B7D82144266300B85D89 /* IsaacsFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IsaacsFont.ttf; sourceTree = "<group>"; };
 		4BF5BB17214453E800B85D89 /* CardsBundleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsBundleInfo.swift; sourceTree = "<group>"; };
 		4BF5BB192144570300B85D89 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				4B1EE085214422D100E6AEAB /* MenuCell.swift */,
 				4BF5BB1F2145700E00B85D89 /* CardCell.swift */,
 				4BF5BB21214575E500B85D89 /* UIViewRoundCorners.swift */,
+				4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -441,12 +444,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TBOI: Four Souls/Pods-TBOI: Four Souls-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,6 +473,7 @@
 				4B50CBD52146FA51000372E4 /* Constansts.swift in Sources */,
 				4BF5BB1A2144570300B85D89 /* CardInfo.swift in Sources */,
 				4BF5BB202145700E00B85D89 /* CardCell.swift in Sources */,
+				4B50CBDB21485FEC000372E4 /* CloseupCardView.swift in Sources */,
 				4BF5BB22214575E500B85D89 /* UIViewRoundCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

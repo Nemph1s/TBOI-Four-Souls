@@ -12,11 +12,15 @@ import UIKit
 
 extension UserDefaults {
     
+    enum Tags: Int {
+        case BlurEffectView = 1
+    }
+    
     enum ID {
         
         static let CardCellReuseId = "CardCell"
         static let MenuViewCellReuseId = "MenuViewCell"
-        static let CardDetailedSegueId = "CardDetailedVC"
+        static let DetailedVCSegueId = "DetailedVC"
     }
     
     enum UI {
@@ -35,8 +39,10 @@ extension UserDefaults {
         static let CardCellWidth: CGFloat = 123.0
         static let CardCellHeight: CGFloat = 200.0
         
+        static let CardCellNormalWidth: CGFloat = 367.0
+        static let CardCellNormalHeight: CGFloat = 500.0
+        
     }
-    
 }
 
 public extension UIDevice {
