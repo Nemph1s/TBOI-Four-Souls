@@ -18,21 +18,19 @@ class DetailedVC: UIViewController {
     @IBOutlet weak var constrainHeightHeader: NSLayoutConstraint!
     @IBOutlet weak var searchBar: UISearchBar!
     
-    
-    @IBOutlet var tapGestureRecognizer: UITapGestureRecognizer!
     @IBOutlet var swipeGestureRecognizer: UISwipeGestureRecognizer!
+    @IBOutlet var tapGestureRecognizer: UITapGestureRecognizer!
+    @IBOutlet var screenEdgePanGestureRecognizer: UIScreenEdgePanGestureRecognizer!
     
     @IBOutlet weak var bluredBgView: UIView!
     @IBOutlet weak var closeupCardView: CloseupCardView!
     
     var cardsBundle: CardsBundleInfo!
     var filteredCards = Array<CardInfo>()
+    var cellOne: CardCell!
     
     var contentOffset: CGFloat = 0.0
-    
     var selectedCellId: Int = 0
-    
-    var cellOne: CardCell!
     
     var isSwipedDownFromBanner = false
     var inSearchMode = false
@@ -70,32 +68,47 @@ class DetailedVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func handlePan(recognizer: UIPanGestureRecognizer) {
-        //        let translation = recognizer.translation(in: self.view)
-        //        if let view = recognizer.view {
-        //            view.center = CGPoint(x:view.center.x + translation.x,
-        //                                  y:view.center.y + translation.y)
-        //        }
-        //        recognizer.setTranslation(CGPoint.zero, in: self.view)
+    @IBAction func handleTap(recognizer: UITapGestureRecognizer) {
         
-        disableBlurForBG()
-        disableCloseUpCardView()
+        self.updateBlurForBG(enable: false)
+        self.updateCloseUpCardView(enable: false)
     }
     
+    @IBAction func handleSwipe(recognizer: UISwipeGestureRecognizer) {
+        
+        if recognizer.state == .ended && recognizer.direction == UISwipeDirection.up {
+            
+            view.endEditing(true)
+
+            UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseOut, animations: {
+                self.closeupCardView.changePosBy(delta: CGPoint(x: 0, y: -150))
+                self.updateCloseUpCardView(enable: false)
+            }, completion: { finished in
+                self.updateBlurForBG(enable: false)
+            })
+        }
+    }
     
+    @IBAction func handleScreenEdgeSwipe(recognizer: UIScreenEdgePanGestureRecognizer) {
+        
+        if recognizer.state == .recognized {
+            
+            dismiss(animated: true, completion: nil)
+        }
+    }
 }
 
 extension DetailedVC: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        view.endEditing(true)
+        self.view.endEditing(true)
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchBar.text == nil || searchBar.text == "" {
             inSearchMode = false
             self.collectionView.reloadData()
-            view.endEditing(true)
+            self.view.endEditing(true)
         }
         else {
             inSearchMode = true
@@ -112,9 +125,11 @@ extension DetailedVC: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 
-        updateImageForCloseUpView(by: indexPath)
-        enableBlurForBG()
-        enableCloseUpCardView()
+        self.view.endEditing(true)
+        self.updateImageForCloseUpView(by: indexPath)
+        
+        self.updateBlurForBG(enable: true)
+        self.updateCloseUpCardView(enable: true)
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -135,6 +150,9 @@ extension DetailedVC: UICollectionViewDelegate {
             //Fully hide your toolbar
             if constrainHeightHeader.constant != UserDefaults.UI.ContentOffsetSearchBarHidden {
                 self.constrainHeightHeader.constant = UserDefaults.UI.ContentOffsetSearchBarHidden
+                self.searchBar.isHidden = true
+                self.view.endEditing(true)
+                
                 updateUIViewConstraints()
             }
         }
@@ -144,6 +162,7 @@ extension DetailedVC: UICollectionViewDelegate {
             }
             if self.constrainHeightHeader.constant != UserDefaults.UI.ContentOffsetSearchBarVisible {
                 self.constrainHeightHeader.constant = UserDefaults.UI.ContentOffsetSearchBarVisible
+                self.searchBar.isHidden = false
                 updateUIViewConstraints()
             }
         }
@@ -191,20 +210,18 @@ extension DetailedVC: UIGestureRecognizerDelegate {
     
     func initCloseUpViews() {
         
-        bluredBgView.isHidden = true
-        bluredBgView.alpha = 0.0
         let blurEffect = UIBlurEffect(style: .dark) // .extraLight or .dark
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = view.frame
         blurEffectView.tag = UserDefaults.Tags.BlurEffectView.rawValue
         bluredBgView.addSubview(blurEffectView)
-        
-        closeupCardView.isHidden = true
-        closeupCardView.alpha = 0.0
-        
-        
-        tapGestureRecognizer.delegate = self
+ 
+        screenEdgePanGestureRecognizer.delegate = self
         swipeGestureRecognizer.delegate = self
+        tapGestureRecognizer.delegate = self
+        
+        tapGestureRecognizer.numberOfTapsRequired = 1
+        
     }
     
     func updateImageForCloseUpView(by indexPath: IndexPath) {
@@ -212,42 +229,40 @@ extension DetailedVC: UIGestureRecognizerDelegate {
         let cardInfo: CardInfo!
         cardInfo = inSearchMode ? filteredCards[indexPath.row] : cardsBundle.cards[indexPath.row]
         closeupCardView.cardImage.image = UIImage(named: cardInfo.picture)!
+        closeupCardView.saveOriginPos()
     }
     
-    func enableBlurForBG() {
+    func updateBlurForBG(enable: Bool) {
         
-        self.bluredBgView.isHidden = false
-        UIView.animate(withDuration: 0.25, delay: 0.2, options: .curveEaseOut, animations: {
-            self.bluredBgView.alpha = 1.0
+        if enable {
+            self.bluredBgView.isHidden = false
+        }
+        UIView.animate(withDuration: 0.1, delay: 0.1, options: .curveEaseOut, animations: {
+            self.bluredBgView.alpha = enable ? 1.0 : 0.0
         }, completion: { finished in
+            if !enable {
+                self.bluredBgView.isHidden = true
+            }
         })
     }
     
-    func enableCloseUpCardView() {
+    func updateCloseUpCardView(enable: Bool) {
+        updateCloseUpCardView(enable: enable, closureCompleted: {})
+    }
+    
+    func updateCloseUpCardView(enable: Bool, closureCompleted: @escaping AnimationCompete) {
 
-        self.closeupCardView.isHidden = false
-        UIView.animate(withDuration: 0.25, delay: 0.2, options: .curveEaseOut, animations: {
-            self.closeupCardView.alpha = 1.0
+        if enable {
+            self.closeupCardView.isHidden = false
+        }
+        UIView.animate(withDuration: 0.1, delay: 0.1, options: .curveEaseOut, animations: {
+            self.closeupCardView.alpha = enable ? 1.0 : 0.0
         }, completion: { finished in
-        })
-    }
-    
-    func disableBlurForBG() {
-        
-        
-        UIView.animate(withDuration: 0.25, delay: 0.2, options: .curveEaseOut, animations: {
-            self.bluredBgView.alpha = 0.0
-        }, completion: { finished in
-            self.bluredBgView.isHidden = true
-        })
-    }
-    
-    func disableCloseUpCardView() {
-        
-        UIView.animate(withDuration: 0.25, delay: 0.2, options: .curveEaseOut, animations: {
-            self.closeupCardView.alpha = 0.0
-        }, completion: { finished in
-            self.closeupCardView.isHidden = true
+            if !enable {
+                self.closeupCardView.isHidden = true
+            }
+            self.closeupCardView.resetImagePosToOrigin()
+            closureCompleted()
         })
     }
     

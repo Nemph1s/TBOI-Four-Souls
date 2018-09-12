@@ -101,7 +101,7 @@
                     <connections>
                         <outlet property="collection" destination="nb8-gY-Wu7" id="fcr-xq-Sak"/>
                         <outlet property="collectionLayout" destination="9ga-OW-yQP" id="Na7-lx-EuA"/>
-                        <segue destination="lrt-GR-a4e" kind="show" identifier="DetailedVC" id="mZ6-WY-EEk"/>
+                        <segue destination="lrt-GR-a4e" kind="presentation" identifier="DetailedVC" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="mZ6-WY-EEk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -144,14 +144,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="131" height="205"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001D6(3)Small" translatesAutoresizingMaskIntoConstraints="NO" id="Bxx-1Z-MAG">
-                                                    <rect key="frame" x="8" y="8" width="115" height="168"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="003YumHeart(3)Small" translatesAutoresizingMaskIntoConstraints="NO" id="Bxx-1Z-MAG">
+                                                    <rect key="frame" x="8" y="8" width="115" height="159"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="168" id="LgM-RG-AFG"/>
+                                                        <constraint firstAttribute="height" constant="159" id="LgM-RG-AFG"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Gigersqad" textAlignment="center" lineBreakMode="clip" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="DTE-ii-YnA">
-                                                    <rect key="frame" x="8" y="175" width="115" height="22"/>
+                                                    <rect key="frame" x="8" y="170" width="115" height="22"/>
                                                     <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -161,7 +161,7 @@
                                         <constraints>
                                             <constraint firstItem="mlx-CX-Im6" firstAttribute="leading" secondItem="Dcw-vI-uJc" secondAttribute="leading" id="6OC-gp-GvS"/>
                                             <constraint firstItem="Bxx-1Z-MAG" firstAttribute="centerX" secondItem="Dcw-vI-uJc" secondAttribute="centerX" id="82w-ly-dja"/>
-                                            <constraint firstAttribute="bottom" secondItem="DTE-ii-YnA" secondAttribute="bottom" constant="6" id="GRf-0l-XlE"/>
+                                            <constraint firstAttribute="bottom" secondItem="DTE-ii-YnA" secondAttribute="bottom" constant="11" id="GRf-0l-XlE"/>
                                             <constraint firstAttribute="trailing" secondItem="DTE-ii-YnA" secondAttribute="trailing" constant="8" id="KN0-0N-OJK"/>
                                             <constraint firstItem="Bxx-1Z-MAG" firstAttribute="top" secondItem="Dcw-vI-uJc" secondAttribute="top" constant="8" id="Prh-k2-I8q"/>
                                             <constraint firstAttribute="bottom" secondItem="mlx-CX-Im6" secondAttribute="bottom" constant="-2" id="XRt-od-ng5"/>
@@ -170,7 +170,7 @@
                                             <constraint firstItem="Bxx-1Z-MAG" firstAttribute="leading" secondItem="Dcw-vI-uJc" secondAttribute="leading" constant="8" id="jaL-fK-d3m"/>
                                             <constraint firstItem="mlx-CX-Im6" firstAttribute="top" secondItem="Dcw-vI-uJc" secondAttribute="top" id="mCL-cl-N9e"/>
                                             <constraint firstAttribute="trailing" secondItem="Bxx-1Z-MAG" secondAttribute="trailing" constant="8" id="qds-1I-J67"/>
-                                            <constraint firstItem="DTE-ii-YnA" firstAttribute="top" secondItem="Bxx-1Z-MAG" secondAttribute="bottom" constant="-1" id="zVA-qd-LT8"/>
+                                            <constraint firstItem="DTE-ii-YnA" firstAttribute="top" secondItem="Bxx-1Z-MAG" secondAttribute="bottom" constant="3" id="zVA-qd-LT8"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="cardImage" destination="Bxx-1Z-MAG" id="o1t-oD-Tjl"/>
@@ -252,6 +252,7 @@
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="TRu-N3-pFh" appends="YES" id="auE-0F-Sli"/>
+                                            <outletCollection property="gestureRecognizers" destination="NTf-eV-EeA" appends="YES" id="xQr-lf-9Qw"/>
                                         </connections>
                                     </imageView>
                                 </subviews>
@@ -273,6 +274,7 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="iey-xZ-RLs" firstAttribute="top" secondItem="ELb-t7-D7E" secondAttribute="top" id="5Lv-vL-wqC"/>
                             <constraint firstAttribute="bottom" secondItem="zkf-qi-4uI" secondAttribute="bottom" id="8w4-hM-8xV"/>
@@ -306,6 +308,9 @@
                             <constraint firstItem="fGc-tr-47m" firstAttribute="top" secondItem="ybb-qv-vlN" secondAttribute="bottom" constant="5" id="zc1-Ih-XtZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hZM-ku-2qe"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="am0-Q5-ldL" appends="YES" id="OCg-zE-W2h"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="bgImageView" destination="Ddg-EF-Ahe" id="JZP-BH-Mro"/>
@@ -314,8 +319,10 @@
                         <outlet property="collectionView" destination="fGc-tr-47m" id="aJU-R0-kdr"/>
                         <outlet property="constrainHeightHeader" destination="ZJD-Hb-XrT" id="sSr-cg-mSE"/>
                         <outlet property="itemsCountLabel" destination="dwY-kL-eTw" id="seT-Bl-CwG"/>
+                        <outlet property="screenEdgePanGestureRecognizer" destination="am0-Q5-ldL" id="3wS-n7-UZc"/>
                         <outlet property="searchBar" destination="0uv-Ox-Oq8" id="rWZ-Aw-SaA"/>
                         <outlet property="swipeGestureRecognizer" destination="TRu-N3-pFh" id="Jpt-Js-bXp"/>
+                        <outlet property="tapGestureRecognizer" destination="NTf-eV-EeA" id="hfy-mc-euR"/>
                         <outlet property="titleLabel" destination="7gT-K0-kok" id="rLw-hf-oaY"/>
                     </connections>
                 </viewController>
@@ -326,13 +333,26 @@
                         <outlet property="delegate" destination="lrt-GR-a4e" id="me1-W5-NS6"/>
                     </connections>
                 </swipeGestureRecognizer>
+                <tapGestureRecognizer id="NTf-eV-EeA">
+                    <connections>
+                        <action selector="handleTapWithRecognizer:" destination="lrt-GR-a4e" id="pJP-OV-6XZ"/>
+                        <outlet property="delegate" destination="lrt-GR-a4e" id="vzD-As-An9"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="am0-Q5-ldL">
+                    <rectEdge key="edges" left="YES"/>
+                    <connections>
+                        <action selector="handleScreenEdgeSwipeWithRecognizer:" destination="lrt-GR-a4e" id="Kna-z9-SHD"/>
+                        <outlet property="delegate" destination="lrt-GR-a4e" id="AVE-sY-YN3"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1008.8" y="130.78817733990149"/>
         </scene>
     </scenes>
     <resources>
         <image name="001D6(3)" width="477" height="650"/>
-        <image name="001D6(3)Small" width="147" height="200"/>
+        <image name="003YumHeart(3)Small" width="147" height="200"/>
         <image name="back" width="100" height="67"/>
         <image name="bg" width="1200" height="1525"/>
         <image name="border" width="1615" height="1082"/>

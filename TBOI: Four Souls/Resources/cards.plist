@@ -17,7 +17,7 @@
 				<key>picture</key>
 				<string>002DadsLostCoin</string>
 				<key>name</key>
-				<string>Dad&apos;s Lost Coin</string>
+				<string>Dad's Lost Coin</string>
 			</dict>
 			<dict>
 				<key>picture</key>
@@ -47,7 +47,7 @@
 				<key>picture</key>
 				<string>007MomsBox</string>
 				<key>name</key>
-				<string>Mom&apos;s Box</string>
+				<string>Mom's Box</string>
 			</dict>
 			<dict>
 				<key>picture</key>
@@ -65,7 +65,7 @@
 				<key>picture</key>
 				<string>010MomsRazor</string>
 				<key>name</key>
-				<string>Mom&apos;s Razor</string>
+				<string>Mom's Razor</string>
 			</dict>
 			<dict>
 				<key>picture</key>
@@ -131,19 +131,19 @@
 				<key>picture</key>
 				<string>021MomsPurse</string>
 				<key>name</key>
-				<string>Mom&apos;s Purse</string>
+				<string>Mom's Purse</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>022momscoinpurse</string>
 				<key>name</key>
-				<string>Mom&apos;s Coin Purse</string>
+				<string>Mom's Coin Purse</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>023TheresOptions</string>
 				<key>name</key>
-				<string>There&apos;s Options</string>
+				<string>There's Options</string>
 			</dict>
 			<dict>
 				<key>picture</key>
@@ -155,7 +155,7 @@
 				<key>picture</key>
 				<string>025monstrostooth</string>
 				<key>name</key>
-				<string>Monstro&apos;s Tooth</string>
+				<string>Monstro's Tooth</string>
 			</dict>
 			<dict>
 				<key>picture</key>
@@ -209,7 +209,7 @@
 				<key>picture</key>
 				<string>034GreedsGullet(1)</string>
 				<key>name</key>
-				<string>Greed&apos;s Gullet</string>
+				<string>Greed's Gullet</string>
 			</dict>
 			<dict>
 				<key>picture</key>
@@ -251,7 +251,7 @@
 				<key>picture</key>
 				<string>041EdensBLessing(1)</string>
 				<key>name</key>
-				<string>Eden&apos;s BLessing</string>
+				<string>Eden's BLessing</string>
 			</dict>
 			<dict>
 				<key>picture</key>
@@ -443,7 +443,7 @@
 				<key>picture</key>
 				<string>073MomsBra(1)</string>
 				<key>name</key>
-				<string>Mom&apos;s Bra</string>
+				<string>Mom's Bra</string>
 			</dict>
 			<dict>
 				<key>picture</key>
@@ -1086,7 +1086,7 @@
 				<key>picture</key>
 				<string>076CainsEye(2)</string>
 				<key>name</key>
-				<string>Cain&apos;s Eye</string>
+				<string>Cain's Eye</string>
 			</dict>
 			<dict>
 				<key>picture</key>
@@ -1267,643 +1267,643 @@
 				<key>picture</key>
 				<string>001Dip</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Dip</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>002Pooter</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Pooter</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>003Fly</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Fly</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>004Trite</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Trite</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>005Fatty</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Fatty</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>006Spider</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Spider</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>007ConjoinedFatty</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Conjoined Fatty</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>008PaleFatty</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Pale Fatty</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>009Leech</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Leech</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>010Clotty(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Clotty</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>011RedHost</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Red Host</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>012Squirt</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Squirt</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>013FatBat</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Fat Bat</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>014CodWorm(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Cod Worm</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>015SwarmFly</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Swarm Fly</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>016BlackBony</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Black Bony</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>017Dinga</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Dinga</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>018RingofFlies</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Ring of Flies</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>019Hanger(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Hanger</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>020Wizoob</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Wizoob</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>021mulligan</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Mulligan</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>022Hopper</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Hopper</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>023KeeperHead</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Keeper Head</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>024BigSpider</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Big Spider</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>025BoomFly</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Boom Fly</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>026Leaper</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Leaper</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>027Dople</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Dople</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>028PsyHorf</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Psy Horf</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>029Portal(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Portal</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>030MomsDeadHand</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Moms Dead Hand</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>031Greedling</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Greedling</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>032DankGlobin</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Dank Globin</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>033EvilTwin</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Evil Twin</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>034Mulliboom</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Mulliboom</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>035MomsEye(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Moms Eye</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>036RageCreep</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Rage Creep</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>037Horf</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string></string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>038MomsHand</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Moms Hand</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>039Stoney</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Stoney</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>040HolyDip</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Holy Dip</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>041HolyMomsEye</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Holy Moms Eye</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>042HolyDinga</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Holy Dinga</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>043HolyKeeperHead</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Holy Keeper Head</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>044HolySquirt</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Holy Squirt</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>045CursedKeeperHead</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Cursed Keeper Head</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>046CursedHorf</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Cursed Horf</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>047CursedFatty</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Cursed Fatty</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>048CursedMomsHand</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Cursed Moms Hand</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>049CursedPsyHorf</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Cursed Psy Horf</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>050CursedGaper</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Cursed Gaper</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>051GoldChest1</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Gold Chest 1</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>052GoldChest2</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Gold Chest 2</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>053DarkChest1(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Dark Chest 1</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>054DarkChest2(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Dark Chest 2</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>055Chest1</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Chest 1</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>056Chest2</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Chest 2</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>057SecretRoom</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Secret Room</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>058XLFLoor</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>XL FLoor</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>059ShopUpgrade</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Shop Upgrade</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>060WeNeedtogoDeeper</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>We Need to go Deeper</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>061IcanSeeForever</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>I can See Forever</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>062TrollBombs</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Troll Bombs</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>063MegaTrollBomb</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Mega Troll Bomb</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>064Ambush</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Ambush</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>065Greed!</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Greed!</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>066DealWithTheDevil</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Deal With The Devil</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>067CursedChest</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Cursed Chest</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>068CurseofAmnesia</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Curse of Amnesia</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>069CurseofGreed</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Curse of Greed</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>070CurseofLoss</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Curse of Loss</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>071CurseofPain</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Curse of Pain</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>072CurseoftheBlind</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Curse of the Blind</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>073Gurdy(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Gurdy</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>074Monstro</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Monstro</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>075LittleHorn(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Little Horn</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>076DarkOne(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Dark One</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>077LarryJr</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Larry Jr</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>078DukeofFLies(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Duke of FLies</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>079DaddyLongLegs(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Daddy Long Legs</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>080MegaFatty</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Mega Fatty</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>081Famine</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Famine</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>082War(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>War</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>083Death</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Death</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>084Pestilence(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Pestilence</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>085Conquest</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Conquest</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>086Pride</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Pride</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>087Wrath</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Wrath</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>088Gluttony</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Gluttony</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>089Envy</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Envy</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>090Greed</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Greed</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>091Lust</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Lust</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>092Sloth</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Sloth</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>093Pin</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Pin</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>094TheBloat</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>The Bloat</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>095Chub</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Chub</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>096Scolex</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Scolex</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>097Gemini</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Gemini</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>098GurdyJr</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Gurdy Jr</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>099Peep(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Peep</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>100Ragman</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Ragman</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>101CarrionQueen</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Carrion Queen</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>102TheHaunt</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>The Haunt</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>103MaskOfInfamy</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Mask Of Infamy</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>104Mom!</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Mom!</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>105Satan!</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Satan!</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>106TheLamb(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>The Lamb</string>
 			</dict>
 			<dict>
 				<key>picture</key>
 				<string>107Delirium(1)</string>
 				<key>name</key>
-				<string>Monster Card</string>
+				<string>Delirium</string>
 			</dict>
 		</array>
 	</dict>

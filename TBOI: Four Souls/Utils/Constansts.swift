@@ -37,13 +37,17 @@ extension UserDefaults {
         static let ContentOffsetSearchBarVisible: CGFloat = 0.0
         
         static let CardCellWidth: CGFloat = 123.0
-        static let CardCellHeight: CGFloat = 200.0
+        static let CardCellHeight: CGFloat = 191.0
         
         static let CardCellNormalWidth: CGFloat = 367.0
         static let CardCellNormalHeight: CGFloat = 500.0
         
     }
 }
+
+typealias UISwipeDirection = UISwipeGestureRecognizer.Direction
+
+typealias AnimationCompete = () -> ()
 
 public extension UIDevice {
     
