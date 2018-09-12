@@ -150,9 +150,9 @@
                                                         <constraint firstAttribute="height" constant="168" id="LgM-RG-AFG"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The D6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTE-ii-YnA">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Gigersqad" textAlignment="center" lineBreakMode="clip" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="DTE-ii-YnA">
                                                     <rect key="frame" x="8" y="175" width="115" height="22"/>
-                                                    <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -182,7 +182,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ybb-qv-vlN" userLabel="SearchBarView">
                                 <rect key="frame" x="0.0" y="52" width="375" height="56"/>
                                 <subviews>
-                                    <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="0uv-Ox-Oq8">
+                                    <searchBar hidden="YES" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="0uv-Ox-Oq8">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                                         <color key="backgroundColor" red="0.078018985690000001" green="0.062814161179999994" blue="0.058820225300000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="barTintColor" red="0.078018985690000001" green="0.062814161179999994" blue="0.058820225300000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -235,12 +235,12 @@
                                     <action selector="onBackButtonPressed:" destination="lrt-GR-a4e" eventType="touchUpInside" id="yCo-aq-7xO"/>
                                 </connections>
                             </button>
-                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9G7-Vd-Oh8">
+                            <view hidden="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9G7-Vd-Oh8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0n3-FK-C15" customClass="CloseupCardView" customModule="TBOI__Four_Souls" customModuleProvider="target">
+                            <view hidden="YES" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0n3-FK-C15" customClass="CloseupCardView" customModule="TBOI__Four_Souls" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="115" width="375" height="550"/>
                                 <subviews>
                                     <view userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BDf-AV-ihy" customClass="UIViewRoundCorners" customModule="TBOI__Four_Souls" customModuleProvider="target">
@@ -251,7 +251,6 @@
                                         <rect key="frame" x="4" y="7" width="367" height="500"/>
                                         <gestureRecognizers/>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="5tG-u4-7OO" appends="YES" id="Aou-eJ-Osp"/>
                                             <outletCollection property="gestureRecognizers" destination="TRu-N3-pFh" appends="YES" id="auE-0F-Sli"/>
                                         </connections>
                                     </imageView>
@@ -316,20 +315,14 @@
                         <outlet property="constrainHeightHeader" destination="ZJD-Hb-XrT" id="sSr-cg-mSE"/>
                         <outlet property="itemsCountLabel" destination="dwY-kL-eTw" id="seT-Bl-CwG"/>
                         <outlet property="searchBar" destination="0uv-Ox-Oq8" id="rWZ-Aw-SaA"/>
-                        <outlet property="swipeGestureRecognizer" destination="TRu-N3-pFh" id="kCy-Sb-USo"/>
-                        <outlet property="tapGestureRecognizer" destination="5tG-u4-7OO" id="zrv-My-HoO"/>
+                        <outlet property="swipeGestureRecognizer" destination="TRu-N3-pFh" id="Jpt-Js-bXp"/>
                         <outlet property="titleLabel" destination="7gT-K0-kok" id="rLw-hf-oaY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZz-ra-ch6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="5tG-u4-7OO">
+                <swipeGestureRecognizer direction="up" id="TRu-N3-pFh">
                     <connections>
-                        <action selector="handlePanWithRecognizer:" destination="lrt-GR-a4e" id="SWM-F6-yfq"/>
-                        <outlet property="delegate" destination="lrt-GR-a4e" id="Mb4-wc-whp"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="TRu-N3-pFh">
-                    <connections>
+                        <action selector="handleSwipeWithRecognizer:" destination="lrt-GR-a4e" id="wGK-dd-9ho"/>
                         <outlet property="delegate" destination="lrt-GR-a4e" id="me1-W5-NS6"/>
                     </connections>
                 </swipeGestureRecognizer>
