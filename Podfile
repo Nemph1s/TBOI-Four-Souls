@@ -9,6 +9,7 @@ target 'TBOI: Four Souls' do
   # Pods for TBOI: Four Souls
     pod 'Alamofire', '~> 4.7'
     pod 'Hero', '~> 1.3'
+    pod 'FSPagerView', '~> 0.8'
 
   target 'TBOI: Four SoulsTests' do
     inherit! :search_paths

@@ -20,6 +20,7 @@
 		4B1EE08D214422D100E6AEAB /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE085214422D100E6AEAB /* MenuCell.swift */; };
 		4B50CBD52146FA51000372E4 /* Constansts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CBD42146FA51000372E4 /* Constansts.swift */; };
 		4B50CBDB21485FEC000372E4 /* CloseupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */; };
+		4B577F11215C19AB008E2CFF /* HowToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B577F10215C19AB008E2CFF /* HowToVC.swift */; };
 		4BB9049C214C16D200C78D2C /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9049B214C16D200C78D2C /* AboutVC.swift */; };
 		4BF5B9812144266400B85D89 /* IsaacsFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5B7D82144266300B85D89 /* IsaacsFont.ttf */; };
 		4BF5BB18214453E800B85D89 /* CardsBundleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB17214453E800B85D89 /* CardsBundleInfo.swift */; };
@@ -68,6 +69,7 @@
 		4B1EE085214422D100E6AEAB /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		4B50CBD42146FA51000372E4 /* Constansts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constansts.swift; sourceTree = "<group>"; };
 		4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseupCardView.swift; sourceTree = "<group>"; };
+		4B577F10215C19AB008E2CFF /* HowToVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToVC.swift; sourceTree = "<group>"; };
 		4BB9049B214C16D200C78D2C /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		4BF5B7D82144266300B85D89 /* IsaacsFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IsaacsFont.ttf; sourceTree = "<group>"; };
 		4BF5BB17214453E800B85D89 /* CardsBundleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsBundleInfo.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				4B1EE081214422D100E6AEAB /* MainVC.swift */,
 				4B1EE082214422D100E6AEAB /* DetailedVC.swift */,
 				4BB9049B214C16D200C78D2C /* AboutVC.swift */,
+				4B577F10215C19AB008E2CFF /* HowToVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TBOI: Four Souls/Pods-TBOI: Four Souls-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -454,6 +458,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +483,7 @@
 				4BF5BB202145700E00B85D89 /* CardCell.swift in Sources */,
 				4B50CBDB21485FEC000372E4 /* CloseupCardView.swift in Sources */,
 				4BB9049C214C16D200C78D2C /* AboutVC.swift in Sources */,
+				4B577F11215C19AB008E2CFF /* HowToVC.swift in Sources */,
 				4BF5BB22214575E500B85D89 /* UIViewRoundCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

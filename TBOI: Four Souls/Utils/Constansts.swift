@@ -22,6 +22,7 @@ extension UserDefaults {
         static let MenuViewCellReuseId = "MenuViewCell"
         static let DetailedVCSegueId = "DetailedVC"
         static let AboutVCSegueId = "AboutVC"
+        static let HowToVCSegueId = "HowToVC"
     }
     
     enum UI {

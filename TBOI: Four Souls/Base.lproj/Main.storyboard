@@ -13,6 +13,95 @@
         </array>
     </customFonts>
     <scenes>
+        <!--How ToVC-->
+        <scene sceneID="udZ-jW-eAV">
+            <objects>
+                <viewController storyboardIdentifier="HowToVC" id="ya7-qw-aLh" customClass="HowToVC" customModule="TBOI__Four_Souls" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HjI-Cy-ZSx"/>
+                        <viewControllerLayoutGuide type="bottom" id="mO1-26-W3q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wyg-dl-wl8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Myl-wy-202">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MNl-X6-ege">
+                                <rect key="frame" x="58" y="44" width="259" height="143"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="nSd-nE-hhU"/>
+                                    <constraint firstAttribute="height" constant="143" id="vsQ-4V-ZEq"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ydu-5I-8yP" customClass="FSPagerView" customModule="FSPagerView">
+                                <rect key="frame" x="0.0" y="195" width="375" height="575"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="zMh-Wd-6dG">
+                                <rect key="frame" x="0.0" y="812" width="375" height="0.0"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="EQW-S4-1NX"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="tzd-ss-1SR"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="bC1-N0-1vw" style="IBUITableViewCellStyleDefault" id="rNk-Bt-nH5">
+                                        <rect key="frame" x="0.0" y="55.333333333333336" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rNk-Bt-nH5" id="WPL-EA-qis">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bC1-N0-1vw">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.666666666666664"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EZ9-4A-jyj" customClass="FSPageControl" customModule="FSPagerView">
+                                <rect key="frame" x="0.0" y="740" width="375" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="aJf-29-DTU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mO1-26-W3q" firstAttribute="top" secondItem="Ydu-5I-8yP" secondAttribute="bottom" constant="8" id="0jF-zj-uF7"/>
+                            <constraint firstItem="Myl-wy-202" firstAttribute="leading" secondItem="wyg-dl-wl8" secondAttribute="leading" id="7Rx-xM-rgv"/>
+                            <constraint firstItem="MNl-X6-ege" firstAttribute="top" secondItem="HjI-Cy-ZSx" secondAttribute="bottom" id="EfA-ex-3si"/>
+                            <constraint firstItem="Ydu-5I-8yP" firstAttribute="top" secondItem="HjI-Cy-ZSx" secondAttribute="bottom" constant="151" id="GG3-Fr-YD2"/>
+                            <constraint firstItem="Ydu-5I-8yP" firstAttribute="trailing" secondItem="wyg-dl-wl8" secondAttribute="trailing" id="LcI-6v-v5o"/>
+                            <constraint firstItem="EZ9-4A-jyj" firstAttribute="top" secondItem="Ydu-5I-8yP" secondAttribute="bottom" constant="-30" id="POT-Yt-g8i"/>
+                            <constraint firstAttribute="bottom" secondItem="zMh-Wd-6dG" secondAttribute="bottom" id="W4B-M2-fQT"/>
+                            <constraint firstItem="MNl-X6-ege" firstAttribute="centerX" secondItem="wyg-dl-wl8" secondAttribute="centerX" id="XSs-xq-Q9W"/>
+                            <constraint firstItem="EZ9-4A-jyj" firstAttribute="leading" secondItem="zMh-Wd-6dG" secondAttribute="leading" id="gsD-Po-VDx"/>
+                            <constraint firstAttribute="bottom" secondItem="Myl-wy-202" secondAttribute="bottom" id="pEW-C4-4ya"/>
+                            <constraint firstItem="Ydu-5I-8yP" firstAttribute="leading" secondItem="wyg-dl-wl8" secondAttribute="leading" id="rMF-fl-pAI"/>
+                            <constraint firstAttribute="trailing" secondItem="zMh-Wd-6dG" secondAttribute="trailing" id="tIS-Nb-j1B"/>
+                            <constraint firstAttribute="trailing" secondItem="Myl-wy-202" secondAttribute="trailing" id="tUN-ku-8dA"/>
+                            <constraint firstItem="Myl-wy-202" firstAttribute="top" secondItem="wyg-dl-wl8" secondAttribute="top" id="w3g-su-voh"/>
+                            <constraint firstItem="zMh-Wd-6dG" firstAttribute="leading" secondItem="wyg-dl-wl8" secondAttribute="leading" id="wC4-dG-Vu2"/>
+                            <constraint firstItem="EZ9-4A-jyj" firstAttribute="trailing" secondItem="zMh-Wd-6dG" secondAttribute="trailing" id="xdc-Qj-YXm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="EZ9-4A-jyj" id="kgA-Mg-1Pf"/>
+                        <outlet property="pagerView" destination="Ydu-5I-8yP" id="hW2-Zk-KBp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Y3-oN-l2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1551.2" y="130.78817733990149"/>
+        </scene>
         <!--AboutVC-->
         <scene sceneID="o1K-ya-cbQ">
             <objects>
@@ -261,7 +350,7 @@ Heal all Players and Monsters.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gHt-g6-yut" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-720.79999999999995" y="130.04926108374386"/>
+            <point key="canvasLocation" x="-786" y="-627"/>
         </scene>
         <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
@@ -324,14 +413,6 @@ Heal all Players and Monsters.</string>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0HV-KZ-VfT">
-                                <rect key="frame" x="343" y="22" width="16" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="ellipsis-v"/>
-                                <connections>
-                                    <action selector="onMenuButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QX7-sc-aS2"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="zMY-pz-PSb">
                                 <rect key="frame" x="58" y="44" width="259" height="143"/>
                                 <constraints>
@@ -339,6 +420,34 @@ Heal all Players and Monsters.</string>
                                     <constraint firstAttribute="width" constant="259" id="Pgf-33-9Cp"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xKB-WH-XkI">
+                                <rect key="frame" x="291" y="0.0" width="84" height="84"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="YWc-F9-xQY">
+                                        <rect key="frame" x="31" y="30" width="36" height="36"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzm-0o-u9t">
+                                        <rect key="frame" x="0.0" y="0.0" width="84" height="84"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="84" id="BfI-O0-wM8"/>
+                                            <constraint firstAttribute="width" constant="84" id="EcT-Qn-eYZ"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="onInfoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hmo-Du-Kze"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="8Eq-OO-TWh"/>
+                                    <constraint firstAttribute="height" constant="84" id="ADe-wG-k2U"/>
+                                    <constraint firstAttribute="bottom" secondItem="YWc-F9-xQY" secondAttribute="bottom" constant="18" id="Ec3-pM-p7U"/>
+                                    <constraint firstItem="YWc-F9-xQY" firstAttribute="leading" secondItem="xKB-WH-XkI" secondAttribute="leading" constant="31" id="Olm-BI-NCh"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vzm-0o-u9t" secondAttribute="trailing" id="PBV-2g-Ket"/>
+                                    <constraint firstItem="Vzm-0o-u9t" firstAttribute="top" secondItem="xKB-WH-XkI" secondAttribute="top" id="dnj-UD-yCE"/>
+                                    <constraint firstAttribute="trailing" secondItem="YWc-F9-xQY" secondAttribute="trailing" constant="17" id="oIF-eh-nqe"/>
+                                    <constraint firstItem="YWc-F9-xQY" firstAttribute="top" secondItem="xKB-WH-XkI" secondAttribute="top" constant="30" id="sr1-gb-WPI"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -355,7 +464,9 @@ Heal all Players and Monsters.</string>
                             <constraint firstItem="pAV-gs-Kwq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bnV-FG-eJe"/>
                             <constraint firstItem="nb8-gY-Wu7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="cfb-vw-xMC"/>
                             <constraint firstItem="CgR-6K-Ggt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kKT-U3-fV9"/>
+                            <constraint firstItem="xKB-WH-XkI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pxY-7b-IRM"/>
                             <constraint firstAttribute="trailing" secondItem="CgR-6K-Ggt" secondAttribute="trailing" id="qJs-FO-dVI"/>
+                            <constraint firstAttribute="trailing" secondItem="xKB-WH-XkI" secondAttribute="trailing" id="rAL-vI-Tdh"/>
                         </constraints>
                     </view>
                     <connections>
@@ -619,7 +730,7 @@ Heal all Players and Monsters.</string>
         <image name="back" width="100" height="67"/>
         <image name="bg" width="1200" height="1525"/>
         <image name="border" width="1615" height="1082"/>
-        <image name="ellipsis-v" width="605" height="2070"/>
+        <image name="info" width="193" height="513.1199951171875"/>
         <image name="logo" width="682" height="389"/>
     </resources>
 </document>

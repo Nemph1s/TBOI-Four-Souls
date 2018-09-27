@@ -42,9 +42,9 @@ class MainVC: UIViewController {
         }
     }
     
-    @IBAction func onMenuButtonPressed(_ sender: Any) {
+    @IBAction func onInfoButtonPressed(_ sender: Any) {
 
-        if let vc2 = storyboard?.instantiateViewController(withIdentifier: "AboutVC") {
+        if let vc2 = storyboard?.instantiateViewController(withIdentifier: UserDefaults.ID.HowToVCSegueId) {
             // this enables Hero
             vc2.hero.isEnabled = true
             
@@ -54,7 +54,7 @@ class MainVC: UIViewController {
             //    vc2.hero.modalAnimationType = .pageIn(direction: .left)
             //    vc2.hero.modalAnimationType = .pull(direction: .left)
             //    vc2.hero.modalAnimationType = .autoReverse(presenting: .pageIn(direction: .left))
-            vc2.hero.modalAnimationType = .selectBy(presenting: .pull(direction: .left), dismissing: .slide(direction: .down))
+            vc2.hero.modalAnimationType = .selectBy(presenting: .pull(direction: .left), dismissing: .slide(direction: .right))
             
             DispatchQueue.main.async {
                 self.present(vc2, animated: true, completion: nil)
@@ -69,9 +69,9 @@ class MainVC: UIViewController {
             guard let bundle = sender as? CardsBundleInfo else {return}
             detailedVC.cardsBundle = bundle
         }
-        else if segue.identifier == UserDefaults.ID.AboutVCSegueId {
+        else if segue.identifier == UserDefaults.ID.HowToVCSegueId {
             
-            guard let aboutVC = segue.destination as? AboutVC else {return}
+            guard let aboutVC = segue.destination as? HowToVC else {return}
             guard let sender = sender as? UIButton else {return}
             sender.hero.id = "selected"
             aboutVC.view.hero.modifiers = [.source(heroID: "selected")]
