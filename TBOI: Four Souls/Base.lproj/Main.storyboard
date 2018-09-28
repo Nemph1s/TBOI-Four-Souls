@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.15" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.9"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -28,7 +29,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Myl-wy-202">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MNl-X6-ege">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MNl-X6-ege">
                                 <rect key="frame" x="58" y="44" width="259" height="143"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="259" id="nSd-nE-hhU"/>
@@ -36,7 +37,7 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ydu-5I-8yP" customClass="FSPagerView" customModule="FSPagerView">
-                                <rect key="frame" x="0.0" y="195" width="375" height="575"/>
+                                <rect key="frame" x="0.0" y="126" width="375" height="606"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="zMh-Wd-6dG">
                                 <rect key="frame" x="0.0" y="812" width="375" height="0.0"/>
@@ -66,24 +67,50 @@
                                 </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EZ9-4A-jyj" customClass="FSPageControl" customModule="FSPagerView">
-                                <rect key="frame" x="0.0" y="740" width="375" height="30"/>
+                                <rect key="frame" x="0.0" y="732" width="375" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="aJf-29-DTU"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHf-pE-mry">
+                                <rect key="frame" x="93" y="56" width="189" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="189" id="RiS-gh-jeI"/>
+                                    <constraint firstAttribute="height" constant="41" id="gXq-Jo-Ox4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oc-kf-bZd">
+                                <rect key="frame" x="16" y="71" width="40" height="26"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="DhJ-bq-C3v"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="back"/>
+                                <connections>
+                                    <action selector="onBackButtonPressed:" destination="lrt-GR-a4e" eventType="touchUpInside" id="Bsb-Ds-dyi"/>
+                                    <action selector="onBackButtonPressed:" destination="ya7-qw-aLh" eventType="touchUpInside" id="gWF-cD-eUg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="mO1-26-W3q" firstAttribute="top" secondItem="Ydu-5I-8yP" secondAttribute="bottom" constant="8" id="0jF-zj-uF7"/>
+                            <constraint firstItem="mO1-26-W3q" firstAttribute="top" secondItem="Ydu-5I-8yP" secondAttribute="bottom" constant="46" id="0jF-zj-uF7"/>
+                            <constraint firstItem="XHf-pE-mry" firstAttribute="leading" secondItem="3oc-kf-bZd" secondAttribute="trailing" constant="37" id="2Dx-id-MDZ"/>
                             <constraint firstItem="Myl-wy-202" firstAttribute="leading" secondItem="wyg-dl-wl8" secondAttribute="leading" id="7Rx-xM-rgv"/>
+                            <constraint firstItem="3oc-kf-bZd" firstAttribute="centerY" secondItem="XHf-pE-mry" secondAttribute="centerY" constant="7.5" id="8Oi-z3-j0U"/>
                             <constraint firstItem="MNl-X6-ege" firstAttribute="top" secondItem="HjI-Cy-ZSx" secondAttribute="bottom" id="EfA-ex-3si"/>
-                            <constraint firstItem="Ydu-5I-8yP" firstAttribute="top" secondItem="HjI-Cy-ZSx" secondAttribute="bottom" constant="151" id="GG3-Fr-YD2"/>
+                            <constraint firstItem="Ydu-5I-8yP" firstAttribute="top" secondItem="HjI-Cy-ZSx" secondAttribute="bottom" constant="82" id="GG3-Fr-YD2"/>
+                            <constraint firstItem="3oc-kf-bZd" firstAttribute="top" secondItem="HjI-Cy-ZSx" secondAttribute="bottom" constant="27" id="L6l-eI-QmQ"/>
                             <constraint firstItem="Ydu-5I-8yP" firstAttribute="trailing" secondItem="wyg-dl-wl8" secondAttribute="trailing" id="LcI-6v-v5o"/>
-                            <constraint firstItem="EZ9-4A-jyj" firstAttribute="top" secondItem="Ydu-5I-8yP" secondAttribute="bottom" constant="-30" id="POT-Yt-g8i"/>
+                            <constraint firstItem="EZ9-4A-jyj" firstAttribute="top" secondItem="Ydu-5I-8yP" secondAttribute="bottom" id="POT-Yt-g8i"/>
                             <constraint firstAttribute="bottom" secondItem="zMh-Wd-6dG" secondAttribute="bottom" id="W4B-M2-fQT"/>
                             <constraint firstItem="MNl-X6-ege" firstAttribute="centerX" secondItem="wyg-dl-wl8" secondAttribute="centerX" id="XSs-xq-Q9W"/>
                             <constraint firstItem="EZ9-4A-jyj" firstAttribute="leading" secondItem="zMh-Wd-6dG" secondAttribute="leading" id="gsD-Po-VDx"/>
+                            <constraint firstItem="3oc-kf-bZd" firstAttribute="leading" secondItem="wyg-dl-wl8" secondAttribute="leadingMargin" id="odK-9j-v7T"/>
                             <constraint firstAttribute="bottom" secondItem="Myl-wy-202" secondAttribute="bottom" id="pEW-C4-4ya"/>
                             <constraint firstItem="Ydu-5I-8yP" firstAttribute="leading" secondItem="wyg-dl-wl8" secondAttribute="leading" id="rMF-fl-pAI"/>
                             <constraint firstAttribute="trailing" secondItem="zMh-Wd-6dG" secondAttribute="trailing" id="tIS-Nb-j1B"/>
@@ -91,6 +118,7 @@
                             <constraint firstItem="Myl-wy-202" firstAttribute="top" secondItem="wyg-dl-wl8" secondAttribute="top" id="w3g-su-voh"/>
                             <constraint firstItem="zMh-Wd-6dG" firstAttribute="leading" secondItem="wyg-dl-wl8" secondAttribute="leading" id="wC4-dG-Vu2"/>
                             <constraint firstItem="EZ9-4A-jyj" firstAttribute="trailing" secondItem="zMh-Wd-6dG" secondAttribute="trailing" id="xdc-Qj-YXm"/>
+                            <constraint firstItem="XHf-pE-mry" firstAttribute="top" secondItem="HjI-Cy-ZSx" secondAttribute="bottom" constant="12" id="yPM-sN-Ha1"/>
                         </constraints>
                     </view>
                     <connections>
@@ -100,257 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Y3-oN-l2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1551.2" y="130.78817733990149"/>
-        </scene>
-        <!--AboutVC-->
-        <scene sceneID="o1K-ya-cbQ">
-            <objects>
-                <viewController storyboardIdentifier="AboutVC" id="I1C-d4-5aX" customClass="AboutVC" customModule="TBOI__Four_Souls" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gBf-QX-sLo"/>
-                        <viewControllerLayoutGuide type="bottom" id="51u-4H-8zw"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7lI-yq-QZM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="imW-Yk-cVa">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1812"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="km3-6Y-Zdc">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1812"/>
-                                <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BL0-CZ-VXW">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1812"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="DMj-li-Er9">
-                                                <rect key="frame" x="61.666666666666657" y="52" width="251.99999999999997" height="143"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="143" id="an9-D7-ZQj"/>
-                                                    <constraint firstAttribute="width" constant="252" id="gSw-iS-2Gf"/>
-                                                </constraints>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tid-PA-eYr">
-                                                <rect key="frame" x="121.66666666666669" y="203" width="132" height="34"/>
-                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="25"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="yhW-4c-4vi">
-                                                <rect key="frame" x="20" y="256" width="335" height="1507"/>
-                                                <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jK7-ip-VoC">
-                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="161.33333333333334"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Basics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0m-rD-cdE">
-                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="31.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="23"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mQ-1z-foT">
-                                                                <rect key="frame" x="0.0" y="39.333333333333314" width="335" height="122"/>
-                                                                <string key="text">2-4 Players take turns playing Loot cards and using Items to kill Monsters in order to gain more Items, Loot cards and sometimes Souls. The first player to gain 4 souls is the winner. Co-operation, bartering and betrayal are all strongly encouraged.</string>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                        <constraints>
-                                                            <constraint firstItem="o0m-rD-cdE" firstAttribute="leading" secondItem="jK7-ip-VoC" secondAttribute="leading" id="IGu-AT-CO4"/>
-                                                            <constraint firstAttribute="trailing" secondItem="o0m-rD-cdE" secondAttribute="trailing" id="aIz-OX-mIK"/>
-                                                            <constraint firstAttribute="trailing" secondItem="9mQ-1z-foT" secondAttribute="trailing" id="eh4-EZ-2QD"/>
-                                                            <constraint firstItem="9mQ-1z-foT" firstAttribute="leading" secondItem="jK7-ip-VoC" secondAttribute="leading" id="yCh-PQ-H3w"/>
-                                                        </constraints>
-                                                    </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bKU-g2-XVw">
-                                                        <rect key="frame" x="0.0" y="172.33333333333331" width="335" height="625"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Starting the Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ma7-1C-IFB">
-                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="31.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="23"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Monster, Loot and Treasure decks are each shuffled and placed apart on the table." lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h91-AV-pgX">
-                                                                <rect key="frame" x="0.0" y="39.333333333333371" width="335" height="49"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qo4-Sg-wz8">
-                                                                <rect key="frame" x="0.0" y="96.333333333333329" width="329.66666666666669" height="146.33333333333337"/>
-                                                                <string key="text">2 Monster cards are revealed and placed face up next to the Monster deck. These are the current active Monsters. If any non-Monster cards are revealed this way, place them at the bottom of the deck and continue this process until 2 Monster cards are revealed.</string>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Treasure Items are revealed and placed face up next to the Treasure deck. These are the current Store Items." lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eED-cH-Jh9">
-                                                                <rect key="frame" x="0.0" y="250.66666666666671" width="321.66666666666669" height="73.333333333333343"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4b9-xb-pAH">
-                                                                <rect key="frame" x="0.0" y="332.00000000000006" width="335" height="97.666666666666686"/>
-                                                                <string key="text">Shuffle the Character deck and deal out one Character card to all players face down. Each player then reveals their Character and gains their Starting Item.</string>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All players start with their Character card activated (turned sideways)." lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBy-xg-flv">
-                                                                <rect key="frame" x="0.0" y="437.66666666666669" width="279" height="49"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Each player starts the game with 3 loot cards and 3¢" lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ea-Fz-hAv">
-                                                                <rect key="frame" x="0.0" y="494.66666666666674" width="298.33333333333331" height="49"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSp-dr-XhZ">
-                                                                <rect key="frame" x="0.0" y="551.66666666666674" width="329.66666666666669" height="73.333333333333371"/>
-                                                                <string key="text">Cain always plays first. If Cain is not one of the characters drawn, then the saddest person playing goes first, or just roll a dice, whatever works…</string>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                        <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="Ma7-1C-IFB" secondAttribute="trailing" id="2l4-hj-TMb"/>
-                                                            <constraint firstAttribute="trailing" secondItem="h91-AV-pgX" secondAttribute="trailing" id="3PP-QD-hqv"/>
-                                                            <constraint firstItem="Ma7-1C-IFB" firstAttribute="leading" secondItem="bKU-g2-XVw" secondAttribute="leading" id="Ie4-wS-iIb"/>
-                                                            <constraint firstItem="h91-AV-pgX" firstAttribute="leading" secondItem="bKU-g2-XVw" secondAttribute="leading" id="ZrJ-dz-Yu8"/>
-                                                        </constraints>
-                                                    </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="M0T-hC-Q2I">
-                                                        <rect key="frame" x="0.0" y="808.33333333333326" width="335" height="698.66666666666674"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player turn:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYN-tE-Snh">
-                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="31.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="23"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Recharge all active Items and your Player card - Turn all Items and Player cards upright." lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tmr-BU-251">
-                                                                <rect key="frame" x="0.0" y="39.333333333333485" width="335" height="49"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Loot 1 - Draw the top card from the Loot deck and put it in your hand." lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5H-oc-Hh4">
-                                                                <rect key="frame" x="0.0" y="96.333333333333485" width="314" height="49"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="18" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVh-sn-5bO">
-                                                                <rect key="frame" x="0.0" y="153.33333333333348" width="335" height="73.333333333333314"/>
-                                                                <string key="text">3. Action Phase: 
-During their Action Phase, the active player may do any or all of the following in any order:</string>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Play 1 Loot card - This can be in response to any action." lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cT6-FR-DRI">
-                                                                <rect key="frame" x="0.0" y="234.66666666666674" width="302" height="49"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGS-ht-4DE">
-                                                                <rect key="frame" x="0.0" y="291.66666666666674" width="331.66666666666669" height="73.333333333333314"/>
-                                                                <string key="text">- Purchase 1 Store Item or topmost card of the Treasure deck - All Store Items cost 10¢, including the topmost card of the deck.</string>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Attack a Monster - The player can choose to attack any active Monster or attack the topmost card of the Monster deck." lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YK4-00-CXG">
-                                                                <rect key="frame" x="0.0" y="373" width="318.66666666666669" height="73.333333333333314"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgs-xq-lVk">
-                                                                <rect key="frame" x="0.0" y="454.33333333333348" width="318.66666666666669" height="97.666666666666629"/>
-                                                                <string key="text">- Activate their Player card to play an additional Loot card - Player cards can also be saved and activated on other players’ turns in response to any action. </string>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="18" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvE-WW-1RL">
-                                                                <rect key="frame" x="0.0" y="560" width="194.33333333333334" height="49"/>
-                                                                <string key="text">4. Ending Phase
-Heal all Players and Monsters.</string>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discard down to 10 Loot cards if you have more than 10 in your hand." lineBreakMode="wordWrap" numberOfLines="18" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAu-Nm-R2d">
-                                                                <rect key="frame" x="0.0" y="617" width="335" height="49"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pass the turn to the player to your left." lineBreakMode="wordWrap" numberOfLines="18" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVi-vy-SfX">
-                                                                <rect key="frame" x="0.0" y="674" width="258.66666666666669" height="24.666666666666629"/>
-                                                                <fontDescription key="fontDescription" name="PatrickHand-Regular" family="Patrick Hand" pointSize="18"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                        <constraints>
-                                                            <constraint firstItem="tYN-tE-Snh" firstAttribute="leading" secondItem="M0T-hC-Q2I" secondAttribute="leading" id="Tdg-d9-qeY"/>
-                                                            <constraint firstAttribute="trailing" secondItem="tYN-tE-Snh" secondAttribute="trailing" id="j8f-f8-Ofw"/>
-                                                            <constraint firstAttribute="trailing" secondItem="Tmr-BU-251" secondAttribute="trailing" id="pkS-V0-gfq"/>
-                                                            <constraint firstItem="Tmr-BU-251" firstAttribute="leading" secondItem="M0T-hC-Q2I" secondAttribute="leading" id="yT7-TB-ehe"/>
-                                                        </constraints>
-                                                    </stackView>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="DMj-li-Er9" firstAttribute="top" secondItem="BL0-CZ-VXW" secondAttribute="topMargin" id="AgW-E6-EP0"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="DMj-li-Er9" secondAttribute="bottom" constant="698" id="Fhp-fo-6Xo"/>
-                                            <constraint firstItem="tid-PA-eYr" firstAttribute="top" secondItem="DMj-li-Er9" secondAttribute="bottom" constant="8" id="G9I-6a-LCl"/>
-                                            <constraint firstAttribute="trailing" secondItem="yhW-4c-4vi" secondAttribute="trailing" constant="20" id="NAZ-GK-OjC"/>
-                                            <constraint firstItem="DMj-li-Er9" firstAttribute="centerX" secondItem="BL0-CZ-VXW" secondAttribute="centerX" id="PQx-x6-qaf"/>
-                                            <constraint firstItem="yhW-4c-4vi" firstAttribute="leading" secondItem="BL0-CZ-VXW" secondAttribute="leading" constant="20" id="a2f-rF-h7t"/>
-                                            <constraint firstItem="DMj-li-Er9" firstAttribute="leading" secondItem="BL0-CZ-VXW" secondAttribute="leadingMargin" constant="53.5" id="ged-WZ-uw4"/>
-                                            <constraint firstItem="yhW-4c-4vi" firstAttribute="top" secondItem="tid-PA-eYr" secondAttribute="bottom" constant="19" id="hMg-l2-lpL"/>
-                                            <constraint firstItem="tid-PA-eYr" firstAttribute="centerX" secondItem="BL0-CZ-VXW" secondAttribute="centerX" id="nxF-fU-AIn"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="DMj-li-Er9" secondAttribute="trailing" constant="53.5" id="upV-Xj-07b"/>
-                                        </constraints>
-                                    </scrollView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="BL0-CZ-VXW" secondAttribute="trailing" id="2Kg-KN-cku"/>
-                                    <constraint firstAttribute="bottom" secondItem="BL0-CZ-VXW" secondAttribute="bottom" id="FM2-ld-m3N"/>
-                                    <constraint firstItem="BL0-CZ-VXW" firstAttribute="leading" secondItem="km3-6Y-Zdc" secondAttribute="leading" id="fCG-dA-heZ"/>
-                                    <constraint firstItem="BL0-CZ-VXW" firstAttribute="top" secondItem="km3-6Y-Zdc" secondAttribute="top" id="jBt-Mt-oZ6"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="km3-6Y-Zdc" secondAttribute="bottom" id="1Qb-3n-A5b"/>
-                            <constraint firstItem="km3-6Y-Zdc" firstAttribute="top" secondItem="7lI-yq-QZM" secondAttribute="top" id="AN0-dO-jEl"/>
-                            <constraint firstAttribute="bottom" secondItem="imW-Yk-cVa" secondAttribute="bottom" id="Emb-WP-7mc"/>
-                            <constraint firstAttribute="trailing" secondItem="km3-6Y-Zdc" secondAttribute="trailing" id="Wtw-Ct-AlN"/>
-                            <constraint firstItem="km3-6Y-Zdc" firstAttribute="leading" secondItem="7lI-yq-QZM" secondAttribute="leading" id="ZPP-yb-6y0"/>
-                            <constraint firstAttribute="trailing" secondItem="imW-Yk-cVa" secondAttribute="trailing" id="g12-xI-Nj3"/>
-                            <constraint firstItem="imW-Yk-cVa" firstAttribute="top" secondItem="7lI-yq-QZM" secondAttribute="top" id="p7K-ED-rxp"/>
-                            <constraint firstItem="imW-Yk-cVa" firstAttribute="leading" secondItem="7lI-yq-QZM" secondAttribute="leading" id="xcm-2l-j8L"/>
-                        </constraints>
-                    </view>
-                    <size key="freeformSize" width="375" height="1812"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gHt-g6-yut" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-786" y="-627"/>
+            <point key="canvasLocation" x="1884" y="131"/>
         </scene>
         <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
@@ -421,7 +199,7 @@ Heal all Players and Monsters.</string>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xKB-WH-XkI">
-                                <rect key="frame" x="291" y="0.0" width="84" height="84"/>
+                                <rect key="frame" x="291" y="30" width="84" height="84"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="YWc-F9-xQY">
                                         <rect key="frame" x="31" y="30" width="36" height="36"/>
@@ -464,7 +242,7 @@ Heal all Players and Monsters.</string>
                             <constraint firstItem="pAV-gs-Kwq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bnV-FG-eJe"/>
                             <constraint firstItem="nb8-gY-Wu7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="cfb-vw-xMC"/>
                             <constraint firstItem="CgR-6K-Ggt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kKT-U3-fV9"/>
-                            <constraint firstItem="xKB-WH-XkI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pxY-7b-IRM"/>
+                            <constraint firstItem="xKB-WH-XkI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="30" id="pxY-7b-IRM"/>
                             <constraint firstAttribute="trailing" secondItem="CgR-6K-Ggt" secondAttribute="trailing" id="qJs-FO-dVI"/>
                             <constraint firstAttribute="trailing" secondItem="xKB-WH-XkI" secondAttribute="trailing" id="rAL-vI-Tdh"/>
                         </constraints>

@@ -27,6 +27,164 @@ class HowToVC: UIViewController, FSPagerViewDataSource, FSPagerViewDelegate {
     
     fileprivate let imageData = ["", "", "", "image4", "image2", "image3", "image1", "", "", "image5", ""]
     
+    
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        pagerView.delegate = self
+        pagerView.dataSource = self
+    }
+    
+    @IBAction func onBackButtonPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    // MARK:- FSPagerViewDataSource
+    
+    func numberOfItems(in pagerView: FSPagerView) -> Int {
+        return self.pageData.count
+    }
+    
+    public func pagerView(_ pagerView: FSPagerView, cellForItemAt index: Int) -> FSPagerViewCell {
+        
+        let cell = pagerView.dequeueReusableCell(withReuseIdentifier: "cell", at: index)
+        let contentView = cell.contentView
+        clearPagerViewCell(cell)
+        
+        let scrollView = createScrollView()
+        contentView.addSubview(scrollView)
+    
+        // constrain the scroll view to 8-pts on each side
+        scrollView.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 8.0).isActive = true
+        scrollView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8.0).isActive = true
+        scrollView.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -8.0).isActive = true
+        scrollView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -8.0).isActive = true
+        
+        // add labelOne to the scroll view
+        let labelTitle = createTitleLabel()
+        scrollView.addSubview(labelTitle)
+        labelTitle.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16).isActive = true
+        labelTitle.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16.0).isActive = true
+        labelTitle.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 16.0).isActive = true
+        labelTitle.text = pageData[index][0]
+        
+        var bottomAnchor: NSLayoutYAxisAnchor = labelTitle.bottomAnchor
+        var bottomAnchorConstant: CGFloat = 16.0
+        
+        let imageName = imageData[index]
+        if !imageName.isEmpty {
+            
+            let isLandscapeImage = imageName.contains("image1")
+            let spacer: CGFloat = 50
+            let imageWidth: CGFloat = isLandscapeImage ? 382 : 200
+            let imageHeight: CGFloat = isLandscapeImage ? 200 : 273
+
+            let imageView = UIImageView()
+            imageView.image = UIImage(named: imageName)
+            imageView.contentMode = UIView.ContentMode.scaleAspectFit
+            imageView.frame.size.width = imageWidth
+            imageView.frame.size.height = imageHeight
+            
+            imageView.frame.origin.y = spacer
+            scrollView.addSubview(imageView)
+            
+            bottomAnchor = imageView.bottomAnchor
+            bottomAnchorConstant = 0
+        }
+        
+        let labelDescription = createDescriptionLabel()
+        scrollView.addSubview(labelDescription)
+        labelDescription.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16.0).isActive = true
+        labelDescription.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16.0).isActive = true
+        labelDescription.topAnchor.constraint(equalTo: bottomAnchor, constant: bottomAnchorConstant).isActive = true
+        labelDescription.text = pageData[index][1]
+        /*
+        let imageName = imageData[index]
+        if !imageName.isEmpty {
+            
+            let imageWidth:CGFloat = 200
+            let imageHeight:CGFloat = 273
+            var yPosition: CGFloat = 0
+            var scrollViewHeight: CGFloat = scrollView.contentSize.height
+            let scrollViewWidth: CGFloat = scrollView.contentSize.width
+            
+            let imageView = UIImageView()
+            imageView.image = UIImage(named: imageName)
+            imageView.contentMode = UIView.ContentMode.scaleAspectFit
+            imageView.frame.size.width = imageWidth
+            imageView.frame.size.height = imageHeight
+            //imageView.center = scrollView.center
+            imageView.frame.origin.y = yPosition
+            scrollView.addSubview(imageView)
+            
+            //imageView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 16.0).isActive = true
+            //imageView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: -16.0).isActive = true
+            //imageView.topAnchor.constraint(equalTo: labelDescription.bottomAnchor, constant: 16.0).isActive = true
+            
+            //let spacer:CGFloat = 20
+            //yPosition += imageHeight + spacer
+            //scrollViewHeight += imageHeight + spacer
+            //scrollView.contentSize = CGSize(width: scrollViewWidth, height: scrollViewHeight)
+            
+            /*
+            let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 200, height: 273))
+            imageView.image = UIImage(named: imageName)
+            
+            //imageView.widthAnchor.constraint(equalToConstant: 400).isActive = true
+            //imageView.heightAnchor.constraint(equalToConstant: 546).isActive = true
+            scrollView.addSubview(imageView)
+            imageView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 16.0).isActive = true
+            imageView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: -16.0).isActive = true
+            imageView.topAnchor.constraint(equalTo: labelDescription.bottomAnchor, constant: 600.0).isActive = true
+            */
+        }
+        */
+        return cell
+    }
+    
+    func isPageViewItem(_ subview: UIView) -> Bool {
+        return subview.tag == 1000
+    }
+    
+    func clearPagerViewCell(_ cell: FSPagerViewCell) {
+        let contentView = cell.contentView
+        for subview in contentView.subviews {
+            if isPageViewItem(subview) {
+                subview.removeFromSuperview()
+            }
+        }
+    }
+    
+    func createScrollView() -> UIScrollView {
+        let view = UIScrollView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.tag = 1000
+        return view
+    }
+    
+    func createTitleLabel() -> UILabel {
+        let label = UILabel()
+        label.textColor = .white
+        label.font = UIFont(name: "PatrickHand-Regular", size: 27.0)
+        label.contentMode = .scaleToFill
+        label.numberOfLines = 0
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.tag = 1000
+        return label
+    }
+    
+    func createDescriptionLabel() -> UILabel {
+        let label = UILabel()
+        label.textColor = .white
+        label.font = UIFont(name: "PatrickHand-Regular", size: 22.0)
+        label.contentMode = .scaleToFill
+        label.numberOfLines = 0
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.tag = 1000
+        return label
+    }
+    
     @IBOutlet weak var pagerView: FSPagerView! {
         didSet {
             self.pagerView.register(FSPagerViewCell.self, forCellWithReuseIdentifier: "cell")
@@ -49,89 +207,6 @@ class HowToVC: UIViewController, FSPagerViewDataSource, FSPagerViewDelegate {
             self.pageControl.setPath(nil, for: .normal)
             self.pageControl.setPath(nil, for: .selected)
         }
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        pagerView.delegate = self
-        pagerView.dataSource = self
-
-        
-    }
-    
-    let scrollView: UIScrollView = {
-        let view = UIScrollView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        return view
-    }()
-    
-    let labelTitle: UILabel = {
-        let label = UILabel()
-        label.textColor = .white
-        label.font = UIFont(name: "PatrickHand-Regular", size: 27.0)
-        label.contentMode = .scaleToFill
-        label.numberOfLines = 0
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
-    
-    let labelDescription: UILabel = {
-        let label = UILabel()
-        label.textColor = .white
-        label.font = UIFont(name: "PatrickHand-Regular", size: 22.0)
-        label.contentMode = .scaleToFill
-        label.numberOfLines = 0
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
-    
-    // MARK:- FSPagerViewDataSource
-    
-    func numberOfItems(in pagerView: FSPagerView) -> Int {
-        return self.pageData.count
-    }
-    
-    public func pagerView(_ pagerView: FSPagerView, cellForItemAt index: Int) -> FSPagerViewCell {
-        
-        let cell = pagerView.dequeueReusableCell(withReuseIdentifier: "cell", at: index)
-        let contentView = cell.contentView
-        contentView.addSubview(scrollView)
-    
-        // constrain the scroll view to 8-pts on each side
-        scrollView.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 8.0).isActive = true
-        scrollView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8.0).isActive = true
-        scrollView.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -8.0).isActive = true
-        scrollView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -8.0).isActive = true
-        
-        // add labelOne to the scroll view
-        scrollView.addSubview(labelTitle)
-        labelTitle.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16).isActive = true
-        labelTitle.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 16.0).isActive = true
-        labelTitle.text = pageData[index][0]
-        
-        scrollView.addSubview(labelDescription)
-        labelDescription.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16.0).isActive = true
-        labelDescription.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16.0).isActive = true
-        labelDescription.topAnchor.constraint(equalTo: labelTitle.bottomAnchor, constant: 16.0).isActive = true
-        labelDescription.text = pageData[index][1]
-        
-        /*let imageName = imageData[index]
-        if !imageName.isEmpty {
-            
-            let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 200, height: 273))
-            imageView.image = UIImage(named: imageName)
-            
-            //imageView.widthAnchor.constraint(equalToConstant: 400).isActive = true
-            //imageView.heightAnchor.constraint(equalToConstant: 546).isActive = true
-            scrollView.addSubview(imageView)
-            imageView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 16.0).isActive = true
-            imageView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor, constant: -16.0).isActive = true
-            imageView.topAnchor.constraint(equalTo: labelDescription.bottomAnchor, constant: 600.0).isActive = true
-            
-        }*/
-        
-        return cell
     }
 
     func pagerView(_ pagerView: FSPagerView, didSelectItemAt index: Int) {
