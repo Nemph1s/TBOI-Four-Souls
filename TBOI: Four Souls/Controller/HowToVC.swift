@@ -9,11 +9,12 @@
 import UIKit
 import FSPagerView
 
-class HowToVC: UIViewController, FSPagerViewDataSource, FSPagerViewDelegate {
+
+class HowToVC: UIViewController {
     
     @IBOutlet weak var pagerView: FSPagerView! {
         didSet {
-            self.pagerView.register(FSPagerViewCell.self, forCellWithReuseIdentifier: "cell")
+            self.pagerView.register(FSPagerViewCell.self, forCellWithReuseIdentifier: UserDefaults.ID.HowToCellReuseId)
         }
     }
     
@@ -23,98 +24,35 @@ class HowToVC: UIViewController, FSPagerViewDataSource, FSPagerViewDelegate {
             self.pageControl.contentHorizontalAlignment = .center
             self.pageControl.contentInsets = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
             self.pageControl.hidesForSinglePage = true
-            
-            self.pageControl.setStrokeColor(nil, for: .normal)
-            self.pageControl.setStrokeColor(nil, for: .selected)
-            self.pageControl.setFillColor(nil, for: .normal)
-            self.pageControl.setFillColor(nil, for: .selected)
-            self.pageControl.setImage(nil, for: .normal)
-            self.pageControl.setImage(nil, for: .selected)
-            self.pageControl.setPath(nil, for: .normal)
-            self.pageControl.setPath(nil, for: .selected)
         }
     }
+    
+    var pagerViewCell: FSPagerViewCell? = nil
+    var scrollView: UIScrollView? = nil
+    var topLineView: UIView? = nil
+    var titleLabel: UILabel? = nil
+    var descriptionImage: UIImageView? = nil
+    var descriptionLabel: UILabel? = nil
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        pagerView.delegate = self
-        pagerView.dataSource = self
     }
     
     @IBAction func onBackButtonPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+}
+
+extension HowToVC: FSPagerViewDelegate {
     
-    // MARK:- FSPagerViewDataSource
-    
-    func numberOfItems(in pagerView: FSPagerView) -> Int {
-        return UserDefaults.Locale.PagerData.count
+    /// Tells the delegate when the user finishes scrolling the content.
+    func pagerViewWillEndDragging(_ pagerView: FSPagerView, targetIndex: Int) {
+        self.pageControl.currentPage = targetIndex
     }
     
-    public func pagerView(_ pagerView: FSPagerView, cellForItemAt index: Int) -> FSPagerViewCell {
-        
-        let cell = pagerView.dequeueReusableCell(withReuseIdentifier: "cell", at: index)
-        let contentView = cell.contentView
-        clearPagerViewCell(cell)
-        
-        let anchorConst = UserDefaults.UI.HowToVC.AnchorConstant
-        let halfAnchorConst = UserDefaults.UI.HowToVC.AnchorConstant / 2
-        
-        let scrollView = createScrollView()
-        contentView.addSubview(scrollView)
-    
-        // constrain the scroll view to 8-pts on each side
-        scrollView.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: halfAnchorConst).isActive = true
-        scrollView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: halfAnchorConst).isActive = true
-        scrollView.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -halfAnchorConst).isActive = true
-        scrollView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -halfAnchorConst).isActive = true
-        
-        let topLine = UIView()
-        topLine.tag = UserDefaults.Tag.PagerViewDefaultTag
-        topLine.backgroundColor = .gray
-        topLine.frame = UserDefaults.UI.HowToVC.TopLineRect
-        scrollView.addSubview(topLine)
-        //topLine.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: anchorConst).isActive = true
-        
-        // add labelOne to the scroll view
-        let labelTitle = createTitleLabel()
-        scrollView.addSubview(labelTitle)
-        labelTitle.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: anchorConst).isActive = true
-        labelTitle.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -anchorConst).isActive = true
-        labelTitle.topAnchor.constraint(equalTo: topLine.bottomAnchor, constant: anchorConst).isActive = true
-        labelTitle.text = UserDefaults.Locale.PagerData[index][0]
-        
-        var bottomAnchor: NSLayoutYAxisAnchor = labelTitle.bottomAnchor
-        var bottomAnchorConstant: CGFloat = anchorConst
-        
-        let imageName = UserDefaults.Locale.PagerImageData[index]
-        if !imageName.isEmpty {
-            
-            let isLandscapeImage = imageName.contains("image1")
-
-            let imageView = UIImageView()
-            imageView.image = UIImage(named: imageName)
-            imageView.contentMode = UIView.ContentMode.scaleAspectFit
-            imageView.frame.size.width = UserDefaults.UI.HowToVC.imageWidth(viewType: isLandscapeImage)
-            imageView.frame.size.height = UserDefaults.UI.HowToVC.imageHeight(viewType: isLandscapeImage)
-            imageView.frame.origin.y = UserDefaults.UI.HowToVC.Spacer
-            imageView.tag = UserDefaults.Tag.PagerViewDefaultTag
-            scrollView.addSubview(imageView)
-            print(imageView.frame.size)
-            bottomAnchor = imageView.bottomAnchor
-            bottomAnchorConstant = 0
-        }
-        
-        let labelDescription = createDescriptionLabel()
-        scrollView.addSubview(labelDescription)
-        labelDescription.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: anchorConst).isActive = true
-        labelDescription.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -anchorConst).isActive = true
-        labelDescription.topAnchor.constraint(equalTo: bottomAnchor, constant: bottomAnchorConstant).isActive = true
-        labelDescription.widthAnchor.constraint(lessThanOrEqualToConstant: 375).isActive = true
-        labelDescription.text = UserDefaults.Locale.PagerData[index][1]
-        
-        return cell
+    /// Tells the delegate that the item at the specified index was selected.
+    func pagerView(_ pagerView: FSPagerView, didSelectItemAt index: Int) {
+        pagerView.deselectItem(at: index, animated: true)
     }
     
     /// Tells the delegate that the specified cell is about to be displayed in the pager view.
@@ -128,7 +66,7 @@ class HowToVC: UIViewController, FSPagerViewDataSource, FSPagerViewDelegate {
         if imageName.isEmpty {
             scrollViewHeight += UserDefaults.UI.HowToVC.Spacer
         }
-
+        
         for subview in scrollView.subviews {
             if subview is UIImageView {
                 scrollViewHeight += subview.frame.size.height
@@ -143,7 +81,7 @@ class HowToVC: UIViewController, FSPagerViewDataSource, FSPagerViewDelegate {
     /// Tells the delegate that the specified cell was removed from the pager view.
     public func pagerView(_ pagerView: FSPagerView, didEndDisplaying cell: FSPagerViewCell, forItemAt index: Int) {
         
-        //clearPagerViewCell(cell)
+        clearPagerViewCell(cell)
     }
     
     func isPageViewItem(_ subview: UIView) -> Bool {
@@ -159,45 +97,89 @@ class HowToVC: UIViewController, FSPagerViewDataSource, FSPagerViewDelegate {
         }
     }
     
-    func createScrollView() -> UIScrollView {
-        let view = UIScrollView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.tag = UserDefaults.Tag.PagerViewScrollViewTag
-        return view
+    func clearPagerViewOptionals() {
+        
+        pagerViewCell = nil
+        scrollView = nil
+        topLineView = nil
+        titleLabel = nil
+        descriptionImage = nil
+        descriptionLabel = nil
     }
-    
-    func createTitleLabel() -> UILabel {
-        let label = UILabel()
-        label.textColor = .white
-        label.font = UserDefaults.UI.HowToVC.TitleUIFont
-        label.contentMode = .scaleToFill
-        label.numberOfLines = 0
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.tag = UserDefaults.Tag.PagerViewDefaultTag
-        return label
-    }
-    
-    func createDescriptionLabel() -> UILabel {
-        let label = UILabel()
-        label.textColor = .white
-        label.font = UserDefaults.UI.HowToVC.DescriptionUIFont
-        label.contentMode = .scaleToFill
-        label.numberOfLines = 0
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.tag = UserDefaults.Tag.PagerViewDefaultTag
-        return label
-    }
-    
-    
+}
 
-    func pagerView(_ pagerView: FSPagerView, didSelectItemAt index: Int) {
-        pagerView.deselectItem(at: index, animated: true)
+extension HowToVC: FSPagerViewDataSource {
+    
+    /// Asks your data source object for the number of items in the pager view.
+    public func numberOfItems(in pagerView: FSPagerView) -> Int {
+        return UserDefaults.Locale.PagerData.count
     }
     
-    // MARK:- FSPagerViewDelegate
-    
-    func pagerViewWillEndDragging(_ pagerView: FSPagerView, targetIndex: Int) {
-        self.pageControl.currentPage = targetIndex
-    }
+    /// Asks your data source object for the cell that corresponds to the specified item in the pager view.
+    public func pagerView(_ pagerView: FSPagerView, cellForItemAt index: Int) -> FSPagerViewCell {
+        
+        clearPagerViewOptionals()
+        pagerViewCell = pagerView.dequeueReusableCell(withReuseIdentifier: UserDefaults.ID.HowToCellReuseId, at: index)
+        
+        scrollView = UIHelper.createScrollView()
+        pagerViewCell!.contentView.addSubview(scrollView!)
+        
+        topLineView = UIHelper.createTopLine()
+        scrollView!.addSubview(topLineView!)
+        
+        // add labelOne to the scroll view
+        titleLabel = UIHelper.createTitleLabel()
+        scrollView!.addSubview(titleLabel!)
+ 
+        let imageName = UserDefaults.Locale.PagerImageData[index]
+        if !imageName.isEmpty {
+            
+            let isLandscapeImage = imageName.contains(UserDefaults.UI.LandscapeImageName)
+            descriptionImage = UIHelper.createDescriptionImage(named: imageName, orientation: isLandscapeImage)
+            scrollView!.addSubview(descriptionImage!)
+        }
+        
+        descriptionLabel = UIHelper.createDescriptionLabel()
+        scrollView!.addSubview(descriptionLabel!)
+        
+        updatePagerCell(at: index)
 
+        return pagerViewCell!
+    }
+    
+    
+    func updatePagerCell(at index: Int) {
+        
+        guard let contentView = pagerViewCell?.contentView else {return}
+        guard let scroll = scrollView else {return}
+        
+        let anchorConst = UserDefaults.UI.HowToVC.AnchorConstant
+        let halfAnchorConst = UserDefaults.UI.HowToVC.AnchorConstant / 2
+        
+        // constrain the scroll view to 8-pts on each side
+        scroll.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: halfAnchorConst).isActive = true
+        scroll.topAnchor.constraint(equalTo: contentView.topAnchor, constant: halfAnchorConst).isActive = true
+        scroll.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -halfAnchorConst).isActive = true
+        scroll.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -halfAnchorConst).isActive = true
+        
+        guard let title = titleLabel else {return}
+        guard let topLine = topLineView else {return}
+        
+        title.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: anchorConst).isActive = true
+        title.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -anchorConst).isActive = true
+        title.topAnchor.constraint(equalTo: topLine.bottomAnchor, constant: anchorConst).isActive = true
+        title.text = UserDefaults.Locale.PagerData[index][0]
+        
+        let isEmptyImg = UserDefaults.Locale.PagerImageData[index].isEmpty
+        let bottomAnchor = isEmptyImg ? title.bottomAnchor : descriptionImage!.bottomAnchor
+        let constant: CGFloat = isEmptyImg ? anchorConst : 0
+        
+        guard let description = descriptionLabel else {return}
+        
+        description.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: anchorConst).isActive = true
+        description.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -anchorConst).isActive = true
+        description.topAnchor.constraint(equalTo: bottomAnchor, constant: constant).isActive = true
+        description.widthAnchor.constraint(lessThanOrEqualToConstant: 375).isActive = true
+        description.text = UserDefaults.Locale.PagerData[index][1]
+    }
 }

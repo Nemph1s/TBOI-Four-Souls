@@ -24,12 +24,16 @@ extension UserDefaults {
         
         static let CardCellReuseId = "CardCell"
         static let MenuViewCellReuseId = "MenuViewCell"
+        static let HowToCellReuseId = "cell"
         static let DetailedVCSegueId = "DetailedVC"
         static let AboutVCSegueId = "AboutVC"
         static let HowToVCSegueId = "HowToVC"
     }
     
     struct UI {
+        
+        static let LandscapeImageName = "image1"
+        
         
         static let MenuItemCellWidth: CGFloat = 272.0
         static let MenuItemCellHeight: CGFloat = 110.0
@@ -50,7 +54,6 @@ extension UserDefaults {
     
         enum HowToVC {
             
-            
             static let AnchorConstant: CGFloat = 16
             
             static private let TitleFontSize: CGFloat = 27.0
@@ -66,11 +69,14 @@ extension UserDefaults {
             static private let TopLineWidth: CGFloat = 200
             static private let TopLineHeight: CGFloat = 1
             
-            static func imageWidth(viewType isLandscape: Bool) -> CGFloat {
+            static private func imageWidth(viewType isLandscape: Bool) -> CGFloat {
                 return isLandscape ? LandscapeImageWidth : PortraitImageWidth
             }
-            static func imageHeight(viewType isLandscape: Bool) -> CGFloat {
+            static private func imageHeight(viewType isLandscape: Bool) -> CGFloat {
                 return isLandscape ? LandscapeimageHeight : PortraitimageHeight
+            }
+            static func imageSize(viewType isLandscape: Bool) -> CGSize {
+                return CGSize(width: imageWidth(viewType: isLandscape), height: imageHeight(viewType: isLandscape))
             }
             
             static var TopLineRect: CGRect {

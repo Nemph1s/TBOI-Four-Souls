@@ -13,6 +13,7 @@ class MainVC: UIViewController {
     
     @IBOutlet weak var collection: UICollectionView!
     @IBOutlet weak var collectionLayout: UICollectionViewFlowLayout!
+    @IBOutlet weak var wikiLabel: UILabel!
     
     internal var cardsData = Array<CardsBundleInfo>()
     
@@ -27,6 +28,9 @@ class MainVC: UIViewController {
         
         collection.dataSource = self
         collection.delegate = self
+        
+        let shadowColor = UIColor(red:0.075, green:0.05, blue:0.05, alpha:1.0)
+        wikiLabel.enableShadow(color: shadowColor, radius: 3, opacity: 1)
     }
     
     func loadDataFromPlist() {
@@ -54,7 +58,7 @@ class MainVC: UIViewController {
             //    vc2.hero.modalAnimationType = .pageIn(direction: .left)
             //    vc2.hero.modalAnimationType = .pull(direction: .left)
             //    vc2.hero.modalAnimationType = .autoReverse(presenting: .pageIn(direction: .left))
-            vc2.hero.modalAnimationType = .selectBy(presenting: .pull(direction: .left), dismissing: .slide(direction: .right))
+            vc2.hero.modalAnimationType = .selectBy(presenting: .slide(direction: .left), dismissing: .slide(direction: .right))
             
             DispatchQueue.main.async {
                 self.present(vc2, animated: true, completion: nil)
