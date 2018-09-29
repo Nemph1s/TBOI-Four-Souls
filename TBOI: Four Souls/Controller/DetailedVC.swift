@@ -213,7 +213,7 @@ extension DetailedVC: UIGestureRecognizerDelegate {
         let blurEffect = UIBlurEffect(style: .dark) // .extraLight or .dark
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = view.frame
-        blurEffectView.tag = UserDefaults.Tags.BlurEffectView.rawValue
+        blurEffectView.tag = UserDefaults.Tag.BlurEffectView
         bluredBgView.addSubview(blurEffectView)
  
         screenEdgePanGestureRecognizer.delegate = self
