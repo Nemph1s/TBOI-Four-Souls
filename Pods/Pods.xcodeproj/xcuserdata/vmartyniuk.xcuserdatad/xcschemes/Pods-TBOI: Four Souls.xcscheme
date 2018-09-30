@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "726912C85C447E84DE79673D3A1DA8BB"
+               BlueprintIdentifier = "E87B1AA449FCF381A4B81902A157ABEA"
                BuildableName = "Pods_TBOI__Four_Souls.framework"
                BlueprintName = "Pods-TBOI: Four Souls"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "726912C85C447E84DE79673D3A1DA8BB"
+            BlueprintIdentifier = "E87B1AA449FCF381A4B81902A157ABEA"
             BuildableName = "Pods_TBOI__Four_Souls.framework"
             BlueprintName = "Pods-TBOI: Four Souls"
             ReferencedContainer = "container:Pods.xcodeproj">

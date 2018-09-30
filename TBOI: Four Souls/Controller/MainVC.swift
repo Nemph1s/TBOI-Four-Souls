@@ -8,6 +8,7 @@
 
 import UIKit
 import Hero
+import SideMenu
 
 class MainVC: UIViewController {
     
@@ -31,6 +32,40 @@ class MainVC: UIViewController {
         
         let shadowColor = UIColor(red:0.075, green:0.05, blue:0.05, alpha:1.0)
         wikiLabel.enableShadow(color: shadowColor, radius: 3, opacity: 1)
+        
+        setupSideMenu()
+        setDefaults()
+    }
+    
+    fileprivate func setupSideMenu() {
+        // Define the menus
+        /*SideMenuManager.default.menuRightNavigationController = storyboard!.instantiateViewController(withIdentifier: "RightMenuNavigationController") as? UISideMenuNavigationController*/
+        
+        // Enable gestures. The left and/or right menus must be set up above for these to work.
+        // Note that these continue to work on the Navigation Controller independent of the View Controller it displays!
+        
+        let menuRightNavigationController = UISideMenuNavigationController(rootViewController: self)
+        SideMenuManager.default.menuRightNavigationController = menuRightNavigationController
+        
+        SideMenuManager.default.menuAddScreenEdgePanGesturesToPresent(toView: self.view)
+        
+        // Set up a cool background image for demo purposes
+        SideMenuManager.default.menuAnimationBackgroundColor = UIColor(patternImage: UIImage(named: "stars")!)
+    }
+    
+    fileprivate func setDefaults() {
+        //let modes:[SideMenuManager.MenuPresentMode] = [.menuSlideIn, .viewSlideOut, .menuDissolveIn]
+        SideMenuManager.default.menuPresentMode = .menuDissolveIn
+        
+        //let styles:[UIBlurEffect.Style] = [.dark, .light, .extraLight]
+        SideMenuManager.default.menuBlurEffectStyle = .dark
+        /*
+        darknessSlider.value = Float(SideMenuManager.default.menuAnimationFadeStrength)
+        shadowOpacitySlider.value = Float(SideMenuManager.default.menuShadowOpacity)
+        shrinkFactorSlider.value = Float(SideMenuManager.default.menuAnimationTransformScaleFactor)
+        screenWidthSlider.value = Float(SideMenuManager.default.menuWidth / view.frame.width)
+        blackOutStatusBar.isOn = SideMenuManager.default.menuFadeStatusBar
+ */
     }
     
     func loadDataFromPlist() {
@@ -42,15 +77,15 @@ class MainVC: UIViewController {
             guard let dict = obj as? Dictionary<String, Any> else {continue}
             let cardsBundle = CardsBundleInfo(with: dict)
             cardsData.append(cardsBundle)
-//            print(cardsBundle)
         }
     }
     
     @IBAction func onInfoButtonPressed(_ sender: Any) {
 
-        if let vc2 = storyboard?.instantiateViewController(withIdentifier: UserDefaults.ID.HowToVCSegueId) {
+        //present(SideMenuManager.default.menuLeftNavigationController!, animated: true, completion: nil)
+        if let vc = storyboard?.instantiateViewController(withIdentifier: UserDefaults.ID.MenuNavigationSegueId) {
             // this enables Hero
-            vc2.hero.isEnabled = true
+            //vc2.hero.isEnabled = true
             
             
             // this configures the built in animation
@@ -58,10 +93,10 @@ class MainVC: UIViewController {
             //    vc2.hero.modalAnimationType = .pageIn(direction: .left)
             //    vc2.hero.modalAnimationType = .pull(direction: .left)
             //    vc2.hero.modalAnimationType = .autoReverse(presenting: .pageIn(direction: .left))
-            vc2.hero.modalAnimationType = .selectBy(presenting: .slide(direction: .left), dismissing: .slide(direction: .right))
+            //vc2.hero.modalAnimationType = .selectBy(presenting: .slide(direction: .left), dismissing: .slide(direction: .right))
             
             DispatchQueue.main.async {
-                self.present(vc2, animated: true, completion: nil)
+                self.present(vc, animated: true, completion: nil)
             }
         }
     }

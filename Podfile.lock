@@ -2,23 +2,27 @@ PODS:
   - Alamofire (4.7.3)
   - FSPagerView (0.8.0)
   - Hero (1.3.1)
+  - SideMenu (5.0.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - FSPagerView (~> 0.8)
   - Hero (~> 1.3)
+  - SideMenu
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - FSPagerView
     - Hero
+    - SideMenu
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   FSPagerView: 53d0cd11a233d662ff23e37ed8ee4ecea3cec693
   Hero: 1c3c625ba05856f305d29f5c270f8766c5ff2df7
+  SideMenu: 87efd943737bb83aedf0358884d09fcf5576636d
 
-PODFILE CHECKSUM: a6da8bef8a1e3adbbc197a426d2bf019fd1c409d
+PODFILE CHECKSUM: 0ace4f345841359fd92369e4bd50858933713bcd
 
 COCOAPODS: 1.5.3

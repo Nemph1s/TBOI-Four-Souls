@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E703A44FB9C6FC1EBC3D077EA029180"
-               BuildableName = "Pods_TBOI__Four_SoulsTests.framework"
-               BlueprintName = "Pods-TBOI: Four SoulsTests"
+               BlueprintIdentifier = "8476F3565F1864BF70B89E04496ED77E"
+               BuildableName = "SideMenu.framework"
+               BlueprintName = "SideMenu"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E703A44FB9C6FC1EBC3D077EA029180"
-            BuildableName = "Pods_TBOI__Four_SoulsTests.framework"
-            BlueprintName = "Pods-TBOI: Four SoulsTests"
+            BlueprintIdentifier = "8476F3565F1864BF70B89E04496ED77E"
+            BuildableName = "SideMenu.framework"
+            BlueprintName = "SideMenu"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

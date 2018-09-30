@@ -28,6 +28,7 @@ extension UserDefaults {
         static let DetailedVCSegueId = "DetailedVC"
         static let AboutVCSegueId = "AboutVC"
         static let HowToVCSegueId = "HowToVC"
+        static let MenuNavigationSegueId = "RightMenuNavigationController"
     }
     
     struct UI {

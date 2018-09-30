@@ -22,6 +22,7 @@
 		4B50CBDB21485FEC000372E4 /* CloseupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */; };
 		4B577F11215C19AB008E2CFF /* HowToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B577F10215C19AB008E2CFF /* HowToVC.swift */; };
 		4BBED42B215FD8320058C1F1 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBED42A215FD8320058C1F1 /* UIHelper.swift */; };
+		4BED44F521614091007E7551 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED44F421614091007E7551 /* SideMenuTableViewController.swift */; };
 		4BF5B9812144266400B85D89 /* IsaacsFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5B7D82144266300B85D89 /* IsaacsFont.ttf */; };
 		4BF5BB18214453E800B85D89 /* CardsBundleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB17214453E800B85D89 /* CardsBundleInfo.swift */; };
 		4BF5BB1A2144570300B85D89 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5BB192144570300B85D89 /* CardInfo.swift */; };
@@ -71,6 +72,7 @@
 		4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseupCardView.swift; sourceTree = "<group>"; };
 		4B577F10215C19AB008E2CFF /* HowToVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToVC.swift; sourceTree = "<group>"; };
 		4BBED42A215FD8320058C1F1 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		4BED44F421614091007E7551 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 		4BF5B7D82144266300B85D89 /* IsaacsFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IsaacsFont.ttf; sourceTree = "<group>"; };
 		4BF5BB17214453E800B85D89 /* CardsBundleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsBundleInfo.swift; sourceTree = "<group>"; };
 		4BF5BB192144570300B85D89 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				4BF5BB21214575E500B85D89 /* UIViewRoundCorners.swift */,
 				4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */,
 				4BBED42A215FD8320058C1F1 /* UIHelper.swift */,
+				4BED44F421614091007E7551 /* SideMenuTableViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,7 +311,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = VMart;
 				TargetAttributes = {
 					4B1EE0442144215900E6AEAB = {
@@ -452,6 +455,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -460,6 +464,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -474,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B1EE08B214422D100E6AEAB /* DetailedVC.swift in Sources */,
+				4BED44F521614091007E7551 /* SideMenuTableViewController.swift in Sources */,
 				4B1EE08D214422D100E6AEAB /* MenuCell.swift in Sources */,
 				4B1EE08A214422D100E6AEAB /* MainVC.swift in Sources */,
 				4BF5BB18214453E800B85D89 /* CardsBundleInfo.swift in Sources */,
