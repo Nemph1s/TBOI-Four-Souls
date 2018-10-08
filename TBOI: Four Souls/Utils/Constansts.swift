@@ -108,6 +108,8 @@ extension UserDefaults {
             ["Credits", "Lead Design & Art Direction - Edmund McMillen\nAdditional Design & Production - Danielle McMillen\nAdditional Design - Tyler Glaiel\nLayout/Background Art & Illustration - @TikaraTheMew\nCard Back Design/Box art & Illustration - @KrystalFlamingo\nFigure Design & Illustration @Rojen241,\nIllustration - @Wormchild and @Tar_Head\nBusiness Development (Studio71) – Javon Frazier and Garima Sharma\n\nTesters - Jackson Moore,Tyler Glaiel, Danielle McMillen, George Fan, Eli Evans, Acacia Evans, Jay Lewis, Graeme Little, Leon Masters, Dan Zaelit, Cole O’Brien, Doug O’Brien, Crystal Evans, Joe Evans, Alex Austin, Caitlyn Yantis, Peach McMillen."]] as [[String]]
         
         static let PagerImageData = ["", "", "", "image4", "image2", "image3", "image1", "", "", "image5", ""]
+        
+        static let MenuItemNames = ["Main Screen", "How To Play?", "License", "About"]
     }
 }
 

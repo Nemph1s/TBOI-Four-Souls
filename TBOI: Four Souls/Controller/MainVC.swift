@@ -8,6 +8,7 @@
 
 import UIKit
 import Hero
+import SideMenuSwift
 
 class MainVC: UIViewController {
     
@@ -21,6 +22,7 @@ class MainVC: UIViewController {
         super.loadView()
         
         loadDataFromPlist()
+        
     }
     
     override func viewDidLoad() {
@@ -48,7 +50,8 @@ class MainVC: UIViewController {
     
     @IBAction func onInfoButtonPressed(_ sender: Any) {
 
-        if let vc2 = storyboard?.instantiateViewController(withIdentifier: UserDefaults.ID.HowToVCSegueId) {
+        sideMenuController?.revealMenu()
+        /*if let vc2 = storyboard?.instantiateViewController(withIdentifier: UserDefaults.ID.HowToVCSegueId) {
             // this enables Hero
             vc2.hero.isEnabled = true
             
@@ -63,7 +66,7 @@ class MainVC: UIViewController {
             DispatchQueue.main.async {
                 self.present(vc2, animated: true, completion: nil)
             }
-        }
+        }*/
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

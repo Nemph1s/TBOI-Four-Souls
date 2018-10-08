@@ -18,6 +18,7 @@
 		4B1EE08B214422D100E6AEAB /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE082214422D100E6AEAB /* DetailedVC.swift */; };
 		4B1EE08C214422D100E6AEAB /* cards.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EE083214422D100E6AEAB /* cards.plist */; };
 		4B1EE08D214422D100E6AEAB /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE085214422D100E6AEAB /* MenuCell.swift */; };
+		4B20574B21680C65000C1221 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B20574A21680C65000C1221 /* MenuVC.swift */; };
 		4B50CBD52146FA51000372E4 /* Constansts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CBD42146FA51000372E4 /* Constansts.swift */; };
 		4B50CBDB21485FEC000372E4 /* CloseupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */; };
 		4B577F11215C19AB008E2CFF /* HowToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B577F10215C19AB008E2CFF /* HowToVC.swift */; };
@@ -67,6 +68,7 @@
 		4B1EE082214422D100E6AEAB /* DetailedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
 		4B1EE083214422D100E6AEAB /* cards.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cards.plist; sourceTree = "<group>"; };
 		4B1EE085214422D100E6AEAB /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		4B20574A21680C65000C1221 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		4B50CBD42146FA51000372E4 /* Constansts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constansts.swift; sourceTree = "<group>"; };
 		4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseupCardView.swift; sourceTree = "<group>"; };
 		4B577F10215C19AB008E2CFF /* HowToVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToVC.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				4B1EE081214422D100E6AEAB /* MainVC.swift */,
 				4B1EE082214422D100E6AEAB /* DetailedVC.swift */,
 				4B577F10215C19AB008E2CFF /* HowToVC.swift */,
+				4B20574A21680C65000C1221 /* MenuVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenuSwift/SideMenuSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -460,6 +464,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenuSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -479,6 +484,7 @@
 				4BF5BB18214453E800B85D89 /* CardsBundleInfo.swift in Sources */,
 				4B1EE0492144215900E6AEAB /* AppDelegate.swift in Sources */,
 				4B50CBD52146FA51000372E4 /* Constansts.swift in Sources */,
+				4B20574B21680C65000C1221 /* MenuVC.swift in Sources */,
 				4BF5BB1A2144570300B85D89 /* CardInfo.swift in Sources */,
 				4BF5BB202145700E00B85D89 /* CardCell.swift in Sources */,
 				4B50CBDB21485FEC000372E4 /* CloseupCardView.swift in Sources */,

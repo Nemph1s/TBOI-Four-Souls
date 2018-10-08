@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SideMenuSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        configureSideMenu()
+        
         return true
+    }
+    
+    private func configureSideMenu() {
+        SideMenuController.preferences.basic.menuWidth = 180
+        SideMenuController.preferences.basic.defaultCacheKey = "0"
+    SideMenuController.preferences.basic.shouldRespectLanguageDirection = true
+        SideMenuController.preferences.basic.direction = .right
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
