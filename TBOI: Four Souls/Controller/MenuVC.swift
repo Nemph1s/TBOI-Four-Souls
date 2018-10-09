@@ -33,21 +33,14 @@ class MenuVC: UIViewController {
         super.viewDidLoad()
         
         configureView()
-        
-        //selectionTableViewHeader.isHidden = true
-        
-        /*SideMenuController.preferences.basic.statusBarBehavior = .slide
-        SideMenuController.preferences.basic.position = .above
-        SideMenuController.preferences.basic.direction = .right
-        SideMenuController.preferences.basic.supportedOrientations = .portrait*/
 
         sideMenuController?.cache(viewControllerGenerator: {
-            self.storyboard?.instantiateViewController(withIdentifier: "HowToVC")
-        }, with: "1")
-//
-//        sideMenuController?.cache(viewControllerGenerator: {
-//            self.storyboard?.instantiateViewController(withIdentifier: "ThirdViewController")
-//        }, with: "2")
+            self.storyboard?.instantiateViewController(withIdentifier: UserDefaults.ID.HowToVCSegueId)
+        }, with: UserDefaults.SideMenuId.HowToVC)
+
+        sideMenuController?.cache(viewControllerGenerator: {
+            self.storyboard?.instantiateViewController(withIdentifier: UserDefaults.ID.LicenseVCSegueId)
+        }, with: UserDefaults.SideMenuId.LicenseVC)
         
         sideMenuController?.delegate = self
     }
@@ -59,7 +52,7 @@ class MenuVC: UIViewController {
         selectionTableViewHeader.textColor = .white
         selectionMenuTrailingConstraint.constant = SideMenuController.preferences.basic.menuWidth - view.frame.width
         
-        let blurEffect = UIBlurEffect(style: .light) // .extraLight or .dark
+        let blurEffect = UIBlurEffect(style: .light)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = view.frame
         blurEffectView.tag = UserDefaults.Tag.BlurEffectView
@@ -77,30 +70,6 @@ class MenuVC: UIViewController {
 extension MenuVC: SideMenuControllerDelegate {
     func sideMenuController(_ sideMenuController: SideMenuController, animationControllerFrom fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return BasicTransitionAnimator(options: .transitionFlipFromLeft, duration: 0.6)
-    }
-    
-    func sideMenuController(_ sideMenuController: SideMenuController, willShow viewController: UIViewController, animated: Bool) {
-        print("[Example] View controller will show [\(viewController)]")
-    }
-    
-    func sideMenuController(_ sideMenuController: SideMenuController, didShow viewController: UIViewController, animated: Bool) {
-        print("[Example] View controller did show [\(viewController)]")
-    }
-    
-    func sideMenuWillHide(_ sideMenu: SideMenuController) {
-        print("[Example] Menu will hide")
-    }
-    
-    func sideMenuDidHide(_ sideMenu: SideMenuController) {
-        print("[Example] Menu did hide.")
-    }
-    
-    func sideMenuWillReveal(_ sideMenu: SideMenuController) {
-        print("[Example] Menu will show.")
-    }
-    
-    func sideMenuDidReveal(_ sideMenu: SideMenuController) {
-        print("[Example] Menu did show.")
     }
 }
 
@@ -123,12 +92,10 @@ extension MenuVC: UITableViewDelegate, UITableViewDataSource {
         
         sideMenuController?.setContentViewController(with: "\(row)", animated: Preferences.shared.enableTransitionAnimation)
         sideMenuController?.hideMenu()
-        
-        print("[Example] View Controller Cache Identifier: " + sideMenuController!.currentCacheIdentifier()!)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
+        return UserDefaults.UI.SideMenuHeightForRowAt
     }
 }
 

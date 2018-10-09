@@ -22,7 +22,6 @@ class MainVC: UIViewController {
         super.loadView()
         
         loadDataFromPlist()
-        
     }
     
     override func viewDidLoad() {
@@ -44,44 +43,20 @@ class MainVC: UIViewController {
             guard let dict = obj as? Dictionary<String, Any> else {continue}
             let cardsBundle = CardsBundleInfo(with: dict)
             cardsData.append(cardsBundle)
-//            print(cardsBundle)
         }
     }
     
-    @IBAction func onInfoButtonPressed(_ sender: Any) {
-
-        sideMenuController?.revealMenu()
-        /*if let vc2 = storyboard?.instantiateViewController(withIdentifier: UserDefaults.ID.HowToVCSegueId) {
-            // this enables Hero
-            vc2.hero.isEnabled = true
+    func performDetailedVCSegue(withBundle bundle: CardsBundleInfo) {
+        let id = UserDefaults.ID.DetailedVCSegueId
+        if let vc = storyboard?.instantiateViewController(withIdentifier: id) as? DetailedVC {
             
-            
-            // this configures the built in animation
-            //    vc2.hero.modalAnimationType = .zoom
-            //    vc2.hero.modalAnimationType = .pageIn(direction: .left)
-            //    vc2.hero.modalAnimationType = .pull(direction: .left)
-            //    vc2.hero.modalAnimationType = .autoReverse(presenting: .pageIn(direction: .left))
-            vc2.hero.modalAnimationType = .selectBy(presenting: .slide(direction: .left), dismissing: .slide(direction: .right))
+            vc.hero.isEnabled = true
+            vc.cardsBundle = bundle
+            vc.hero.modalAnimationType = .selectBy(presenting: .slide(direction: .left), dismissing: .slide(direction: .right))
             
             DispatchQueue.main.async {
-                self.present(vc2, animated: true, completion: nil)
+                self.present(vc, animated: true, completion: nil)
             }
-        }*/
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.identifier == UserDefaults.ID.DetailedVCSegueId {
-            guard let detailedVC = segue.destination as? DetailedVC else {return}
-            guard let bundle = sender as? CardsBundleInfo else {return}
-            detailedVC.cardsBundle = bundle
-        }
-        else if segue.identifier == UserDefaults.ID.HowToVCSegueId {
-            
-            guard let aboutVC = segue.destination as? HowToVC else {return}
-            guard let sender = sender as? UIButton else {return}
-            sender.hero.id = "selected"
-            aboutVC.view.hero.modifiers = [.source(heroID: "selected")]
         }
     }
 }
@@ -91,8 +66,7 @@ extension MainVC: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         let bundleInfo = cardsData[indexPath.row]
-        performSegue(withIdentifier: UserDefaults.ID.DetailedVCSegueId, sender: bundleInfo)
-        
+        performDetailedVCSegue(withBundle: bundleInfo)
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {

@@ -25,9 +25,18 @@ extension UserDefaults {
         static let CardCellReuseId = "CardCell"
         static let MenuViewCellReuseId = "MenuViewCell"
         static let HowToCellReuseId = "cell"
+        
         static let DetailedVCSegueId = "DetailedVC"
-        static let AboutVCSegueId = "AboutVC"
+        
         static let HowToVCSegueId = "HowToVC"
+        static let LicenseVCSegueId = "LicenseVC"
+        static let AboutVCSegueId = "AboutVC"
+    }
+    
+    enum SideMenuId {
+        static let HowToVC = "1"
+        static let LicenseVC = "2"
+        static let AboutVC = "3"
     }
     
     struct UI {
@@ -51,6 +60,8 @@ extension UserDefaults {
         
         static let CardCellNormalWidth: CGFloat = 367.0
         static let CardCellNormalHeight: CGFloat = 500.0
+        
+        static let SideMenuHeightForRowAt: CGFloat = 50.0
     
         enum HowToVC {
             
@@ -109,7 +120,7 @@ extension UserDefaults {
         
         static let PagerImageData = ["", "", "", "image4", "image2", "image3", "image1", "", "", "image5", ""]
         
-        static let MenuItemNames = ["Main Screen", "How To Play?", "License", "About"]
+        static let MenuItemNames = ["Main", "How To Play?", "License"]//, "About"]
     }
 }
 
