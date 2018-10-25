@@ -10,7 +10,6 @@
 		34F78023418BEE26B00F5C5A /* Pods_TBOI__Four_Souls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1641AB00D86EA9FA9D3EE1D /* Pods_TBOI__Four_Souls.framework */; };
 		4B1EE0492144215900E6AEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE0482144215900E6AEAB /* AppDelegate.swift */; };
 		4B1EE04E2144215900E6AEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EE04C2144215900E6AEAB /* Main.storyboard */; };
-		4B1EE0502144215A00E6AEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EE04F2144215A00E6AEAB /* Assets.xcassets */; };
 		4B1EE0532144215A00E6AEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EE0512144215A00E6AEAB /* LaunchScreen.storyboard */; };
 		4B1EE05E2144215B00E6AEAB /* TBOI__Four_SoulsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE05D2144215B00E6AEAB /* TBOI__Four_SoulsTests.swift */; };
 		4B1EE0692144215B00E6AEAB /* TBOI__Four_SoulsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE0682144215B00E6AEAB /* TBOI__Four_SoulsUITests.swift */; };
@@ -19,6 +18,7 @@
 		4B1EE08C214422D100E6AEAB /* cards.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B1EE083214422D100E6AEAB /* cards.plist */; };
 		4B1EE08D214422D100E6AEAB /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1EE085214422D100E6AEAB /* MenuCell.swift */; };
 		4B20574B21680C65000C1221 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B20574A21680C65000C1221 /* MenuVC.swift */; };
+		4B4F261A2182355E003AC42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4F26192182355E003AC42C /* Assets.xcassets */; };
 		4B50CBD52146FA51000372E4 /* Constansts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CBD42146FA51000372E4 /* Constansts.swift */; };
 		4B50CBDB21485FEC000372E4 /* CloseupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */; };
 		4B577F11215C19AB008E2CFF /* HowToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B577F10215C19AB008E2CFF /* HowToVC.swift */; };
@@ -56,7 +56,6 @@
 		4B1EE0452144215900E6AEAB /* TBOI: Four Souls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TBOI: Four Souls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1EE0482144215900E6AEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B1EE04D2144215900E6AEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4B1EE04F2144215A00E6AEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B1EE0522144215A00E6AEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B1EE0542144215A00E6AEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B1EE0592144215B00E6AEAB /* TBOI: Four SoulsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TBOI: Four SoulsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +69,7 @@
 		4B1EE083214422D100E6AEAB /* cards.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cards.plist; sourceTree = "<group>"; };
 		4B1EE085214422D100E6AEAB /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		4B20574A21680C65000C1221 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		4B4F26192182355E003AC42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B50CBD42146FA51000372E4 /* Constansts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constansts.swift; sourceTree = "<group>"; };
 		4B50CBDA21485FEC000372E4 /* CloseupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseupCardView.swift; sourceTree = "<group>"; };
 		4B577F10215C19AB008E2CFF /* HowToVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToVC.swift; sourceTree = "<group>"; };
@@ -210,7 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				4BF5B7D82144266300B85D89 /* IsaacsFont.ttf */,
-				4B1EE04F2144215A00E6AEAB /* Assets.xcassets */,
+				4B4F26192182355E003AC42C /* Assets.xcassets */,
 				4B1EE083214422D100E6AEAB /* cards.plist */,
 			);
 			path = Resources;
@@ -356,10 +356,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B1EE0532144215A00E6AEAB /* LaunchScreen.storyboard in Resources */,
-				4B1EE0502144215A00E6AEAB /* Assets.xcassets in Resources */,
 				4BF5B9812144266400B85D89 /* IsaacsFont.ttf in Resources */,
 				4B1EE08C214422D100E6AEAB /* cards.plist in Resources */,
 				4B1EE04E2144215900E6AEAB /* Main.storyboard in Resources */,
+				4B4F261A2182355E003AC42C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
