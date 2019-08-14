@@ -12,19 +12,13 @@ extension UIWindow {
 
     // swiftlint:disable identifier_name
     /// Returns current application's `statusBarWindows`
-    static var sb: UIWindow? {
-        // We use a non-public key here to obtain the `statusBarWindow` window.
-        // We have been using it in real world app and it won't be rejected by the review team for using this key.
-        let s = "status", b = "Bar", w = "Window"
-        return UIApplication.shared.value(forKey: s+b+w) as? UIWindow
-    }
 
     /// Changes the windows' visibility with custom behavior
     ///
     /// - Parameters:
     ///   - hidden: the windows hidden status
     ///   - behavior: status bar behavior
-    internal func setStatusBar(_ hidden: Bool, with behavior: SideMenuController.Preferences.StatusBarBehavior) {
+    internal func setStatusBarHidden(_ hidden: Bool, with behavior: SideMenuController.Preferences.StatusBarBehavior) {
         guard behavior != .none else {
             return
         }

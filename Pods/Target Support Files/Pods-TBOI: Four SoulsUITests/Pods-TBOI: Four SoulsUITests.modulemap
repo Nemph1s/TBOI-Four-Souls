@@ -1,6 +1,0 @@
-framework module Pods_TBOI__Four_SoulsUITests {
-  umbrella header "Pods-TBOI: Four SoulsUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

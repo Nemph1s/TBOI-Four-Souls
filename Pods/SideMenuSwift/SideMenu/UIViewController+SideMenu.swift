@@ -11,8 +11,8 @@ import UIKit
 // Provides access to the side menu controller
 public extension UIViewController {
 
-    /// Access the nearest ancestor view controller  hierarchy that is a side menu controller.
-    public var sideMenuController: SideMenuController? {
+    /// Access the nearest ancestor view controller hierarchy that is a side menu controller.
+    var sideMenuController: SideMenuController? {
         return findSideMenuController(from: self)
     }
 

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 // Delegate Methods
 public protocol SideMenuControllerDelegate: class {
@@ -28,7 +29,20 @@ public protocol SideMenuControllerDelegate: class {
 
     // MARK: Switching
 
+    /// Side menu will show a view controller.
+    ///
+    /// - Parameters:
+    ///   - sideMenuController: current side menu controller
+    ///   - viewController: the view controller to show
+    ///   - animated: whether it's animated
     func sideMenuController(_ sideMenuController: SideMenuController, willShow viewController: UIViewController, animated: Bool)
+
+    /// Side menu did showed a view controller.
+    ///
+    /// - Parameters:
+    ///   - sideMenuController: current side menu controller
+    ///   - viewController: the view controller shown
+    ///   - animated: whether it's animated
     func sideMenuController(_ sideMenuController: SideMenuController, didShow viewController: UIViewController, animated: Bool)
 
     // MARK: Revealing
@@ -48,10 +62,10 @@ public protocol SideMenuControllerDelegate: class {
     /// - Parameter sideMenu: The side menu
     func sideMenuControllerWillHideMenu(_ sideMenuController: SideMenuController)
 
-    /// Side menu is did hide.
+    /// Side menu did hided.
     ///
     /// - Parameter sideMenu: The side menu
-    func sideMenuControllerDidHideMneu(_ sideMenuController: SideMenuController)
+    func sideMenuControllerDidHideMenu(_ sideMenuController: SideMenuController)
 }
 
 // Provides default implementation for delegates
@@ -71,5 +85,5 @@ public extension SideMenuControllerDelegate {
     func sideMenuControllerWillRevealMenu(_ sideMenuController: SideMenuController) {}
     func sideMenuControllerDidRevealMenu(_ sideMenuController: SideMenuController) {}
     func sideMenuControllerWillHideMenu(_ sideMenuController: SideMenuController) {}
-    func sideMenuControllerDidHideMneu(_ sideMenuController: SideMenuController) {}
+    func sideMenuControllerDidHideMenu(_ sideMenuController: SideMenuController) {}
 }
